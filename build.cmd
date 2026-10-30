@@ -42,10 +42,11 @@ echo Built and tested out\%CONFIG%\dinput8.dll
 exit /b 0
 
 :lua
-rem Lua 5.0.2 runs the script tests. It's built with /Od because optimized builds of it crash.
+rem Lua 5.0.2 runs the script tests, with the game's limit of 100 locals per function.
+rem It's built with /Od because optimized builds of it crash.
 if not exist out\Lua mkdir out\Lua
 pushd out\Lua
-cl /nologo /MT /Od /Zi /D_CRT_SECURE_NO_WARNINGS /I ..\..\third_party\lua-5.0.2\include ..\..\third_party\lua-5.0.2\src\*.c ..\..\third_party\lua-5.0.2\src\lib\*.c ..\..\third_party\lua-5.0.2\src\lua\lua.c /Fe:lua50.exe || exit /b 1
+cl /nologo /MT /Od /Zi /D_CRT_SECURE_NO_WARNINGS /DMAXVARS=100 /I ..\..\third_party\lua-5.0.2\include ..\..\third_party\lua-5.0.2\src\*.c ..\..\third_party\lua-5.0.2\src\lib\*.c ..\..\third_party\lua-5.0.2\src\lua\lua.c /Fe:lua50.exe || exit /b 1
 popd
 for %%t in (screen_observer campaign_capture player_ready player_hold player_menu battle_exit) do (
   out\Lua\lua50.exe tests\%%t_test.lua || exit /b 1
