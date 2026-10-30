@@ -489,7 +489,12 @@ API void* SteamAPI_ISteamClient_GetISteamMatchmaking(void*, int, int, const char
 }
 API u64 SteamAPI_ISteamUser_GetSteamID(void*) { return hub ? hub_id(me) : self_id; }
 API unsigned SteamAPI_ISteamUtils_GetAppID(void*) { return 6060; }
-API bool SteamAPI_ISteamUtils_IsOverlayEnabled(void*) { return true; }
+// As in the game, the overlay stays off until FakeSteam_SetOverlay says it has hooked the renderer.
+bool overlay = false;
+API bool SteamAPI_ISteamUtils_IsOverlayEnabled(void*) {
+    std::lock_guard<std::recursive_mutex> g(lock);
+    return overlay;
+}
 // Only the game's own call, 0x9001, completes, once FakeSteam_CompleteGameCall has run.
 API bool SteamAPI_ISteamUtils_IsAPICallCompleted(void*, u64 call, bool* failed) {
     std::lock_guard<std::recursive_mutex> g(lock);
@@ -709,6 +714,11 @@ API void FakeSteam_Deaf(bool on) {
     std::lock_guard<std::recursive_mutex> g(lock);
     deaf = on;
     if (on) inbox.clear();
+}
+// The overlay has hooked the game's renderer.
+API void FakeSteam_SetOverlay(bool on) {
+    std::lock_guard<std::recursive_mutex> g(lock);
+    overlay = on;
 }
 // The player accepts the peer's invite in the overlay while the game runs.
 API void FakeSteam_JoinRequest() {
