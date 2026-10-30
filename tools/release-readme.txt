@@ -107,7 +107,8 @@ IF SOMETHING GOES WRONG
   start it again. Please send the short log that launch left in
   GameData\gct\logs.
 - No Online button: dinput8.dll isn't in GameData, or the game isn't the
-  current Steam version. Any other version is left alone.
+  current Steam version with Unofficial Patch 1.3 r130 installed. Any other
+  version is left alone.
 - "...different version..." or "...does not match...": every player needs
   this same dinput8.dll.
 - The overlay doesn't open: turn the Steam overlay on, or have your friends
@@ -143,7 +144,8 @@ UNINSTALL: delete dinput8.dll and the gct folder from GameData.
 ABOUT
 dinput8.dll {VERSION}, SHA-256:
   {DLL_SHA256}
-It only works with BattlefrontII.exe from Steam build 6217431, SHA-256:
+It only works with the BattlefrontII.exe that Unofficial Patch 1.3 r130
+installs over Steam build 6217431, SHA-256:
   {GAME_SHA256}
 With any other build it just passes DirectInput through. It changes no game
 files and only writes to GameData\gct.

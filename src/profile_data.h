@@ -1,10 +1,11 @@
 #pragma once
-// The one supported game executable (Steam build 6217431), as verify_image checks it.
+// The one supported game executable, as verify_image checks it: Steam build 6217431's
+// BattlefrontII.exe as Unofficial Patch 1.3 r130 installs it.
 #include <cstdint>
 namespace gc {
-inline constexpr char expected_sha256[] = "3bfdb0931885de776126957aa4883b691fc391b58126ff639e36592309d75e90";
+inline constexpr char expected_sha256[] = "61eda63553facfad84aad6c09bb60c7c09df396768e97504407e1540d6a68e21";
 inline constexpr uint32_t expected_timestamp = 0x59EDE353;  // PE header TimeDateStamp
-inline constexpr uint32_t expected_image_size = 29245440;   // PE header SizeOfImage
+inline constexpr uint32_t expected_image_size = 29249536;   // PE header SizeOfImage
 // The first 16 code bytes at each RVA, as they read with the image at its preferred base 0x400000.
 struct Guard {
     const char* name;
