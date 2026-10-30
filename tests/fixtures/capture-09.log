@@ -1,0 +1,533 @@
+2026-09-13T05:17:50.356Z [333850203 pid=18564 tid=14468] GCT rebuild diagnostic bootstrap; DEV=1
+2026-09-13T05:17:50.359Z [333850203 pid=18564 tid=14468] IMAGE base=00F20000 preferred=00F20000 slide=00B20000
+2026-09-13T05:17:50.394Z [333850234 pid=18564 tid=14468] GUARD DoBuffer RVA=0029B700 MATCH
+2026-09-13T05:17:50.394Z [333850234 pid=18564 tid=14468] GUARD PushScreen RVA=001852E0 MATCH
+2026-09-13T05:17:50.394Z [333850234 pid=18564 tid=14468] GUARD EnterMission RVA=0017F060 MATCH
+2026-09-13T05:17:50.394Z [333850234 pid=18564 tid=14468] GUARD LaunchLobby RVA=00192860 MATCH
+2026-09-13T05:17:50.395Z [333850234 pid=18564 tid=14468] GUARD ReloadLevel RVA=001807A0 MATCH
+2026-09-13T05:17:50.395Z [333850234 pid=18564 tid=14468] GUARD GetLocalPlayerName RVA=001D6370 MATCH
+2026-09-13T05:17:50.395Z [333850234 pid=18564 tid=14468] GUARD WindowProcedure RVA=002172A0 MATCH
+2026-09-13T05:17:50.395Z [333850234 pid=18564 tid=14468] GUARD FrameLimiter RVA=0013AB20 MATCH
+2026-09-13T05:17:50.395Z [333850234 pid=18564 tid=14468] GUARD FrameDriverCall RVA=00217A97 MATCH
+2026-09-13T05:17:50.395Z [333850234 pid=18564 tid=14468] GUARD RetiredNullPlanetPatch RVA=0033E315 MATCH
+2026-09-13T05:17:50.395Z [333850234 pid=18564 tid=14468] GUARD RetiredNullRenderPatch RVA=0033B714 MATCH
+2026-09-13T05:17:50.395Z [333850234 pid=18564 tid=14468] GUARD RetiredNullScenePatch RVA=00348440 MATCH
+2026-09-13T05:17:50.395Z [333850234 pid=18564 tid=14468] PROFILE ACCEPT; no feature patches enabled
+2026-09-13T05:17:50.395Z [333850234 pid=18564 tid=14468] Read-only exception observer=2316F498
+2026-09-13T05:17:50.395Z [333850234 pid=18564 tid=14468] IAT observation FindFirstFileA=1 OutputDebugStringA=1 W=0
+2026-09-13T05:17:50.395Z [333850234 pid=18564 tid=14468] CAMPAIGN_CAPTURE armed fixed_script=campaign_capture_v3 max_install_attempts=1 main_menu_only=1
+2026-09-13T05:17:50.418Z [333850265 pid=18564 tid=14468] FRAME_PROBE install=MH_OK target=0105AE90 caller=01137A9C
+2026-09-13T05:17:50.418Z [333850265 pid=18564 tid=14468] STATE flow=4 lua=080C11A4 render_count=1 suspend=0 candidate_lock=0
+2026-09-13T05:17:50.418Z [333850265 pid=18564 tid=14468] FRAME_STATE sample_ms=333850265 game_tid=9048 caller=01137A9C expected=1 context=080C11A4 readable=1 top=080E9D18 base=080E9CD8 raw10=080C8334 raw14=0831D9F4 raw18=080EACC8 raw1c=080E9CD0 raw20=00000205 raw24=0831DB74 raw28=0831D9F4 raw2c=00000010
+2026-09-13T05:17:50.418Z [333850265 pid=18564 tid=14468] FRAME_PROBE_ALIVE sampled=1 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T05:17:50.418Z [333850265 pid=18564 tid=14468] CAPTURE_ALIVE worker_ticks=1 (worker liveness, not game simulation)
+2026-09-13T05:17:50.418Z [333850265 pid=18564 tid=14468] Galaxy GetInstance export=6F202FBD (not invoked)
+2026-09-13T05:17:52.274Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:1:screen:ifs_freeform_main
+2026-09-13T05:17:52.274Z [333852125 pid=18564 tid=9048] CHANNEL_PATH data\_lvl_pc\GCOBS:1:screen:ifs_freeform_main
+2026-09-13T05:17:52.274Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:1:wrapped:Enter
+2026-09-13T05:17:52.274Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:1:wrapped:Exit
+2026-09-13T05:17:52.274Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:1:wrapped:Update
+2026-09-13T05:17:52.274Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:1:wrapped:SelectPlanet
+2026-09-13T05:17:52.274Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:2:screen:ifs_freeform_fleet
+2026-09-13T05:17:52.274Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:2:wrapped:Enter
+2026-09-13T05:17:52.274Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:2:wrapped:Exit
+2026-09-13T05:17:52.274Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:2:wrapped:Update
+2026-09-13T05:17:52.274Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:2:wrapped:Input_Accept
+2026-09-13T05:17:52.274Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:2:wrapped:Input_Back
+2026-09-13T05:17:52.274Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:3:screen:ifs_freeform_ai
+2026-09-13T05:17:52.274Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:3:wrapped:Enter
+2026-09-13T05:17:52.274Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:3:wrapped:Exit
+2026-09-13T05:17:52.274Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:3:wrapped:Input_Accept
+2026-09-13T05:17:52.274Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:3:wrapped:Input_Back
+2026-09-13T05:17:52.274Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:3:wrapped:CalculatePurchaseItem
+2026-09-13T05:17:52.274Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:3:wrapped:CalculateBuildFleet
+2026-09-13T05:17:52.274Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:3:wrapped:UpdateBuildFleet
+2026-09-13T05:17:52.274Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:3:wrapped:CalculateMoveFleet
+2026-09-13T05:17:52.274Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:3:wrapped:UpdateMoveFleet
+2026-09-13T05:17:52.274Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:3:wrapped:UpdateDone
+2026-09-13T05:17:52.276Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:3:wrapped:UpdateCommon
+2026-09-13T05:17:52.276Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:4:screen:ifs_freeform_summary
+2026-09-13T05:17:52.276Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:4:wrapped:Enter
+2026-09-13T05:17:52.276Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:4:wrapped:Exit
+2026-09-13T05:17:52.276Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:4:wrapped:Update
+2026-09-13T05:17:52.276Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:4:wrapped:Input_Accept
+2026-09-13T05:17:52.276Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:4:wrapped:Input_Back
+2026-09-13T05:17:52.276Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:5:screen:ifs_freeform_result
+2026-09-13T05:17:52.276Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:5:wrapped:Enter
+2026-09-13T05:17:52.276Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:5:wrapped:Exit
+2026-09-13T05:17:52.276Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:5:wrapped:Update
+2026-09-13T05:17:52.276Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:5:wrapped:Input_Accept
+2026-09-13T05:17:52.276Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:5:wrapped:Input_Back
+2026-09-13T05:17:52.276Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:6:screen:ifs_freeform_purchase_unit
+2026-09-13T05:17:52.276Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:6:wrapped:Enter
+2026-09-13T05:17:52.276Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:6:wrapped:Exit
+2026-09-13T05:17:52.276Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:6:wrapped:Update
+2026-09-13T05:17:52.276Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:6:wrapped:Input_Accept
+2026-09-13T05:17:52.277Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:6:wrapped:Input_Back
+2026-09-13T05:17:52.277Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:7:screen:ifs_freeform_purchase_tech
+2026-09-13T05:17:52.277Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:7:wrapped:Enter
+2026-09-13T05:17:52.277Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:7:wrapped:Exit
+2026-09-13T05:17:52.277Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:7:wrapped:Update
+2026-09-13T05:17:52.277Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:7:wrapped:Input_Accept
+2026-09-13T05:17:52.277Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:7:wrapped:Input_Back
+2026-09-13T05:17:52.277Z [333852125 pid=18564 tid=9048] CHANNEL GCOBS:installed:campaign_v3
+2026-09-13T05:17:52.507Z [333852343 pid=18564 tid=14468] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=9048
+2026-09-13T05:17:56.392Z [333856234 pid=18564 tid=14468] STATE flow=0 lua=080C11A4 render_count=1 suspend=0 candidate_lock=0
+2026-09-13T05:18:00.496Z [333860343 pid=18564 tid=14468] FRAME_PROBE_ALIVE sampled=677 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T05:18:00.747Z [333860593 pid=18564 tid=14468] CAPTURE_ALIVE worker_ticks=41 (worker liveness, not game simulation)
+2026-09-13T05:18:02.566Z [333862406 pid=18564 tid=14468] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=9048
+2026-09-13T05:18:08.800Z [333868640 pid=18564 tid=9048] CHANNEL GCOBS:1:Enter:begin:1
+2026-09-13T05:18:08.824Z [333868671 pid=18564 tid=9048] ENGINE Model with 4 segments [all_inf_soldier]
+
+2026-09-13T05:18:08.827Z [333868671 pid=18564 tid=9048] ENGINE Model with 3 segments [all_weap_inf_rifle]
+
+2026-09-13T05:18:08.831Z [333868671 pid=18564 tid=9048] ENGINE Model with 7 segments [all_inf_pilot]
+
+2026-09-13T05:18:08.835Z [333868671 pid=18564 tid=9048] ENGINE Model with 3 segments [all_inf_vanguard]
+
+2026-09-13T05:18:08.852Z [333868703 pid=18564 tid=9048] ENGINE Model with 3 segments [all_inf_tantive4trooper]
+
+2026-09-13T05:18:08.857Z [333868703 pid=18564 tid=9048] ENGINE Model with 4 segments [all_inf_engineer]
+
+2026-09-13T05:18:08.860Z [333868703 pid=18564 tid=9048] ENGINE Model with 3 segments [all_inf_bothanspy]
+
+2026-09-13T05:18:08.863Z [333868703 pid=18564 tid=9048] ENGINE Model with 4 segments [all_weap_inf_seeker]
+
+2026-09-13T05:18:08.870Z [333868718 pid=18564 tid=9048] ENGINE Model with 5 segments [all_inf_wookie]
+
+2026-09-13T05:18:08.884Z [333868734 pid=18564 tid=9048] ENGINE Model with 4 segments [imp_inf_pilot]
+
+2026-09-13T05:18:08.887Z [333868734 pid=18564 tid=9048] ENGINE Model with 3 segments [imp_inf_shocktrooper]
+
+2026-09-13T05:18:08.898Z [333868734 pid=18564 tid=9048] ENGINE Model with 4 segments [imp_inf_atatcommander]
+
+2026-09-13T05:18:08.901Z [333868750 pid=18564 tid=9048] ENGINE Model with 3 segments [imp_inf_darktrooper]
+
+2026-09-13T05:18:08.945Z [333868796 pid=18564 tid=9048] ENGINE Model with 3 segments [gal_prp_assaultship]
+
+2026-09-13T05:18:08.948Z [333868796 pid=18564 tid=9048] ENGINE Model with 5 segments [cis_cap_fedcruiser_dome]
+
+2026-09-13T05:18:08.960Z [333868812 pid=18564 tid=9048] ENGINE Model with 27 segments [gal_prp_stardestroyer]
+
+2026-09-13T05:18:08.968Z [333868812 pid=18564 tid=9048] ENGINE Model with 11 segments [gal_prp_moncalamaricruiser]
+
+2026-09-13T05:18:08.973Z [333868812 pid=18564 tid=9048] ENGINE Model with 4 segments [gal_shell_adrenaline]
+
+2026-09-13T05:18:08.974Z [333868812 pid=18564 tid=9048] ENGINE Model with 4 segments [gal_shell_supply_cache]
+
+2026-09-13T05:18:08.978Z [333868828 pid=18564 tid=9048] ENGINE Model with 4 segments [gal_shell_bacta_refinery]
+
+2026-09-13T05:18:08.980Z [333868828 pid=18564 tid=9048] ENGINE Model with 4 segments [gal_shell_espionage]
+
+2026-09-13T05:18:08.985Z [333868828 pid=18564 tid=9048] ENGINE Model with 6 segments [gal_shell_leadership]
+
+2026-09-13T05:18:08.987Z [333868828 pid=18564 tid=9048] ENGINE Model with 5 segments [gal_shell_defense_grid]
+
+2026-09-13T05:18:08.994Z [333868843 pid=18564 tid=9048] ENGINE Model with 12 segments [gal_shell_reinforcements]
+
+2026-09-13T05:18:08.997Z [333868843 pid=18564 tid=9048] ENGINE Model with 3 segments [gal_shell_advanced_armor]
+
+2026-09-13T05:18:09.001Z [333868843 pid=18564 tid=9048] ENGINE Model with 6 segments [gal_shell_blaster_amplification]
+
+2026-09-13T05:18:09.002Z [333868843 pid=18564 tid=9048] ENGINE Model with 3 segments [gal_shell_surveillance]
+
+2026-09-13T05:18:09.008Z [333868859 pid=18564 tid=9048] ENGINE FIXME: Duplicate RedModel name exists in another level file: 72ff5896
+
+2026-09-13T05:18:09.012Z [333868859 pid=18564 tid=9048] ENGINE FIXME: Duplicate RedModel name exists in another level file: 42e0807c
+
+2026-09-13T05:18:09.013Z [333868859 pid=18564 tid=9048] ENGINE Model with 4 segments [gal_prp_system]
+
+2026-09-13T05:18:09.018Z [333868859 pid=18564 tid=9048] ENGINE Model with 3 segments [gal_prp_mustafar]
+
+2026-09-13T05:18:09.020Z [333868859 pid=18564 tid=14468] STATE flow=3 lua=080C11A4 render_count=1 suspend=1 candidate_lock=0
+2026-09-13T05:18:09.021Z [333868859 pid=18564 tid=9048] ENGINE Model with 3 segments [gal_prp_geonosis]
+
+2026-09-13T05:18:09.030Z [333868875 pid=18564 tid=9048] ENGINE Model with 3 segments [gal_prp_coruscant]
+
+2026-09-13T05:18:09.039Z [333868890 pid=18564 tid=9048] ENGINE Model with 3 segments [all_prop_blockaderunner]
+
+2026-09-13T05:18:09.066Z [333868906 pid=18564 tid=9048] ENGINE FIXME: Duplicate RedModel name exists in another level file: 204b3968
+
+2026-09-13T05:18:09.067Z [333868906 pid=18564 tid=9048] ENGINE FIXME: Duplicate RedModel name exists in another level file: 50f54445
+
+2026-09-13T05:18:09.068Z [333868906 pid=18564 tid=9048] ENGINE FIXME: Duplicate RedModel name exists in another level file: 249981fd
+
+2026-09-13T05:18:09.068Z [333868906 pid=18564 tid=9048] ENGINE FIXME: Duplicate RedModel name exists in another level file: 99fd26e9
+
+2026-09-13T05:18:09.069Z [333868906 pid=18564 tid=9048] ENGINE FIXME: Duplicate RedModel name exists in another level file: 4e084c5a
+
+2026-09-13T05:18:09.069Z [333868906 pid=18564 tid=9048] ENGINE FIXME: Duplicate RedModel name exists in another level file: c3f4b790
+
+2026-09-13T05:18:09.069Z [333868906 pid=18564 tid=9048] ENGINE FIXME: Duplicate RedModel name exists in another level file: c2b729c8
+
+2026-09-13T05:18:09.070Z [333868906 pid=18564 tid=9048] ENGINE FIXME: Duplicate RedModel name exists in another level file: 2b4cce44
+
+2026-09-13T05:18:09.070Z [333868906 pid=18564 tid=9048] ENGINE FIXME: Duplicate RedModel name exists in another level file: 5b921069
+
+2026-09-13T05:18:09.071Z [333868921 pid=18564 tid=9048] ENGINE FIXME: Duplicate RedModel name exists in another level file: 7d44b875
+
+2026-09-13T05:18:09.072Z [333868921 pid=18564 tid=9048] ENGINE FIXME: Duplicate RedModel name exists in another level file: f91f725a
+
+2026-09-13T05:18:09.072Z [333868921 pid=18564 tid=9048] ENGINE FIXME: Duplicate RedModel name exists in another level file: e7f47d14
+
+2026-09-13T05:18:09.073Z [333868921 pid=18564 tid=9048] ENGINE FIXME: Duplicate RedModel name exists in another level file: 78978be2
+
+2026-09-13T05:18:09.240Z [333869078 pid=18564 tid=9048] CHANNEL GCOBS:1:SelectPlanet:begin:1
+2026-09-13T05:18:09.240Z [333869078 pid=18564 tid=9048] CHANNEL GCOBS:1:SelectPlanet:done:1
+2026-09-13T05:18:09.240Z [333869078 pid=18564 tid=9048] CHANNEL GCOBS:1:Enter:done:1
+2026-09-13T05:18:09.240Z [333869078 pid=18564 tid=9048] CHANNEL GCOBS:1:Exit:begin:1
+2026-09-13T05:18:09.240Z [333869078 pid=18564 tid=9048] CHANNEL GCOBS:1:Exit:done:1
+2026-09-13T05:18:09.240Z [333869078 pid=18564 tid=9048] CHANNEL GCOBS:2:Enter:begin:1
+2026-09-13T05:18:09.240Z [333869078 pid=18564 tid=9048] CHANNEL GCOBS:1:SelectPlanet:begin:2
+2026-09-13T05:18:09.240Z [333869078 pid=18564 tid=9048] CHANNEL GCOBS:1:SelectPlanet:done:2
+2026-09-13T05:18:09.240Z [333869078 pid=18564 tid=9048] CHANNEL GCOBS:2:Enter:done:1
+2026-09-13T05:18:09.269Z [333869109 pid=18564 tid=9048] CHANNEL GCOBS:2:Update:begin:1
+2026-09-13T05:18:09.269Z [333869109 pid=18564 tid=9048] CHANNEL GCOBS:2:Update:done:1
+2026-09-13T05:18:09.270Z [333869109 pid=18564 tid=9048] CHANNEL GCOBS:state:begin:3:1:51:2:1:0
+2026-09-13T05:18:09.270Z [333869109 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:1:controllerPlayer:i:0:i:0
+2026-09-13T05:18:09.270Z [333869109 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:2:controllerPlayer:z:-:t:-
+2026-09-13T05:18:09.270Z [333869109 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:3:controllerTeam:i:0:i:2
+2026-09-13T05:18:09.270Z [333869109 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:4:controllerTeam:z:-:t:-
+2026-09-13T05:18:09.270Z [333869109 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:5:curScreen:z:-:z:-
+2026-09-13T05:18:09.270Z [333869109 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:6:fleetPtr:i:1:u:7461626C65
+2026-09-13T05:18:09.270Z [333869109 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:7:fleetPtr:i:2:u:7461626C65
+2026-09-13T05:18:09.272Z [333869109 pid=18564 tid=14468] STATE flow=3 lua=080C11A4 render_count=1 suspend=0 candidate_lock=0
+2026-09-13T05:18:09.318Z [333869156 pid=18564 tid=9048] CHANNEL GCOBS:2:Update:begin:2
+2026-09-13T05:18:09.318Z [333869156 pid=18564 tid=9048] CHANNEL GCOBS:2:Update:done:2
+2026-09-13T05:18:09.318Z [333869156 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:8:fleetPtr:z:-:t:-
+2026-09-13T05:18:09.318Z [333869156 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:9:lastFleet:i:1:s:646167
+2026-09-13T05:18:09.318Z [333869156 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:10:lastFleet:i:2:s:636F72
+2026-09-13T05:18:09.318Z [333869156 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:11:lastFleet:z:-:t:-
+2026-09-13T05:18:09.318Z [333869156 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:12:lastSelected:i:1:s:646167
+2026-09-13T05:18:09.318Z [333869156 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:13:lastSelected:i:2:s:636F72
+2026-09-13T05:18:09.318Z [333869156 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:14:lastSelected:z:-:t:-
+2026-09-13T05:18:09.318Z [333869156 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:15:otherSide:z:-:s:616C6C
+2026-09-13T05:18:09.331Z [333869171 pid=18564 tid=9048] CHANNEL GCOBS:2:Update:begin:3
+2026-09-13T05:18:09.331Z [333869171 pid=18564 tid=9048] CHANNEL GCOBS:2:Update:done:3
+2026-09-13T05:18:09.331Z [333869171 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:16:planetBase:i:1:s:686F74
+2026-09-13T05:18:09.331Z [333869171 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:17:planetBase:i:2:s:656E64
+2026-09-13T05:18:09.331Z [333869171 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:18:planetBase:z:-:t:-
+2026-09-13T05:18:09.331Z [333869171 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:19:planetFleet:s:636F72:i:2
+2026-09-13T05:18:09.331Z [333869171 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:20:planetFleet:s:646167:i:1
+2026-09-13T05:18:09.331Z [333869171 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:21:planetFleet:z:-:t:-
+2026-09-13T05:18:09.331Z [333869171 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:22:planetNext:z:-:s:737461723137
+2026-09-13T05:18:09.331Z [333869171 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:23:planetTeam:s:636F72:i:2
+2026-09-13T05:18:09.348Z [333869187 pid=18564 tid=9048] CHANNEL GCOBS:2:Update:begin:4
+2026-09-13T05:18:09.348Z [333869187 pid=18564 tid=9048] CHANNEL GCOBS:2:Update:done:4
+2026-09-13T05:18:09.348Z [333869187 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:24:planetTeam:s:646167:i:1
+2026-09-13T05:18:09.348Z [333869187 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:25:planetTeam:s:656E64:i:2
+2026-09-13T05:18:09.348Z [333869187 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:26:planetTeam:s:66656C:i:1
+2026-09-13T05:18:09.348Z [333869187 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:27:planetTeam:s:686F74:i:1
+2026-09-13T05:18:09.348Z [333869187 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:28:planetTeam:s:6B6173:i:1
+2026-09-13T05:18:09.348Z [333869187 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:29:planetTeam:s:6D7573:i:2
+2026-09-13T05:18:09.348Z [333869187 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:30:planetTeam:s:6D7967:i:1
+2026-09-13T05:18:09.348Z [333869187 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:31:planetTeam:s:6E6162:i:1
+2026-09-13T05:18:09.355Z [333869203 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:32:planetTeam:s:706F6C:i:1
+2026-09-13T05:18:09.355Z [333869203 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:33:planetTeam:s:746174:i:1
+2026-09-13T05:18:09.355Z [333869203 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:34:planetTeam:s:757461:i:1
+2026-09-13T05:18:09.355Z [333869203 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:35:planetTeam:s:796176:i:1
+2026-09-13T05:18:09.356Z [333869203 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:36:planetTeam:z:-:t:-
+2026-09-13T05:18:09.356Z [333869203 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:37:playerSide:z:-:s:696D70
+2026-09-13T05:18:09.356Z [333869203 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:38:playerTeam:z:-:i:2
+2026-09-13T05:18:09.356Z [333869203 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:39:scenario:z:-:s:696D70
+2026-09-13T05:18:09.368Z [333869218 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:40:teamCode:i:1:s:616C6C
+2026-09-13T05:18:09.368Z [333869218 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:41:teamCode:i:2:s:696D70
+2026-09-13T05:18:09.368Z [333869218 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:42:teamCode:z:-:t:-
+2026-09-13T05:18:09.368Z [333869218 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:43:teamName:i:0:s:-
+2026-09-13T05:18:09.368Z [333869218 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:44:teamName:i:1:s:636F6D6D6F6E2E73696465732E616C6C2E6E616D65
+2026-09-13T05:18:09.368Z [333869218 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:45:teamName:i:2:s:636F6D6D6F6E2E73696465732E696D702E6E616D65
+2026-09-13T05:18:09.369Z [333869218 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:46:teamName:z:-:t:-
+2026-09-13T05:18:09.369Z [333869218 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:47:teamResources:i:1:i:100
+2026-09-13T05:18:09.381Z [333869218 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:48:teamResources:i:2:i:100
+2026-09-13T05:18:09.381Z [333869218 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:49:teamResources:z:-:t:-
+2026-09-13T05:18:09.381Z [333869218 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:50:turnNumber:z:-:i:1
+2026-09-13T05:18:09.381Z [333869218 pid=18564 tid=9048] CHANNEL GCOBS:state:item:1:51:winnerTeam:z:-:z:-
+2026-09-13T05:18:09.381Z [333869218 pid=18564 tid=9048] CHANNEL GCOBS:state:end:1:51
+2026-09-13T05:18:09.523Z [333869375 pid=18564 tid=14468] FRAME_STATE sample_ms=333869156 game_tid=9048 caller=01137A9C expected=1 context=080C11A4 readable=1 top=080E9D18 base=080E9CD8 raw10=080C8334 raw14=0831D9F4 raw18=080EACF0 raw1c=080E9CD0 raw20=00000205 raw24=0831DB74 raw28=0831D9F4 raw2c=00000010
+2026-09-13T05:18:10.569Z [333870406 pid=18564 tid=14468] FRAME_PROBE_ALIVE sampled=1322 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T05:18:11.073Z [333870921 pid=18564 tid=14468] CAPTURE_ALIVE worker_ticks=81 (worker liveness, not game simulation)
+2026-09-13T05:18:12.631Z [333872468 pid=18564 tid=14468] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=9048
+2026-09-13T05:18:13.661Z [333873500 pid=18564 tid=9048] CHANNEL GCOBS:2:Update:begin:300
+2026-09-13T05:18:13.661Z [333873500 pid=18564 tid=9048] CHANNEL GCOBS:2:Update:done:300
+2026-09-13T05:18:18.336Z [333878187 pid=18564 tid=9048] CHANNEL GCOBS:2:Update:begin:600
+2026-09-13T05:18:18.336Z [333878187 pid=18564 tid=9048] CHANNEL GCOBS:2:Update:done:600
+2026-09-13T05:18:20.693Z [333880531 pid=18564 tid=14468] FRAME_PROBE_ALIVE sampled=1970 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T05:18:21.459Z [333881296 pid=18564 tid=14468] CAPTURE_ALIVE worker_ticks=121 (worker liveness, not game simulation)
+2026-09-13T05:18:22.741Z [333882578 pid=18564 tid=14468] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=9048
+2026-09-13T05:18:23.023Z [333882859 pid=18564 tid=9048] CHANNEL GCOBS:2:Update:begin:900
+2026-09-13T05:18:23.023Z [333882859 pid=18564 tid=9048] CHANNEL GCOBS:2:Update:done:900
+2026-09-13T05:18:27.705Z [333887546 pid=18564 tid=9048] CHANNEL GCOBS:2:Update:begin:1200
+2026-09-13T05:18:27.705Z [333887546 pid=18564 tid=9048] CHANNEL GCOBS:2:Update:done:1200
+2026-09-13T05:18:30.578Z [333890421 pid=18564 tid=9048] CHANNEL GCOBS:2:Input_Accept:begin:1
+2026-09-13T05:18:30.578Z [333890421 pid=18564 tid=9048] CHANNEL GCOBS:2:Input_Accept:done:1
+2026-09-13T05:18:30.780Z [333890625 pid=18564 tid=14468] FRAME_PROBE_ALIVE sampled=2622 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T05:18:31.799Z [333891640 pid=18564 tid=14468] CAPTURE_ALIVE worker_ticks=161 (worker liveness, not game simulation)
+2026-09-13T05:18:32.003Z [333891843 pid=18564 tid=9048] CHANNEL GCOBS:2:Update:begin:1500
+2026-09-13T05:18:32.003Z [333891843 pid=18564 tid=9048] CHANNEL GCOBS:2:Update:done:1500
+2026-09-13T05:18:32.832Z [333892671 pid=18564 tid=14468] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=9048
+2026-09-13T05:18:35.753Z [333895593 pid=18564 tid=9048] CHANNEL GCOBS:2:Update:begin:1800
+2026-09-13T05:18:35.753Z [333895593 pid=18564 tid=9048] CHANNEL GCOBS:2:Update:done:1800
+2026-09-13T05:18:39.503Z [333899343 pid=18564 tid=9048] CHANNEL GCOBS:2:Update:begin:2100
+2026-09-13T05:18:39.503Z [333899343 pid=18564 tid=9048] CHANNEL GCOBS:2:Update:done:2100
+2026-09-13T05:18:40.986Z [333900828 pid=18564 tid=14468] FRAME_PROBE_ALIVE sampled=3439 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T05:18:42.008Z [333901859 pid=18564 tid=14468] CAPTURE_ALIVE worker_ticks=201 (worker liveness, not game simulation)
+2026-09-13T05:18:43.040Z [333902890 pid=18564 tid=14468] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=9048
+2026-09-13T05:18:43.253Z [333903093 pid=18564 tid=9048] CHANNEL GCOBS:2:Update:begin:2400
+2026-09-13T05:18:43.253Z [333903093 pid=18564 tid=9048] CHANNEL GCOBS:2:Update:done:2400
+2026-09-13T05:18:46.140Z [333905984 pid=18564 tid=9048] CHANNEL GCOBS:2:Exit:begin:1
+2026-09-13T05:18:46.140Z [333905984 pid=18564 tid=9048] CHANNEL GCOBS:2:Exit:done:1
+2026-09-13T05:18:49.546Z [333909390 pid=18564 tid=9048] ENGINE pcSetDisplayMode- width: 800 hieght: 600 windowed: 0 mstype: 0 msquality: 0 vsync: 1 
+
+2026-09-13T05:18:49.619Z [333909468 pid=18564 tid=9048] ENGINE Font [gamefont_large]	Hash 0xb3e564de
+
+2026-09-13T05:18:49.621Z [333909468 pid=18564 tid=9048] ENGINE Font [gamefont_medium]	Hash 0xaa8876fc
+
+2026-09-13T05:18:49.624Z [333909468 pid=18564 tid=9048] ENGINE Font [gamefont_small]	Hash 0x8f4b7122
+
+2026-09-13T05:18:49.629Z [333909468 pid=18564 tid=9048] ENGINE pcRedShader [normal]	Hash 0xe68b9c52
+
+2026-09-13T05:18:49.629Z [333909468 pid=18564 tid=9048] ENGINE pcRedShaderDef [normal_shader.xml]	Hash 0x7010c655
+
+2026-09-13T05:18:49.647Z [333909484 pid=18564 tid=9048] ENGINE pcRedShader [Terrain2]	Hash 0x31fc3674
+
+2026-09-13T05:18:49.647Z [333909484 pid=18564 tid=9048] ENGINE pcRedShaderDef [normal_terrain_shader.xml]	Hash 0x0a4fafb7
+
+2026-09-13T05:18:49.648Z [333909484 pid=18564 tid=9048] ENGINE pcRedShader [interface]	Hash 0x84ea5130
+
+2026-09-13T05:18:49.648Z [333909484 pid=18564 tid=9048] ENGINE pcRedShaderDef [interface_shader.xml]	Hash 0xf8613147
+
+2026-09-13T05:18:49.648Z [333909484 pid=18564 tid=9048] ENGINE pcRedShader [particle]	Hash 0x8a8743bf
+
+2026-09-13T05:18:49.648Z [333909484 pid=18564 tid=9048] ENGINE pcRedShaderDef [particle_shader.xml]	Hash 0x3b58396e
+
+2026-09-13T05:18:49.649Z [333909500 pid=18564 tid=9048] ENGINE pcRedShader [sprite]	Hash 0x81e2581c
+
+2026-09-13T05:18:49.649Z [333909500 pid=18564 tid=9048] ENGINE Error: pcRedShader 0x81e2581c not found
+
+2026-09-13T05:18:49.649Z [333909500 pid=18564 tid=9048] ENGINE pcRedShader [skyfog]	Hash 0x890efa1e
+
+2026-09-13T05:18:49.649Z [333909500 pid=18564 tid=9048] ENGINE pcRedShaderDef [skyfog_shader.xml]	Hash 0x3eb49919
+
+2026-09-13T05:18:49.649Z [333909500 pid=18564 tid=9048] ENGINE pcRedShader [foliage]	Hash 0x3b1f5e08
+
+2026-09-13T05:18:49.649Z [333909500 pid=18564 tid=9048] ENGINE Error: pcRedShader 0x3b1f5e08 not found
+
+2026-09-13T05:18:49.649Z [333909500 pid=18564 tid=9048] ENGINE pcRedShader [lightbeam]	Hash 0xe8651328
+
+2026-09-13T05:18:49.649Z [333909500 pid=18564 tid=9048] ENGINE pcRedShaderDef [lightbeam_shader.xml]	Hash 0xc5b0a02f
+
+2026-09-13T05:18:49.649Z [333909500 pid=18564 tid=9048] ENGINE pcRedShader [scroll]	Hash 0xdd4ec22c
+
+2026-09-13T05:18:49.649Z [333909500 pid=18564 tid=9048] ENGINE Error: pcRedShader 0xdd4ec22c not found
+
+2026-09-13T05:18:49.649Z [333909500 pid=18564 tid=9048] ENGINE pcRedShader [flare]	Hash 0x96834737
+
+2026-09-13T05:18:49.649Z [333909500 pid=18564 tid=9048] ENGINE pcRedShaderDef [flare_shader.xml]	Hash 0xcdc316b6
+
+2026-09-13T05:18:49.650Z [333909500 pid=18564 tid=9048] ENGINE pcRedShader [sample]	Hash 0x96e382a7
+
+2026-09-13T05:18:49.650Z [333909500 pid=18564 tid=9048] ENGINE pcRedShaderDef [sample_shader.xml]	Hash 0x9a9cec86
+
+2026-09-13T05:18:49.650Z [333909500 pid=18564 tid=9048] ENGINE pcRedShader [rain]	Hash 0x89a3b5d3
+
+2026-09-13T05:18:49.650Z [333909500 pid=18564 tid=9048] ENGINE pcRedShaderDef [rain_shader.xml]	Hash 0xad8cc90a
+
+2026-09-13T05:18:49.650Z [333909500 pid=18564 tid=9048] ENGINE pcRedShader [normalmapadder]	Hash 0x160d173c
+
+2026-09-13T05:18:49.650Z [333909500 pid=18564 tid=9048] ENGINE pcRedShaderDef [normalmapadder_shader.xml]	Hash 0x886ad64b
+
+2026-09-13T05:18:49.650Z [333909500 pid=18564 tid=9048] ENGINE pcRedShader [prereflection]	Hash 0x99fe618f
+
+2026-09-13T05:18:49.650Z [333909500 pid=18564 tid=9048] ENGINE pcRedShaderDef [prereflection_shader.xml]	Hash 0xd8c9e8de
+
+2026-09-13T05:18:49.651Z [333909500 pid=18564 tid=9048] ENGINE pcRedShader [water]	Hash 0x49c69a10
+
+2026-09-13T05:18:49.651Z [333909500 pid=18564 tid=9048] ENGINE pcRedShaderDef [water_shader.xml]	Hash 0x04d601a7
+
+2026-09-13T05:18:49.652Z [333909500 pid=18564 tid=9048] ENGINE pcRedShader [stencilshadow]	Hash 0x78214ac3
+
+2026-09-13T05:18:49.652Z [333909500 pid=18564 tid=9048] ENGINE pcRedShaderDef [stencilshadow_shader.xml]	Hash 0x9b41e2da
+
+2026-09-13T05:18:49.653Z [333909500 pid=18564 tid=9048] ENGINE pcRedShader [shadowquad]	Hash 0x9296fc1a
+
+2026-09-13T05:18:49.653Z [333909500 pid=18564 tid=9048] ENGINE pcRedShaderDef [shadowquad_shader.xml]	Hash 0xfc9f792d
+
+2026-09-13T05:18:49.653Z [333909500 pid=18564 tid=9048] ENGINE pcRedShader [specmap]	Hash 0x1ae39af8
+
+2026-09-13T05:18:49.653Z [333909500 pid=18564 tid=9048] ENGINE Error: pcRedShader 0x1ae39af8 not found
+
+2026-09-13T05:18:49.653Z [333909500 pid=18564 tid=9048] ENGINE pcRedShader [detail]	Hash 0x60345894
+
+2026-09-13T05:18:49.653Z [333909500 pid=18564 tid=9048] ENGINE Error: pcRedShader 0x60345894 not found
+
+2026-09-13T05:18:49.654Z [333909500 pid=18564 tid=9048] ENGINE pcRedShader [ocean]	Hash 0xd4705991
+
+2026-09-13T05:18:49.654Z [333909500 pid=18564 tid=9048] ENGINE pcRedShaderDef [ocean_shader.xml]	Hash 0x8add48d4
+
+2026-09-13T05:18:49.654Z [333909500 pid=18564 tid=9048] ENGINE pcRedShader [refraction]	Hash 0x4cc5882a
+
+2026-09-13T05:18:49.654Z [333909500 pid=18564 tid=9048] ENGINE pcRedShaderDef [refraction_shader.xml]	Hash 0xa21740dd
+
+2026-09-13T05:18:49.660Z [333909500 pid=18564 tid=9048] ENGINE pcRedShader [decal]	Hash 0xde15f6ae
+
+2026-09-13T05:18:49.660Z [333909500 pid=18564 tid=9048] ENGINE pcRedShaderDef [decal_shader.xml]	Hash 0xb8473c09
+
+2026-09-13T05:18:49.660Z [333909500 pid=18564 tid=9048] ENGINE pcRedShader [filtercopy]	Hash 0xfb9eb106
+
+2026-09-13T05:18:49.660Z [333909500 pid=18564 tid=9048] ENGINE pcRedShaderDef [filtercopy_shader.xml]	Hash 0x441ebcd1
+
+2026-09-13T05:18:49.661Z [333909500 pid=18564 tid=9048] ENGINE pcRedShader [shield]	Hash 0x337519b0
+
+2026-09-13T05:18:49.661Z [333909500 pid=18564 tid=9048] ENGINE pcRedShaderDef [shield_shader.xml]	Hash 0x0dd59ec7
+
+2026-09-13T05:18:49.661Z [333909500 pid=18564 tid=9048] ENGINE pcRedShader [bump]	Hash 0x623c0fb5
+
+2026-09-13T05:18:49.661Z [333909500 pid=18564 tid=9048] ENGINE Error: pcRedShader 0x623c0fb5 not found
+
+2026-09-13T05:18:49.661Z [333909500 pid=18564 tid=9048] ENGINE pcRedShader [zprepass]	Hash 0x9a2b93af
+
+2026-09-13T05:18:49.661Z [333909500 pid=18564 tid=9048] ENGINE pcRedShaderDef [zprepass_shader.xml]	Hash 0x9dcac87e
+
+2026-09-13T05:18:49.661Z [333909500 pid=18564 tid=9048] ENGINE pcRedShader [pervertexdiffuselighting]	Hash 0x2e2fba04
+
+2026-09-13T05:18:49.661Z [333909500 pid=18564 tid=9048] ENGINE pcRedShaderDef [pervertexdiffuselighting_shader.xml]	Hash 0x19a1d463
+
+2026-09-13T05:18:49.662Z [333909500 pid=18564 tid=9048] ENGINE pcRedShader [perpixeldiffuselighting]	Hash 0xd3a5cfca
+
+2026-09-13T05:18:49.663Z [333909500 pid=18564 tid=9048] ENGINE pcRedShaderDef [perpixeldiffuselighting_shader.xml]	Hash 0x677e5e7d
+
+2026-09-13T05:18:49.668Z [333909515 pid=18564 tid=9048] ENGINE pcRedShader [specularlighting]	Hash 0xe846f024
+
+2026-09-13T05:18:49.668Z [333909515 pid=18564 tid=9048] ENGINE pcRedShaderDef [specularlighting_shader.xml]	Hash 0xd2573283
+
+2026-09-13T05:18:49.670Z [333909515 pid=18564 tid=9048] ENGINE pcRedShader [hdr]	Hash 0xfeb6dbe1
+
+2026-09-13T05:18:49.670Z [333909515 pid=18564 tid=9048] ENGINE pcRedShaderDef [hdr_shader.xml]	Hash 0x1aa9c5c4
+
+2026-09-13T05:18:49.689Z [333909531 pid=18564 tid=14468] STATE flow=0 lua=080C11A4 render_count=1 suspend=1 candidate_lock=0
+2026-09-13T05:18:49.722Z [333909562 pid=18564 tid=9048] ENGINE Font [gamefont_large_rema]	Hash 0xbdfedf94
+
+2026-09-13T05:18:49.725Z [333909562 pid=18564 tid=9048] ENGINE Font [gamefont_medium_rema]	Hash 0x146b6c26
+
+2026-09-13T05:18:49.727Z [333909578 pid=18564 tid=9048] ENGINE Font [gamefont_small_rema]	Hash 0x9efde978
+
+2026-09-13T05:18:49.730Z [333909578 pid=18564 tid=9048] ENGINE Font [gamefont_tiny]	Hash 0x46f060d5
+
+2026-09-13T05:18:49.732Z [333909578 pid=18564 tid=9048] ENGINE Font [gamefont_super_tiny]	Hash 0x548190d5
+
+2026-09-13T05:18:49.941Z [333909781 pid=18564 tid=14468] STATE flow=0 lua=080C11A4 render_count=1 suspend=0 candidate_lock=0
+2026-09-13T05:18:49.941Z [333909781 pid=18564 tid=14468] FRAME_STATE sample_ms=333909750 game_tid=9048 caller=01137A9C expected=1 context=080C11A4 readable=1 top=080E9D18 base=080E9CD8 raw10=080C8334 raw14=0831DB4C raw18=080EACC8 raw1c=080E9CD0 raw20=00000205 raw24=0831DCCC raw28=0831DB4C raw2c=00000010
+2026-09-13T05:18:51.210Z [333911046 pid=18564 tid=14468] FRAME_PROBE_ALIVE sampled=4229 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T05:18:52.216Z [333912062 pid=18564 tid=14468] CAPTURE_ALIVE worker_ticks=241 (worker liveness, not game simulation)
+2026-09-13T05:18:53.218Z [333913062 pid=18564 tid=14468] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=9048
+2026-09-13T05:18:54.906Z [333914750 pid=18564 tid=9048] ENGINE Model with 4 segments [rep_inf_ep3trooper]
+
+2026-09-13T05:18:54.909Z [333914750 pid=18564 tid=9048] ENGINE Model with 3 segments [rep_weap_inf_rifle]
+
+2026-09-13T05:18:54.915Z [333914765 pid=18564 tid=9048] ENGINE Model with 3 segments [rep_inf_ep3spacepilot]
+
+2026-09-13T05:18:54.918Z [333914765 pid=18564 tid=9048] ENGINE Model with 5 segments [rep_weap_inf_pistol]
+
+2026-09-13T05:18:54.923Z [333914765 pid=18564 tid=9048] ENGINE Model with 7 segments [rep_inf_ep3heavytrooper]
+
+2026-09-13T05:18:54.928Z [333914765 pid=18564 tid=9048] ENGINE Model with 3 segments [rep_weap_inf_launcher]
+
+2026-09-13T05:18:54.936Z [333914781 pid=18564 tid=9048] ENGINE Model with 8 segments [rep_inf_ep3sniper]
+
+2026-09-13T05:18:54.944Z [333914781 pid=18564 tid=9048] ENGINE Model with 5 segments [rep_inf_ep3armoredpilot]
+
+2026-09-13T05:18:54.952Z [333914796 pid=18564 tid=9048] ENGINE Model with 6 segments [rep_inf_clonecommander]
+
+2026-09-13T05:18:54.958Z [333914796 pid=18564 tid=9048] ENGINE Model with 5 segments [rep_inf_ep3jettrooper]
+
+2026-09-13T05:18:54.968Z [333914812 pid=18564 tid=9048] ENGINE Model with 3 segments [cis_inf_sbdroid]
+
+2026-09-13T05:18:54.988Z [333914828 pid=18564 tid=9048] ENGINE Model with 7 segments [cis_inf_magnaguard]
+
+2026-09-13T05:18:54.994Z [333914843 pid=18564 tid=9048] ENGINE Model with 3 segments [cis_inf_commando]
+
+2026-09-13T05:18:54.999Z [333914843 pid=18564 tid=9048] ENGINE Model with 4 segments [cis_walk_droideka]
+
+2026-09-13T05:18:55.005Z [333914843 pid=18564 tid=9048] ENGINE Model with 3 segments [gal_prp_assaultship]
+
+2026-09-13T05:18:55.007Z [333914843 pid=18564 tid=9048] ENGINE Model with 5 segments [cis_cap_fedcruiser_dome]
+
+2026-09-13T05:18:55.019Z [333914859 pid=18564 tid=9048] ENGINE Model with 27 segments [gal_prp_stardestroyer]
+
+2026-09-13T05:18:55.026Z [333914875 pid=18564 tid=9048] ENGINE Model with 11 segments [gal_prp_moncalamaricruiser]
+
+2026-09-13T05:18:55.031Z [333914875 pid=18564 tid=14468] STATE flow=3 lua=080C11A4 render_count=1 suspend=1 candidate_lock=0
+2026-09-13T05:18:55.032Z [333914875 pid=18564 tid=9048] ENGINE Model with 4 segments [gal_shell_adrenaline]
+
+2026-09-13T05:18:55.033Z [333914875 pid=18564 tid=9048] ENGINE Model with 4 segments [gal_shell_supply_cache]
+
+2026-09-13T05:18:55.036Z [333914875 pid=18564 tid=9048] ENGINE Model with 4 segments [gal_shell_bacta_refinery]
+
+2026-09-13T05:18:55.039Z [333914890 pid=18564 tid=9048] ENGINE Model with 4 segments [gal_shell_espionage]
+
+2026-09-13T05:18:55.044Z [333914890 pid=18564 tid=9048] ENGINE Model with 6 segments [gal_shell_leadership]
+
+2026-09-13T05:18:55.045Z [333914890 pid=18564 tid=9048] ENGINE Model with 5 segments [gal_shell_defense_grid]
+
+2026-09-13T05:18:55.052Z [333914890 pid=18564 tid=9048] ENGINE Model with 12 segments [gal_shell_reinforcements]
+
+2026-09-13T05:18:55.056Z [333914906 pid=18564 tid=9048] ENGINE Model with 3 segments [gal_shell_advanced_armor]
+
+2026-09-13T05:18:55.060Z [333914906 pid=18564 tid=9048] ENGINE Model with 6 segments [gal_shell_blaster_amplification]
+
+2026-09-13T05:18:55.061Z [333914906 pid=18564 tid=9048] ENGINE Model with 3 segments [gal_shell_surveillance]
+
+2026-09-13T05:18:55.066Z [333914906 pid=18564 tid=9048] ENGINE FIXME: Duplicate RedModel name exists in another level file: 72ff5896
+
+2026-09-13T05:18:55.070Z [333914921 pid=18564 tid=9048] ENGINE FIXME: Duplicate RedModel name exists in another level file: 42e0807c
+
+2026-09-13T05:18:55.071Z [333914921 pid=18564 tid=9048] ENGINE Model with 4 segments [gal_prp_system]
+
+2026-09-13T05:18:55.076Z [333914921 pid=18564 tid=9048] ENGINE Model with 3 segments [gal_prp_mustafar]
+
+2026-09-13T05:18:55.079Z [333914921 pid=18564 tid=9048] ENGINE Model with 3 segments [gal_prp_geonosis]
+
+2026-09-13T05:18:55.089Z [333914937 pid=18564 tid=9048] ENGINE Model with 3 segments [gal_prp_coruscant]
+
+2026-09-13T05:18:55.098Z [333914937 pid=18564 tid=9048] ENGINE Model with 3 segments [all_prop_blockaderunner]
+
+2026-09-13T05:18:55.124Z [333914968 pid=18564 tid=9048] ENGINE FIXME: Duplicate RedModel name exists in another level file: 204b3968
+
+2026-09-13T05:18:55.125Z [333914968 pid=18564 tid=9048] ENGINE FIXME: Duplicate RedModel name exists in another level file: 50f54445
+
+2026-09-13T05:18:55.126Z [333914968 pid=18564 tid=9048] ENGINE FIXME: Duplicate RedModel name exists in another level file: 249981fd
+
+2026-09-13T05:18:55.126Z [333914968 pid=18564 tid=9048] ENGINE FIXME: Duplicate RedModel name exists in another level file: 99fd26e9
+
+2026-09-13T05:18:55.127Z [333914968 pid=18564 tid=9048] ENGINE FIXME: Duplicate RedModel name exists in another level file: 4e084c5a
+
+2026-09-13T05:18:55.127Z [333914968 pid=18564 tid=9048] ENGINE FIXME: Duplicate RedModel name exists in another level file: c3f4b790
+
+2026-09-13T05:18:55.127Z [333914968 pid=18564 tid=9048] ENGINE FIXME: Duplicate RedModel name exists in another level file: c2b729c8
+
+2026-09-13T05:18:55.128Z [333914968 pid=18564 tid=9048] ENGINE FIXME: Duplicate RedModel name exists in another level file: 2b4cce44
+
+2026-09-13T05:18:55.128Z [333914968 pid=18564 tid=9048] ENGINE FIXME: Duplicate RedModel name exists in another level file: 5b921069
+
+2026-09-13T05:18:55.130Z [333914968 pid=18564 tid=9048] ENGINE FIXME: Duplicate RedModel name exists in another level file: 7d44b875
+
+2026-09-13T05:18:55.130Z [333914968 pid=18564 tid=9048] ENGINE FIXME: Duplicate RedModel name exists in another level file: f91f725a
+
+2026-09-13T05:18:55.131Z [333914968 pid=18564 tid=9048] ENGINE FIXME: Duplicate RedModel name exists in another level file: e7f47d14
+
+2026-09-13T05:18:55.132Z [333914968 pid=18564 tid=9048] ENGINE FIXME: Duplicate RedModel name exists in another level file: 78978be2
+
+2026-09-13T05:18:55.296Z [333915140 pid=18564 tid=14468] STATE flow=3 lua=080C11A4 render_count=1 suspend=0 candidate_lock=0
+2026-09-13T05:19:01.375Z [333921218 pid=18564 tid=14468] FRAME_PROBE_ALIVE sampled=5009 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T05:19:02.406Z [333922250 pid=18564 tid=14468] CAPTURE_ALIVE worker_ticks=281 (worker liveness, not game simulation)
+2026-09-13T05:19:03.425Z [333923265 pid=18564 tid=14468] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=9048
+2026-09-13T05:19:11.531Z [333931375 pid=18564 tid=14468] FRAME_PROBE_ALIVE sampled=5821 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T05:19:12.535Z [333932375 pid=18564 tid=14468] CAPTURE_ALIVE worker_ticks=321 (worker liveness, not game simulation)
+2026-09-13T05:19:13.557Z [333933406 pid=18564 tid=14468] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=9048
+2026-09-13T05:19:21.678Z [333941515 pid=18564 tid=14468] FRAME_PROBE_ALIVE sampled=6633 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T05:19:22.712Z [333942562 pid=18564 tid=14468] CAPTURE_ALIVE worker_ticks=361 (worker liveness, not game simulation)
+2026-09-13T05:19:23.746Z [333943593 pid=18564 tid=14468] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=9048
+2026-09-13T05:19:31.867Z [333951718 pid=18564 tid=14468] FRAME_PROBE_ALIVE sampled=7448 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T05:19:32.913Z [333952750 pid=18564 tid=14468] CAPTURE_ALIVE worker_ticks=401 (worker liveness, not game simulation)
+2026-09-13T05:19:33.922Z [333953765 pid=18564 tid=14468] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=9048
+2026-09-13T05:19:41.339Z [333961187 pid=18564 tid=14468] STATE flow=3 lua=00000000 render_count=1 suspend=0 candidate_lock=0

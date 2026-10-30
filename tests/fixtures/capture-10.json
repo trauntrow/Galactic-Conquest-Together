@@ -1,0 +1,1586 @@
+{
+  "schema_version": 5,
+  "snapshots": [
+    {
+      "sequence": 1,
+      "source_table": 2,
+      "update_ticket": 1,
+      "generation": 1,
+      "unchanged_samples": 0,
+      "sha256": "bc2030ef993f9f66ce4502832ca0bf7804a73147456244fa2f1111fdf6e99efd",
+      "data": {
+        "scalars": {
+          "curScreen": null,
+          "planetNext": "star15",
+          "playerTeam": 1,
+          "scenario": "all",
+          "turnNumber": 1,
+          "winnerTeam": null
+        },
+        "maps": {
+          "lastFleet": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": "yav"
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": "mus"
+            }
+          ],
+          "lastSelected": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": "yav"
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": "mus"
+            }
+          ],
+          "planetBase": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": "hot"
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": "end"
+            }
+          ],
+          "planetFleet": [
+            {
+              "key_type": "string",
+              "key": "mus",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "yav",
+              "value": 1
+            }
+          ],
+          "planetTeam": [
+            {
+              "key_type": "string",
+              "key": "cor",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "dag",
+              "value": 1
+            },
+            {
+              "key_type": "string",
+              "key": "end",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "fel",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "hot",
+              "value": 1
+            },
+            {
+              "key_type": "string",
+              "key": "kas",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "mus",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "myg",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "nab",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "pol",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "tat",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "uta",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "yav",
+              "value": 1
+            }
+          ],
+          "teamResources": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": 100
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": 100
+            }
+          ]
+        },
+        "probed": {
+          "activeBonus": {
+            "kind": "map",
+            "entries": []
+          },
+          "battleResources": {
+            "kind": "scalar",
+            "value": null
+          },
+          "controllerPlayer": {
+            "kind": "map",
+            "entries": [
+              {
+                "key_type": "integer",
+                "key": 0,
+                "value": 0
+              }
+            ]
+          },
+          "controllerTeam": {
+            "kind": "map",
+            "entries": [
+              {
+                "key_type": "integer",
+                "key": 0,
+                "value": 1
+              }
+            ]
+          },
+          "custom": {
+            "kind": "scalar",
+            "value": null
+          },
+          "fleet.planetNext": {
+            "kind": "scalar",
+            "value": null
+          },
+          "fleet.planetStart": {
+            "kind": "scalar",
+            "value": null
+          },
+          "fleet.turnNumber": {
+            "kind": "scalar",
+            "value": null
+          },
+          "fleetBattle": {
+            "kind": "scalar",
+            "value": null
+          },
+          "fleetPtr": {
+            "kind": "map",
+            "entries": [
+              {
+                "key_type": "integer",
+                "key": 1,
+                "composition": "n=1 k=string v=userdata"
+              },
+              {
+                "key_type": "integer",
+                "key": 2,
+                "composition": "n=1 k=string v=userdata"
+              }
+            ]
+          },
+          "global.ifs_purchase_tech_cards": {
+            "kind": "map",
+            "entries": [
+              {
+                "key_type": "integer",
+                "key": 1,
+                "composition": "n=10 k=number v=boolean"
+              },
+              {
+                "key_type": "integer",
+                "key": 2,
+                "composition": "n=10 k=number v=boolean"
+              }
+            ]
+          },
+          "global.ifs_purchase_tech_using": {
+            "kind": "map",
+            "entries": [
+              {
+                "key_type": "integer",
+                "key": 1,
+                "composition": "n=3 k=number v=number"
+              },
+              {
+                "key_type": "integer",
+                "key": 2,
+                "composition": "n=3 k=number v=number"
+              }
+            ]
+          },
+          "global.ifs_purchase_unit_owned": {
+            "kind": "map",
+            "entries": [
+              {
+                "key_type": "integer",
+                "key": 1,
+                "composition": "n=2 k=string v=boolean"
+              },
+              {
+                "key_type": "integer",
+                "key": 2,
+                "composition": "n=2 k=string v=boolean"
+              }
+            ]
+          },
+          "launchMission": {
+            "kind": "scalar",
+            "value": null
+          },
+          "otherSide": {
+            "kind": "scalar",
+            "value": "imp"
+          },
+          "planetResources": {
+            "kind": "scalar",
+            "value": null
+          },
+          "playerSide": {
+            "kind": "scalar",
+            "value": "all"
+          },
+          "recentPlanets": {
+            "kind": "map",
+            "entries": []
+          },
+          "soakMode": {
+            "kind": "scalar",
+            "value": null
+          },
+          "teamCode": {
+            "kind": "map",
+            "entries": [
+              {
+                "key_type": "integer",
+                "key": 1,
+                "value": "all"
+              },
+              {
+                "key_type": "integer",
+                "key": 2,
+                "value": "imp"
+              }
+            ]
+          },
+          "teamName": {
+            "kind": "map",
+            "entries": [
+              {
+                "key_type": "integer",
+                "key": 0,
+                "value": ""
+              },
+              {
+                "key_type": "integer",
+                "key": 1,
+                "value": "common.sides.all.name"
+              },
+              {
+                "key_type": "integer",
+                "key": 2,
+                "value": "common.sides.imp.name"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "sequence": 2,
+      "source_table": 2,
+      "update_ticket": 2010,
+      "generation": 1,
+      "unchanged_samples": 66,
+      "sha256": "eb58f641ac01f42a7ab6410d6be83205d5834102940f4b9d6c1b9e608fa35f3b",
+      "data": {
+        "scalars": {
+          "curScreen": null,
+          "planetNext": "fel",
+          "playerTeam": 1,
+          "scenario": "all",
+          "turnNumber": 1,
+          "winnerTeam": null
+        },
+        "maps": {
+          "lastFleet": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": "fel"
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": "mus"
+            }
+          ],
+          "lastSelected": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": "yav"
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": "mus"
+            }
+          ],
+          "planetBase": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": "hot"
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": "end"
+            }
+          ],
+          "planetFleet": [
+            {
+              "key_type": "string",
+              "key": "fel",
+              "value": 1
+            },
+            {
+              "key_type": "string",
+              "key": "mus",
+              "value": 2
+            }
+          ],
+          "planetTeam": [
+            {
+              "key_type": "string",
+              "key": "cor",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "dag",
+              "value": 1
+            },
+            {
+              "key_type": "string",
+              "key": "end",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "fel",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "hot",
+              "value": 1
+            },
+            {
+              "key_type": "string",
+              "key": "kas",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "mus",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "myg",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "nab",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "pol",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "tat",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "uta",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "yav",
+              "value": 1
+            }
+          ],
+          "teamResources": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": 100
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": 100
+            }
+          ]
+        },
+        "probed": {
+          "activeBonus": {
+            "kind": "map",
+            "entries": []
+          },
+          "battleResources": {
+            "kind": "scalar",
+            "value": null
+          },
+          "controllerPlayer": {
+            "kind": "map",
+            "entries": [
+              {
+                "key_type": "integer",
+                "key": 0,
+                "value": 0
+              }
+            ]
+          },
+          "controllerTeam": {
+            "kind": "map",
+            "entries": [
+              {
+                "key_type": "integer",
+                "key": 0,
+                "value": 1
+              }
+            ]
+          },
+          "custom": {
+            "kind": "scalar",
+            "value": null
+          },
+          "fleet.planetNext": {
+            "kind": "scalar",
+            "value": "fel"
+          },
+          "fleet.planetStart": {
+            "kind": "scalar",
+            "value": "yav"
+          },
+          "fleet.turnNumber": {
+            "kind": "scalar",
+            "value": 1
+          },
+          "fleetBattle": {
+            "kind": "scalar",
+            "value": null
+          },
+          "fleetPtr": {
+            "kind": "map",
+            "entries": [
+              {
+                "key_type": "integer",
+                "key": 1,
+                "composition": "n=1 k=string v=userdata"
+              },
+              {
+                "key_type": "integer",
+                "key": 2,
+                "composition": "n=1 k=string v=userdata"
+              }
+            ]
+          },
+          "global.ifs_purchase_tech_cards": {
+            "kind": "map",
+            "entries": [
+              {
+                "key_type": "integer",
+                "key": 1,
+                "composition": "n=10 k=number v=boolean"
+              },
+              {
+                "key_type": "integer",
+                "key": 2,
+                "composition": "n=10 k=number v=boolean"
+              }
+            ]
+          },
+          "global.ifs_purchase_tech_using": {
+            "kind": "map",
+            "entries": [
+              {
+                "key_type": "integer",
+                "key": 1,
+                "composition": "n=3 k=number v=number"
+              },
+              {
+                "key_type": "integer",
+                "key": 2,
+                "composition": "n=3 k=number v=number"
+              }
+            ]
+          },
+          "global.ifs_purchase_unit_owned": {
+            "kind": "map",
+            "entries": [
+              {
+                "key_type": "integer",
+                "key": 1,
+                "composition": "n=2 k=string v=boolean"
+              },
+              {
+                "key_type": "integer",
+                "key": 2,
+                "composition": "n=2 k=string v=boolean"
+              }
+            ]
+          },
+          "launchMission": {
+            "kind": "scalar",
+            "value": null
+          },
+          "otherSide": {
+            "kind": "scalar",
+            "value": "imp"
+          },
+          "planetResources": {
+            "kind": "scalar",
+            "value": null
+          },
+          "playerSide": {
+            "kind": "scalar",
+            "value": "all"
+          },
+          "recentPlanets": {
+            "kind": "map",
+            "entries": []
+          },
+          "soakMode": {
+            "kind": "scalar",
+            "value": null
+          },
+          "teamCode": {
+            "kind": "map",
+            "entries": [
+              {
+                "key_type": "integer",
+                "key": 1,
+                "value": "all"
+              },
+              {
+                "key_type": "integer",
+                "key": 2,
+                "value": "imp"
+              }
+            ]
+          },
+          "teamName": {
+            "kind": "map",
+            "entries": [
+              {
+                "key_type": "integer",
+                "key": 0,
+                "value": ""
+              },
+              {
+                "key_type": "integer",
+                "key": 1,
+                "value": "common.sides.all.name"
+              },
+              {
+                "key_type": "integer",
+                "key": 2,
+                "value": "common.sides.imp.name"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "sequence": 3,
+      "source_table": 2,
+      "update_ticket": 2100,
+      "generation": 1,
+      "unchanged_samples": 2,
+      "sha256": "bc2030ef993f9f66ce4502832ca0bf7804a73147456244fa2f1111fdf6e99efd",
+      "data": {
+        "scalars": {
+          "curScreen": null,
+          "planetNext": "star15",
+          "playerTeam": 1,
+          "scenario": "all",
+          "turnNumber": 1,
+          "winnerTeam": null
+        },
+        "maps": {
+          "lastFleet": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": "yav"
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": "mus"
+            }
+          ],
+          "lastSelected": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": "yav"
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": "mus"
+            }
+          ],
+          "planetBase": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": "hot"
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": "end"
+            }
+          ],
+          "planetFleet": [
+            {
+              "key_type": "string",
+              "key": "mus",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "yav",
+              "value": 1
+            }
+          ],
+          "planetTeam": [
+            {
+              "key_type": "string",
+              "key": "cor",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "dag",
+              "value": 1
+            },
+            {
+              "key_type": "string",
+              "key": "end",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "fel",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "hot",
+              "value": 1
+            },
+            {
+              "key_type": "string",
+              "key": "kas",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "mus",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "myg",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "nab",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "pol",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "tat",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "uta",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "yav",
+              "value": 1
+            }
+          ],
+          "teamResources": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": 100
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": 100
+            }
+          ]
+        },
+        "probed": {
+          "activeBonus": {
+            "kind": "map",
+            "entries": []
+          },
+          "battleResources": {
+            "kind": "scalar",
+            "value": null
+          },
+          "controllerPlayer": {
+            "kind": "map",
+            "entries": [
+              {
+                "key_type": "integer",
+                "key": 0,
+                "value": 0
+              }
+            ]
+          },
+          "controllerTeam": {
+            "kind": "map",
+            "entries": [
+              {
+                "key_type": "integer",
+                "key": 0,
+                "value": 1
+              }
+            ]
+          },
+          "custom": {
+            "kind": "scalar",
+            "value": null
+          },
+          "fleet.planetNext": {
+            "kind": "scalar",
+            "value": null
+          },
+          "fleet.planetStart": {
+            "kind": "scalar",
+            "value": null
+          },
+          "fleet.turnNumber": {
+            "kind": "scalar",
+            "value": null
+          },
+          "fleetBattle": {
+            "kind": "scalar",
+            "value": null
+          },
+          "fleetPtr": {
+            "kind": "map",
+            "entries": [
+              {
+                "key_type": "integer",
+                "key": 1,
+                "composition": "n=1 k=string v=userdata"
+              },
+              {
+                "key_type": "integer",
+                "key": 2,
+                "composition": "n=1 k=string v=userdata"
+              }
+            ]
+          },
+          "global.ifs_purchase_tech_cards": {
+            "kind": "map",
+            "entries": [
+              {
+                "key_type": "integer",
+                "key": 1,
+                "composition": "n=10 k=number v=boolean"
+              },
+              {
+                "key_type": "integer",
+                "key": 2,
+                "composition": "n=10 k=number v=boolean"
+              }
+            ]
+          },
+          "global.ifs_purchase_tech_using": {
+            "kind": "map",
+            "entries": [
+              {
+                "key_type": "integer",
+                "key": 1,
+                "composition": "n=3 k=number v=number"
+              },
+              {
+                "key_type": "integer",
+                "key": 2,
+                "composition": "n=3 k=number v=number"
+              }
+            ]
+          },
+          "global.ifs_purchase_unit_owned": {
+            "kind": "map",
+            "entries": [
+              {
+                "key_type": "integer",
+                "key": 1,
+                "composition": "n=2 k=string v=boolean"
+              },
+              {
+                "key_type": "integer",
+                "key": 2,
+                "composition": "n=2 k=string v=boolean"
+              }
+            ]
+          },
+          "launchMission": {
+            "kind": "scalar",
+            "value": null
+          },
+          "otherSide": {
+            "kind": "scalar",
+            "value": "imp"
+          },
+          "planetResources": {
+            "kind": "scalar",
+            "value": null
+          },
+          "playerSide": {
+            "kind": "scalar",
+            "value": "all"
+          },
+          "recentPlanets": {
+            "kind": "map",
+            "entries": []
+          },
+          "soakMode": {
+            "kind": "scalar",
+            "value": null
+          },
+          "teamCode": {
+            "kind": "map",
+            "entries": [
+              {
+                "key_type": "integer",
+                "key": 1,
+                "value": "all"
+              },
+              {
+                "key_type": "integer",
+                "key": 2,
+                "value": "imp"
+              }
+            ]
+          },
+          "teamName": {
+            "kind": "map",
+            "entries": [
+              {
+                "key_type": "integer",
+                "key": 0,
+                "value": ""
+              },
+              {
+                "key_type": "integer",
+                "key": 1,
+                "value": "common.sides.all.name"
+              },
+              {
+                "key_type": "integer",
+                "key": 2,
+                "value": "common.sides.imp.name"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "sequence": 4,
+      "source_table": 2,
+      "update_ticket": 2550,
+      "generation": 1,
+      "unchanged_samples": 14,
+      "sha256": "4cde28f831dce3bb5178fb708abde23970a7697594f951bbc0600de6b5da16f4",
+      "data": {
+        "scalars": {
+          "curScreen": null,
+          "planetNext": "star15",
+          "playerTeam": 1,
+          "scenario": "all",
+          "turnNumber": 1,
+          "winnerTeam": null
+        },
+        "maps": {
+          "lastFleet": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": "star15"
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": "mus"
+            }
+          ],
+          "lastSelected": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": "yav"
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": "mus"
+            }
+          ],
+          "planetBase": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": "hot"
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": "end"
+            }
+          ],
+          "planetFleet": [
+            {
+              "key_type": "string",
+              "key": "mus",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "star15",
+              "value": 1
+            }
+          ],
+          "planetTeam": [
+            {
+              "key_type": "string",
+              "key": "cor",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "dag",
+              "value": 1
+            },
+            {
+              "key_type": "string",
+              "key": "end",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "fel",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "hot",
+              "value": 1
+            },
+            {
+              "key_type": "string",
+              "key": "kas",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "mus",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "myg",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "nab",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "pol",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "tat",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "uta",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "yav",
+              "value": 1
+            }
+          ],
+          "teamResources": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": 100
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": 100
+            }
+          ]
+        },
+        "probed": {
+          "activeBonus": {
+            "kind": "map",
+            "entries": []
+          },
+          "battleResources": {
+            "kind": "scalar",
+            "value": null
+          },
+          "controllerPlayer": {
+            "kind": "map",
+            "entries": [
+              {
+                "key_type": "integer",
+                "key": 0,
+                "value": 0
+              }
+            ]
+          },
+          "controllerTeam": {
+            "kind": "map",
+            "entries": [
+              {
+                "key_type": "integer",
+                "key": 0,
+                "value": 1
+              }
+            ]
+          },
+          "custom": {
+            "kind": "scalar",
+            "value": null
+          },
+          "fleet.planetNext": {
+            "kind": "scalar",
+            "value": "star15"
+          },
+          "fleet.planetStart": {
+            "kind": "scalar",
+            "value": "yav"
+          },
+          "fleet.turnNumber": {
+            "kind": "scalar",
+            "value": 1
+          },
+          "fleetBattle": {
+            "kind": "scalar",
+            "value": null
+          },
+          "fleetPtr": {
+            "kind": "map",
+            "entries": [
+              {
+                "key_type": "integer",
+                "key": 1,
+                "composition": "n=1 k=string v=userdata"
+              },
+              {
+                "key_type": "integer",
+                "key": 2,
+                "composition": "n=1 k=string v=userdata"
+              }
+            ]
+          },
+          "global.ifs_purchase_tech_cards": {
+            "kind": "map",
+            "entries": [
+              {
+                "key_type": "integer",
+                "key": 1,
+                "composition": "n=10 k=number v=boolean"
+              },
+              {
+                "key_type": "integer",
+                "key": 2,
+                "composition": "n=10 k=number v=boolean"
+              }
+            ]
+          },
+          "global.ifs_purchase_tech_using": {
+            "kind": "map",
+            "entries": [
+              {
+                "key_type": "integer",
+                "key": 1,
+                "composition": "n=3 k=number v=number"
+              },
+              {
+                "key_type": "integer",
+                "key": 2,
+                "composition": "n=3 k=number v=number"
+              }
+            ]
+          },
+          "global.ifs_purchase_unit_owned": {
+            "kind": "map",
+            "entries": [
+              {
+                "key_type": "integer",
+                "key": 1,
+                "composition": "n=2 k=string v=boolean"
+              },
+              {
+                "key_type": "integer",
+                "key": 2,
+                "composition": "n=2 k=string v=boolean"
+              }
+            ]
+          },
+          "launchMission": {
+            "kind": "scalar",
+            "value": null
+          },
+          "otherSide": {
+            "kind": "scalar",
+            "value": "imp"
+          },
+          "planetResources": {
+            "kind": "scalar",
+            "value": null
+          },
+          "playerSide": {
+            "kind": "scalar",
+            "value": "all"
+          },
+          "recentPlanets": {
+            "kind": "map",
+            "entries": []
+          },
+          "soakMode": {
+            "kind": "scalar",
+            "value": null
+          },
+          "teamCode": {
+            "kind": "map",
+            "entries": [
+              {
+                "key_type": "integer",
+                "key": 1,
+                "value": "all"
+              },
+              {
+                "key_type": "integer",
+                "key": 2,
+                "value": "imp"
+              }
+            ]
+          },
+          "teamName": {
+            "kind": "map",
+            "entries": [
+              {
+                "key_type": "integer",
+                "key": 0,
+                "value": ""
+              },
+              {
+                "key_type": "integer",
+                "key": 1,
+                "value": "common.sides.all.name"
+              },
+              {
+                "key_type": "integer",
+                "key": 2,
+                "value": "common.sides.imp.name"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "sequence": 5,
+      "source_table": 2,
+      "update_ticket": 2610,
+      "generation": 1,
+      "unchanged_samples": 1,
+      "sha256": "f182d623c049215ac01337e7344db537a51e458ef8f184b34fce32c36d45f2e4",
+      "data": {
+        "scalars": {
+          "curScreen": null,
+          "planetNext": "myg",
+          "playerTeam": 1,
+          "scenario": "all",
+          "turnNumber": 3,
+          "winnerTeam": null
+        },
+        "maps": {
+          "lastFleet": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": "star15"
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": "star02"
+            }
+          ],
+          "lastSelected": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": "star15"
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": "star02"
+            }
+          ],
+          "planetBase": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": "hot"
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": "end"
+            }
+          ],
+          "planetFleet": [
+            {
+              "key_type": "string",
+              "key": "star02",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "star15",
+              "value": 1
+            }
+          ],
+          "planetTeam": [
+            {
+              "key_type": "string",
+              "key": "cor",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "dag",
+              "value": 1
+            },
+            {
+              "key_type": "string",
+              "key": "end",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "fel",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "hot",
+              "value": 1
+            },
+            {
+              "key_type": "string",
+              "key": "kas",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "mus",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "myg",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "nab",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "pol",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "tat",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "uta",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "yav",
+              "value": 1
+            }
+          ],
+          "teamResources": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": 100
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": 60
+            }
+          ]
+        },
+        "probed": {
+          "activeBonus": {
+            "kind": "map",
+            "entries": []
+          },
+          "battleResources": {
+            "kind": "scalar",
+            "value": null
+          },
+          "controllerPlayer": {
+            "kind": "map",
+            "entries": [
+              {
+                "key_type": "integer",
+                "key": 0,
+                "value": 0
+              }
+            ]
+          },
+          "controllerTeam": {
+            "kind": "map",
+            "entries": [
+              {
+                "key_type": "integer",
+                "key": 0,
+                "value": 1
+              }
+            ]
+          },
+          "custom": {
+            "kind": "scalar",
+            "value": null
+          },
+          "fleet.planetNext": {
+            "kind": "scalar",
+            "value": null
+          },
+          "fleet.planetStart": {
+            "kind": "scalar",
+            "value": null
+          },
+          "fleet.turnNumber": {
+            "kind": "scalar",
+            "value": null
+          },
+          "fleetBattle": {
+            "kind": "scalar",
+            "value": null
+          },
+          "fleetPtr": {
+            "kind": "map",
+            "entries": [
+              {
+                "key_type": "integer",
+                "key": 1,
+                "composition": "n=1 k=string v=userdata"
+              },
+              {
+                "key_type": "integer",
+                "key": 2,
+                "composition": "n=1 k=string v=userdata"
+              }
+            ]
+          },
+          "global.ifs_purchase_tech_cards": {
+            "kind": "map",
+            "entries": [
+              {
+                "key_type": "integer",
+                "key": 1,
+                "composition": "n=10 k=number v=boolean"
+              },
+              {
+                "key_type": "integer",
+                "key": 2,
+                "composition": "n=10 k=number v=boolean"
+              }
+            ]
+          },
+          "global.ifs_purchase_tech_using": {
+            "kind": "map",
+            "entries": [
+              {
+                "key_type": "integer",
+                "key": 1,
+                "composition": "n=3 k=number v=number"
+              },
+              {
+                "key_type": "integer",
+                "key": 2,
+                "composition": "n=3 k=number v=number"
+              }
+            ]
+          },
+          "global.ifs_purchase_unit_owned": {
+            "kind": "map",
+            "entries": [
+              {
+                "key_type": "integer",
+                "key": 1,
+                "composition": "n=2 k=string v=boolean"
+              },
+              {
+                "key_type": "integer",
+                "key": 2,
+                "composition": "n=2 k=string v=boolean"
+              }
+            ]
+          },
+          "launchMission": {
+            "kind": "scalar",
+            "value": null
+          },
+          "otherSide": {
+            "kind": "scalar",
+            "value": "imp"
+          },
+          "planetResources": {
+            "kind": "scalar",
+            "value": null
+          },
+          "playerSide": {
+            "kind": "scalar",
+            "value": "all"
+          },
+          "recentPlanets": {
+            "kind": "map",
+            "entries": []
+          },
+          "soakMode": {
+            "kind": "scalar",
+            "value": null
+          },
+          "teamCode": {
+            "kind": "map",
+            "entries": [
+              {
+                "key_type": "integer",
+                "key": 1,
+                "value": "all"
+              },
+              {
+                "key_type": "integer",
+                "key": 2,
+                "value": "imp"
+              }
+            ]
+          },
+          "teamName": {
+            "kind": "map",
+            "entries": [
+              {
+                "key_type": "integer",
+                "key": 0,
+                "value": ""
+              },
+              {
+                "key_type": "integer",
+                "key": 1,
+                "value": "common.sides.all.name"
+              },
+              {
+                "key_type": "integer",
+                "key": 2,
+                "value": "common.sides.imp.name"
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "rejected": []
+}

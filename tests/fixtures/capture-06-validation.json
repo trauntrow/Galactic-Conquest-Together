@@ -1,0 +1,91 @@
+{
+  "producer_version": 6,
+  "valid_snapshots": 1,
+  "unique_states": 1,
+  "transport_rejections": [],
+  "snapshots": [
+    {
+      "sequence": 1,
+      "source_table": 2,
+      "update_ticket": 1,
+      "generation": 1,
+      "unchanged_samples": 0,
+      "normalized_sha256": "6430cdb5c66f3228c1730818a72fff9045e1c25a5c163b6f205b3e5895d9175c",
+      "model_observations": [
+        "controllerPlayer: key absent from resource-team keys: 0",
+        "controllerTeam: key absent from resource-team keys: 0",
+        "fleetPtr: entry holds an uncaptured nested table: n=1 k=string v=userdata",
+        "planetNext is absent from ownership map",
+        "teamName: key absent from resource-team keys: 0"
+      ]
+    }
+  ],
+  "comparisons": [],
+  "probed_shapes": {
+    "activeBonus": [
+      "map"
+    ],
+    "battleResources": [
+      "scalar"
+    ],
+    "controllerPlayer": [
+      "map"
+    ],
+    "controllerTeam": [
+      "map"
+    ],
+    "custom": [
+      "scalar"
+    ],
+    "fleet.planetNext": [
+      "scalar"
+    ],
+    "fleet.planetStart": [
+      "scalar"
+    ],
+    "fleet.turnNumber": [
+      "scalar"
+    ],
+    "fleetBattle": [
+      "scalar"
+    ],
+    "fleetPtr": [
+      "map"
+    ],
+    "global.ifs_purchase_tech_cards": [
+      "map"
+    ],
+    "global.ifs_purchase_tech_using": [
+      "map"
+    ],
+    "global.ifs_purchase_unit_owned": [
+      "map"
+    ],
+    "launchMission": [
+      "scalar"
+    ],
+    "otherSide": [
+      "scalar"
+    ],
+    "planetResources": [
+      "scalar"
+    ],
+    "playerSide": [
+      "scalar"
+    ],
+    "recentPlanets": [
+      "map"
+    ],
+    "soakMode": [
+      "scalar"
+    ],
+    "teamCode": [
+      "map"
+    ],
+    "teamName": [
+      "map"
+    ]
+  },
+  "unchanged_samples_total": 0,
+  "producer_observations": []
+}

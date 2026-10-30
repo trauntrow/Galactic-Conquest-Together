@@ -1,0 +1,1028 @@
+{
+  "schema_version": 2,
+  "snapshots": [
+    {
+      "sequence": 1,
+      "source_table": 2,
+      "update_ticket": 1,
+      "unchanged_samples": 0,
+      "sha256": "d5365328e08f6b9c9b7d8a1bf9452029638664ca63a269e05d41df9ebe736db4",
+      "data": {
+        "scalars": {
+          "curScreen": null,
+          "planetNext": "nab",
+          "playerTeam": 1,
+          "scenario": "all",
+          "turnNumber": 1,
+          "winnerTeam": null
+        },
+        "maps": {
+          "lastFleet": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": "dag"
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": "mus"
+            }
+          ],
+          "lastSelected": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": "dag"
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": "mus"
+            }
+          ],
+          "planetBase": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": "hot"
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": "end"
+            }
+          ],
+          "planetFleet": [
+            {
+              "key_type": "string",
+              "key": "dag",
+              "value": 1
+            },
+            {
+              "key_type": "string",
+              "key": "mus",
+              "value": 2
+            }
+          ],
+          "planetTeam": [
+            {
+              "key_type": "string",
+              "key": "cor",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "dag",
+              "value": 1
+            },
+            {
+              "key_type": "string",
+              "key": "end",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "fel",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "hot",
+              "value": 1
+            },
+            {
+              "key_type": "string",
+              "key": "kas",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "mus",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "myg",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "nab",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "pol",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "tat",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "uta",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "yav",
+              "value": 1
+            }
+          ],
+          "teamResources": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": 100
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": 100
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sequence": 2,
+      "source_table": 2,
+      "update_ticket": 180,
+      "unchanged_samples": 5,
+      "sha256": "dfad2dbdd1319583c7681dea00566febde585850b58040591f82109e85939470",
+      "data": {
+        "scalars": {
+          "curScreen": null,
+          "planetNext": "star05",
+          "playerTeam": 1,
+          "scenario": "all",
+          "turnNumber": 1,
+          "winnerTeam": null
+        },
+        "maps": {
+          "lastFleet": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": "dag"
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": "mus"
+            }
+          ],
+          "lastSelected": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": "dag"
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": "mus"
+            }
+          ],
+          "planetBase": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": "hot"
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": "end"
+            }
+          ],
+          "planetFleet": [
+            {
+              "key_type": "string",
+              "key": "dag",
+              "value": 1
+            },
+            {
+              "key_type": "string",
+              "key": "mus",
+              "value": 2
+            }
+          ],
+          "planetTeam": [
+            {
+              "key_type": "string",
+              "key": "cor",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "dag",
+              "value": 1
+            },
+            {
+              "key_type": "string",
+              "key": "end",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "fel",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "hot",
+              "value": 1
+            },
+            {
+              "key_type": "string",
+              "key": "kas",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "mus",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "myg",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "nab",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "pol",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "tat",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "uta",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "yav",
+              "value": 1
+            }
+          ],
+          "teamResources": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": 100
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": 100
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sequence": 3,
+      "source_table": 2,
+      "update_ticket": 300,
+      "unchanged_samples": 3,
+      "sha256": "18a35fb06243403f234a1c37f41bb9bf4fc381c3136573e8f7fb8570eb5f871c",
+      "data": {
+        "scalars": {
+          "curScreen": null,
+          "planetNext": "star06",
+          "playerTeam": 1,
+          "scenario": "all",
+          "turnNumber": 1,
+          "winnerTeam": null
+        },
+        "maps": {
+          "lastFleet": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": "dag"
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": "mus"
+            }
+          ],
+          "lastSelected": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": "dag"
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": "mus"
+            }
+          ],
+          "planetBase": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": "hot"
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": "end"
+            }
+          ],
+          "planetFleet": [
+            {
+              "key_type": "string",
+              "key": "dag",
+              "value": 1
+            },
+            {
+              "key_type": "string",
+              "key": "mus",
+              "value": 2
+            }
+          ],
+          "planetTeam": [
+            {
+              "key_type": "string",
+              "key": "cor",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "dag",
+              "value": 1
+            },
+            {
+              "key_type": "string",
+              "key": "end",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "fel",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "hot",
+              "value": 1
+            },
+            {
+              "key_type": "string",
+              "key": "kas",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "mus",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "myg",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "nab",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "pol",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "tat",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "uta",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "yav",
+              "value": 1
+            }
+          ],
+          "teamResources": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": 100
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": 100
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sequence": 4,
+      "source_table": 2,
+      "update_ticket": 390,
+      "unchanged_samples": 2,
+      "sha256": "09116c0f30c1e624bd11fee8abadee08adba6992be1fd631ff68219eb9391e05",
+      "data": {
+        "scalars": {
+          "curScreen": null,
+          "planetNext": "star06",
+          "playerTeam": 1,
+          "scenario": "all",
+          "turnNumber": 1,
+          "winnerTeam": null
+        },
+        "maps": {
+          "lastFleet": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": "star06"
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": "mus"
+            }
+          ],
+          "lastSelected": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": "dag"
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": "mus"
+            }
+          ],
+          "planetBase": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": "hot"
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": "end"
+            }
+          ],
+          "planetFleet": [
+            {
+              "key_type": "string",
+              "key": "mus",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "star06",
+              "value": 1
+            }
+          ],
+          "planetTeam": [
+            {
+              "key_type": "string",
+              "key": "cor",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "dag",
+              "value": 1
+            },
+            {
+              "key_type": "string",
+              "key": "end",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "fel",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "hot",
+              "value": 1
+            },
+            {
+              "key_type": "string",
+              "key": "kas",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "mus",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "myg",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "nab",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "pol",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "tat",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "uta",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "yav",
+              "value": 1
+            }
+          ],
+          "teamResources": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": 100
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": 100
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sequence": 5,
+      "source_table": 2,
+      "update_ticket": 450,
+      "unchanged_samples": 1,
+      "sha256": "723d3d50a29c65fd5bbbb2828308300d663f8aa2c0cfd93b453b85187eaf385d",
+      "data": {
+        "scalars": {
+          "curScreen": null,
+          "planetNext": "uta",
+          "playerTeam": 1,
+          "scenario": "all",
+          "turnNumber": 3,
+          "winnerTeam": null
+        },
+        "maps": {
+          "lastFleet": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": "star06"
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": "star02"
+            }
+          ],
+          "lastSelected": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": "star06"
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": "star02"
+            }
+          ],
+          "planetBase": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": "hot"
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": "end"
+            }
+          ],
+          "planetFleet": [
+            {
+              "key_type": "string",
+              "key": "star02",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "star06",
+              "value": 1
+            }
+          ],
+          "planetTeam": [
+            {
+              "key_type": "string",
+              "key": "cor",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "dag",
+              "value": 1
+            },
+            {
+              "key_type": "string",
+              "key": "end",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "fel",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "hot",
+              "value": 1
+            },
+            {
+              "key_type": "string",
+              "key": "kas",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "mus",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "myg",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "nab",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "pol",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "tat",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "uta",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "yav",
+              "value": 1
+            }
+          ],
+          "teamResources": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": 100
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": 80
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sequence": 6,
+      "source_table": 2,
+      "update_ticket": 810,
+      "unchanged_samples": 11,
+      "sha256": "95253d87be5435d28342771f8c7ef0d1d1674b51efc82420b0b885eba06fab9f",
+      "data": {
+        "scalars": {
+          "curScreen": null,
+          "planetNext": "star07",
+          "playerTeam": 1,
+          "scenario": "all",
+          "turnNumber": 3,
+          "winnerTeam": null
+        },
+        "maps": {
+          "lastFleet": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": "star06"
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": "star02"
+            }
+          ],
+          "lastSelected": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": "star06"
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": "star02"
+            }
+          ],
+          "planetBase": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": "hot"
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": "end"
+            }
+          ],
+          "planetFleet": [
+            {
+              "key_type": "string",
+              "key": "star02",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "star06",
+              "value": 1
+            }
+          ],
+          "planetTeam": [
+            {
+              "key_type": "string",
+              "key": "cor",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "dag",
+              "value": 1
+            },
+            {
+              "key_type": "string",
+              "key": "end",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "fel",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "hot",
+              "value": 1
+            },
+            {
+              "key_type": "string",
+              "key": "kas",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "mus",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "myg",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "nab",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "pol",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "tat",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "uta",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "yav",
+              "value": 1
+            }
+          ],
+          "teamResources": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": 100
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": 80
+            }
+          ]
+        }
+      }
+    },
+    {
+      "sequence": 7,
+      "source_table": 2,
+      "update_ticket": 990,
+      "unchanged_samples": 5,
+      "sha256": "5a4a225420a97e5061e0ff1ef0d829f5f36555d2790ad2867b76150a6727fc21",
+      "data": {
+        "scalars": {
+          "curScreen": null,
+          "planetNext": "star07",
+          "playerTeam": 1,
+          "scenario": "all",
+          "turnNumber": 3,
+          "winnerTeam": null
+        },
+        "maps": {
+          "lastFleet": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": "star07"
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": "star02"
+            }
+          ],
+          "lastSelected": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": "star06"
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": "star02"
+            }
+          ],
+          "planetBase": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": "hot"
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": "end"
+            }
+          ],
+          "planetFleet": [
+            {
+              "key_type": "string",
+              "key": "star02",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "star07",
+              "value": 1
+            }
+          ],
+          "planetTeam": [
+            {
+              "key_type": "string",
+              "key": "cor",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "dag",
+              "value": 1
+            },
+            {
+              "key_type": "string",
+              "key": "end",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "fel",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "hot",
+              "value": 1
+            },
+            {
+              "key_type": "string",
+              "key": "kas",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "mus",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "myg",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "nab",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "pol",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "tat",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "uta",
+              "value": 2
+            },
+            {
+              "key_type": "string",
+              "key": "yav",
+              "value": 1
+            }
+          ],
+          "teamResources": [
+            {
+              "key_type": "integer",
+              "key": 1,
+              "value": 100
+            },
+            {
+              "key_type": "integer",
+              "key": 2,
+              "value": 80
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "rejected": []
+}

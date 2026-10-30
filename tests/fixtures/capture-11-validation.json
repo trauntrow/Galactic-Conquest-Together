@@ -1,0 +1,101 @@
+{
+  "producer_version": 1,
+  "valid_snapshots": 8,
+  "unique_states": 1,
+  "transport_rejections": [],
+  "snapshots": [
+    {
+      "sequence": 1,
+      "source_table": 2,
+      "update_ticket": 1,
+      "normalized_sha256": "c6f578582fa90742bd4ee1cf55fedc8c7ade17c0d281b48a0bd66cb0ecd9cac9",
+      "model_observations": []
+    },
+    {
+      "sequence": 2,
+      "source_table": 2,
+      "update_ticket": 300,
+      "normalized_sha256": "c6f578582fa90742bd4ee1cf55fedc8c7ade17c0d281b48a0bd66cb0ecd9cac9",
+      "model_observations": []
+    },
+    {
+      "sequence": 3,
+      "source_table": 2,
+      "update_ticket": 600,
+      "normalized_sha256": "c6f578582fa90742bd4ee1cf55fedc8c7ade17c0d281b48a0bd66cb0ecd9cac9",
+      "model_observations": []
+    },
+    {
+      "sequence": 4,
+      "source_table": 2,
+      "update_ticket": 900,
+      "normalized_sha256": "c6f578582fa90742bd4ee1cf55fedc8c7ade17c0d281b48a0bd66cb0ecd9cac9",
+      "model_observations": []
+    },
+    {
+      "sequence": 5,
+      "source_table": 2,
+      "update_ticket": 1200,
+      "normalized_sha256": "c6f578582fa90742bd4ee1cf55fedc8c7ade17c0d281b48a0bd66cb0ecd9cac9",
+      "model_observations": []
+    },
+    {
+      "sequence": 6,
+      "source_table": 2,
+      "update_ticket": 1500,
+      "normalized_sha256": "c6f578582fa90742bd4ee1cf55fedc8c7ade17c0d281b48a0bd66cb0ecd9cac9",
+      "model_observations": []
+    },
+    {
+      "sequence": 7,
+      "source_table": 2,
+      "update_ticket": 1800,
+      "normalized_sha256": "c6f578582fa90742bd4ee1cf55fedc8c7ade17c0d281b48a0bd66cb0ecd9cac9",
+      "model_observations": []
+    },
+    {
+      "sequence": 8,
+      "source_table": 2,
+      "update_ticket": 2100,
+      "normalized_sha256": "c6f578582fa90742bd4ee1cf55fedc8c7ade17c0d281b48a0bd66cb0ecd9cac9",
+      "model_observations": []
+    }
+  ],
+  "comparisons": [
+    {
+      "before": 1,
+      "after": 2,
+      "changes": []
+    },
+    {
+      "before": 2,
+      "after": 3,
+      "changes": []
+    },
+    {
+      "before": 3,
+      "after": 4,
+      "changes": []
+    },
+    {
+      "before": 4,
+      "after": 5,
+      "changes": []
+    },
+    {
+      "before": 5,
+      "after": 6,
+      "changes": []
+    },
+    {
+      "before": 6,
+      "after": 7,
+      "changes": []
+    },
+    {
+      "before": 7,
+      "after": 8,
+      "changes": []
+    }
+  ]
+}

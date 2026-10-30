@@ -1,0 +1,512 @@
+{
+  "producer_version": 5,
+  "valid_snapshots": 5,
+  "unique_states": 4,
+  "transport_rejections": [],
+  "snapshots": [
+    {
+      "sequence": 1,
+      "source_table": 2,
+      "update_ticket": 1,
+      "generation": 1,
+      "unchanged_samples": 0,
+      "normalized_sha256": "bc2030ef993f9f66ce4502832ca0bf7804a73147456244fa2f1111fdf6e99efd",
+      "model_observations": [
+        "controllerPlayer: key absent from resource-team keys: 0",
+        "controllerTeam: key absent from resource-team keys: 0",
+        "fleetPtr: entry holds an uncaptured nested table: n=1 k=string v=userdata",
+        "global.ifs_purchase_tech_cards: entry holds an uncaptured nested table: n=10 k=number v=boolean",
+        "global.ifs_purchase_tech_using: entry holds an uncaptured nested table: n=3 k=number v=number",
+        "global.ifs_purchase_unit_owned: entry holds an uncaptured nested table: n=2 k=string v=boolean",
+        "planetNext is absent from ownership map",
+        "teamName: key absent from resource-team keys: 0"
+      ]
+    },
+    {
+      "sequence": 2,
+      "source_table": 2,
+      "update_ticket": 2010,
+      "generation": 1,
+      "unchanged_samples": 66,
+      "normalized_sha256": "eb58f641ac01f42a7ab6410d6be83205d5834102940f4b9d6c1b9e608fa35f3b",
+      "model_observations": [
+        "controllerPlayer: key absent from resource-team keys: 0",
+        "controllerTeam: key absent from resource-team keys: 0",
+        "fleetPtr: entry holds an uncaptured nested table: n=1 k=string v=userdata",
+        "global.ifs_purchase_tech_cards: entry holds an uncaptured nested table: n=10 k=number v=boolean",
+        "global.ifs_purchase_tech_using: entry holds an uncaptured nested table: n=3 k=number v=number",
+        "global.ifs_purchase_unit_owned: entry holds an uncaptured nested table: n=2 k=string v=boolean",
+        "teamName: key absent from resource-team keys: 0"
+      ]
+    },
+    {
+      "sequence": 3,
+      "source_table": 2,
+      "update_ticket": 2100,
+      "generation": 1,
+      "unchanged_samples": 2,
+      "normalized_sha256": "bc2030ef993f9f66ce4502832ca0bf7804a73147456244fa2f1111fdf6e99efd",
+      "model_observations": [
+        "controllerPlayer: key absent from resource-team keys: 0",
+        "controllerTeam: key absent from resource-team keys: 0",
+        "fleetPtr: entry holds an uncaptured nested table: n=1 k=string v=userdata",
+        "global.ifs_purchase_tech_cards: entry holds an uncaptured nested table: n=10 k=number v=boolean",
+        "global.ifs_purchase_tech_using: entry holds an uncaptured nested table: n=3 k=number v=number",
+        "global.ifs_purchase_unit_owned: entry holds an uncaptured nested table: n=2 k=string v=boolean",
+        "planetNext is absent from ownership map",
+        "teamName: key absent from resource-team keys: 0"
+      ]
+    },
+    {
+      "sequence": 4,
+      "source_table": 2,
+      "update_ticket": 2550,
+      "generation": 1,
+      "unchanged_samples": 14,
+      "normalized_sha256": "4cde28f831dce3bb5178fb708abde23970a7697594f951bbc0600de6b5da16f4",
+      "model_observations": [
+        "controllerPlayer: key absent from resource-team keys: 0",
+        "controllerTeam: key absent from resource-team keys: 0",
+        "fleetPtr: entry holds an uncaptured nested table: n=1 k=string v=userdata",
+        "global.ifs_purchase_tech_cards: entry holds an uncaptured nested table: n=10 k=number v=boolean",
+        "global.ifs_purchase_tech_using: entry holds an uncaptured nested table: n=3 k=number v=number",
+        "global.ifs_purchase_unit_owned: entry holds an uncaptured nested table: n=2 k=string v=boolean",
+        "lastFleet: referenced planet absent from ownership map: 'star15'",
+        "planetFleet: key absent from ownership map: 'star15'",
+        "planetNext is absent from ownership map",
+        "teamName: key absent from resource-team keys: 0"
+      ]
+    },
+    {
+      "sequence": 5,
+      "source_table": 2,
+      "update_ticket": 2610,
+      "generation": 1,
+      "unchanged_samples": 1,
+      "normalized_sha256": "f182d623c049215ac01337e7344db537a51e458ef8f184b34fce32c36d45f2e4",
+      "model_observations": [
+        "controllerPlayer: key absent from resource-team keys: 0",
+        "controllerTeam: key absent from resource-team keys: 0",
+        "fleetPtr: entry holds an uncaptured nested table: n=1 k=string v=userdata",
+        "global.ifs_purchase_tech_cards: entry holds an uncaptured nested table: n=10 k=number v=boolean",
+        "global.ifs_purchase_tech_using: entry holds an uncaptured nested table: n=3 k=number v=number",
+        "global.ifs_purchase_unit_owned: entry holds an uncaptured nested table: n=2 k=string v=boolean",
+        "lastFleet: referenced planet absent from ownership map: 'star02'",
+        "lastFleet: referenced planet absent from ownership map: 'star15'",
+        "lastSelected: referenced planet absent from ownership map: 'star02'",
+        "lastSelected: referenced planet absent from ownership map: 'star15'",
+        "planetFleet: key absent from ownership map: 'star02'",
+        "planetFleet: key absent from ownership map: 'star15'",
+        "teamName: key absent from resource-team keys: 0"
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "before": 1,
+      "after": 2,
+      "unchanged_samples": 66,
+      "changes": [
+        {
+          "section": "probed",
+          "field": "fleet.planetNext",
+          "change": "changed",
+          "before": {
+            "kind": "scalar",
+            "value": null
+          },
+          "after": {
+            "kind": "scalar",
+            "value": "fel"
+          }
+        },
+        {
+          "section": "probed",
+          "field": "fleet.planetStart",
+          "change": "changed",
+          "before": {
+            "kind": "scalar",
+            "value": null
+          },
+          "after": {
+            "kind": "scalar",
+            "value": "yav"
+          }
+        },
+        {
+          "section": "probed",
+          "field": "fleet.turnNumber",
+          "change": "changed",
+          "before": {
+            "kind": "scalar",
+            "value": null
+          },
+          "after": {
+            "kind": "scalar",
+            "value": 1
+          }
+        },
+        {
+          "section": "scalars",
+          "field": "planetNext",
+          "change": "changed",
+          "before": "star15",
+          "after": "fel"
+        },
+        {
+          "section": "maps",
+          "field": "lastFleet",
+          "key_type": "integer",
+          "key": 1,
+          "change": "changed",
+          "before": "yav",
+          "after": "fel"
+        },
+        {
+          "section": "maps",
+          "field": "planetFleet",
+          "key_type": "string",
+          "key": "fel",
+          "change": "added",
+          "after": 1
+        },
+        {
+          "section": "maps",
+          "field": "planetFleet",
+          "key_type": "string",
+          "key": "yav",
+          "change": "removed",
+          "before": 1
+        }
+      ]
+    },
+    {
+      "before": 2,
+      "after": 3,
+      "unchanged_samples": 2,
+      "changes": [
+        {
+          "section": "probed",
+          "field": "fleet.planetNext",
+          "change": "changed",
+          "before": {
+            "kind": "scalar",
+            "value": "fel"
+          },
+          "after": {
+            "kind": "scalar",
+            "value": null
+          }
+        },
+        {
+          "section": "probed",
+          "field": "fleet.planetStart",
+          "change": "changed",
+          "before": {
+            "kind": "scalar",
+            "value": "yav"
+          },
+          "after": {
+            "kind": "scalar",
+            "value": null
+          }
+        },
+        {
+          "section": "probed",
+          "field": "fleet.turnNumber",
+          "change": "changed",
+          "before": {
+            "kind": "scalar",
+            "value": 1
+          },
+          "after": {
+            "kind": "scalar",
+            "value": null
+          }
+        },
+        {
+          "section": "scalars",
+          "field": "planetNext",
+          "change": "changed",
+          "before": "fel",
+          "after": "star15"
+        },
+        {
+          "section": "maps",
+          "field": "lastFleet",
+          "key_type": "integer",
+          "key": 1,
+          "change": "changed",
+          "before": "fel",
+          "after": "yav"
+        },
+        {
+          "section": "maps",
+          "field": "planetFleet",
+          "key_type": "string",
+          "key": "fel",
+          "change": "removed",
+          "before": 1
+        },
+        {
+          "section": "maps",
+          "field": "planetFleet",
+          "key_type": "string",
+          "key": "yav",
+          "change": "added",
+          "after": 1
+        }
+      ]
+    },
+    {
+      "before": 3,
+      "after": 4,
+      "unchanged_samples": 14,
+      "changes": [
+        {
+          "section": "probed",
+          "field": "fleet.planetNext",
+          "change": "changed",
+          "before": {
+            "kind": "scalar",
+            "value": null
+          },
+          "after": {
+            "kind": "scalar",
+            "value": "star15"
+          }
+        },
+        {
+          "section": "probed",
+          "field": "fleet.planetStart",
+          "change": "changed",
+          "before": {
+            "kind": "scalar",
+            "value": null
+          },
+          "after": {
+            "kind": "scalar",
+            "value": "yav"
+          }
+        },
+        {
+          "section": "probed",
+          "field": "fleet.turnNumber",
+          "change": "changed",
+          "before": {
+            "kind": "scalar",
+            "value": null
+          },
+          "after": {
+            "kind": "scalar",
+            "value": 1
+          }
+        },
+        {
+          "section": "maps",
+          "field": "lastFleet",
+          "key_type": "integer",
+          "key": 1,
+          "change": "changed",
+          "before": "yav",
+          "after": "star15"
+        },
+        {
+          "section": "maps",
+          "field": "planetFleet",
+          "key_type": "string",
+          "key": "star15",
+          "change": "added",
+          "after": 1
+        },
+        {
+          "section": "maps",
+          "field": "planetFleet",
+          "key_type": "string",
+          "key": "yav",
+          "change": "removed",
+          "before": 1
+        }
+      ]
+    },
+    {
+      "before": 4,
+      "after": 5,
+      "unchanged_samples": 1,
+      "changes": [
+        {
+          "section": "probed",
+          "field": "fleet.planetNext",
+          "change": "changed",
+          "before": {
+            "kind": "scalar",
+            "value": "star15"
+          },
+          "after": {
+            "kind": "scalar",
+            "value": null
+          }
+        },
+        {
+          "section": "probed",
+          "field": "fleet.planetStart",
+          "change": "changed",
+          "before": {
+            "kind": "scalar",
+            "value": "yav"
+          },
+          "after": {
+            "kind": "scalar",
+            "value": null
+          }
+        },
+        {
+          "section": "probed",
+          "field": "fleet.turnNumber",
+          "change": "changed",
+          "before": {
+            "kind": "scalar",
+            "value": 1
+          },
+          "after": {
+            "kind": "scalar",
+            "value": null
+          }
+        },
+        {
+          "section": "scalars",
+          "field": "planetNext",
+          "change": "changed",
+          "before": "star15",
+          "after": "myg"
+        },
+        {
+          "section": "scalars",
+          "field": "turnNumber",
+          "change": "changed",
+          "before": 1,
+          "after": 3
+        },
+        {
+          "section": "maps",
+          "field": "lastFleet",
+          "key_type": "integer",
+          "key": 2,
+          "change": "changed",
+          "before": "mus",
+          "after": "star02"
+        },
+        {
+          "section": "maps",
+          "field": "lastSelected",
+          "key_type": "integer",
+          "key": 1,
+          "change": "changed",
+          "before": "yav",
+          "after": "star15"
+        },
+        {
+          "section": "maps",
+          "field": "lastSelected",
+          "key_type": "integer",
+          "key": 2,
+          "change": "changed",
+          "before": "mus",
+          "after": "star02"
+        },
+        {
+          "section": "maps",
+          "field": "planetFleet",
+          "key_type": "string",
+          "key": "mus",
+          "change": "removed",
+          "before": 2
+        },
+        {
+          "section": "maps",
+          "field": "planetFleet",
+          "key_type": "string",
+          "key": "star02",
+          "change": "added",
+          "after": 2
+        },
+        {
+          "section": "maps",
+          "field": "teamResources",
+          "key_type": "integer",
+          "key": 2,
+          "change": "changed",
+          "before": 100,
+          "after": 60
+        }
+      ]
+    }
+  ],
+  "probed_shapes": {
+    "activeBonus": [
+      "map"
+    ],
+    "battleResources": [
+      "scalar"
+    ],
+    "controllerPlayer": [
+      "map"
+    ],
+    "controllerTeam": [
+      "map"
+    ],
+    "custom": [
+      "scalar"
+    ],
+    "fleet.planetNext": [
+      "scalar"
+    ],
+    "fleet.planetStart": [
+      "scalar"
+    ],
+    "fleet.turnNumber": [
+      "scalar"
+    ],
+    "fleetBattle": [
+      "scalar"
+    ],
+    "fleetPtr": [
+      "map"
+    ],
+    "global.ifs_purchase_tech_cards": [
+      "map"
+    ],
+    "global.ifs_purchase_tech_using": [
+      "map"
+    ],
+    "global.ifs_purchase_unit_owned": [
+      "map"
+    ],
+    "launchMission": [
+      "scalar"
+    ],
+    "otherSide": [
+      "scalar"
+    ],
+    "planetResources": [
+      "scalar"
+    ],
+    "playerSide": [
+      "scalar"
+    ],
+    "recentPlanets": [
+      "map"
+    ],
+    "soakMode": [
+      "scalar"
+    ],
+    "teamCode": [
+      "map"
+    ],
+    "teamName": [
+      "map"
+    ]
+  },
+  "unchanged_samples_total": 83,
+  "producer_observations": []
+}

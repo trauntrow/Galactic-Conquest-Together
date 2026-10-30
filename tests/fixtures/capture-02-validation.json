@@ -1,0 +1,94 @@
+{
+  "producer_version": 5,
+  "valid_snapshots": 1,
+  "unique_states": 1,
+  "transport_rejections": [],
+  "snapshots": [
+    {
+      "sequence": 1,
+      "source_table": 2,
+      "update_ticket": 1,
+      "generation": 1,
+      "unchanged_samples": 0,
+      "normalized_sha256": "83ffa1e3a4f022308f0c0277a0c78899b9b02d20e3070fc87c684ab52625511c",
+      "model_observations": [
+        "controllerPlayer: key absent from resource-team keys: 0",
+        "controllerTeam: key absent from resource-team keys: 0",
+        "fleetPtr: entry holds an uncaptured nested table: n=1 k=string v=userdata",
+        "global.ifs_purchase_tech_cards: entry holds an uncaptured nested table: n=10 k=number v=boolean",
+        "global.ifs_purchase_tech_using: entry holds an uncaptured nested table: n=3 k=number v=number",
+        "global.ifs_purchase_unit_owned: entry holds an uncaptured nested table: n=2 k=string v=boolean",
+        "planetNext is absent from ownership map",
+        "teamName: key absent from resource-team keys: 0"
+      ]
+    }
+  ],
+  "comparisons": [],
+  "probed_shapes": {
+    "activeBonus": [
+      "map"
+    ],
+    "battleResources": [
+      "scalar"
+    ],
+    "controllerPlayer": [
+      "map"
+    ],
+    "controllerTeam": [
+      "map"
+    ],
+    "custom": [
+      "scalar"
+    ],
+    "fleet.planetNext": [
+      "scalar"
+    ],
+    "fleet.planetStart": [
+      "scalar"
+    ],
+    "fleet.turnNumber": [
+      "scalar"
+    ],
+    "fleetBattle": [
+      "scalar"
+    ],
+    "fleetPtr": [
+      "map"
+    ],
+    "global.ifs_purchase_tech_cards": [
+      "map"
+    ],
+    "global.ifs_purchase_tech_using": [
+      "map"
+    ],
+    "global.ifs_purchase_unit_owned": [
+      "map"
+    ],
+    "launchMission": [
+      "scalar"
+    ],
+    "otherSide": [
+      "scalar"
+    ],
+    "planetResources": [
+      "scalar"
+    ],
+    "playerSide": [
+      "scalar"
+    ],
+    "recentPlanets": [
+      "map"
+    ],
+    "soakMode": [
+      "scalar"
+    ],
+    "teamCode": [
+      "map"
+    ],
+    "teamName": [
+      "map"
+    ]
+  },
+  "unchanged_samples_total": 0,
+  "producer_observations": []
+}

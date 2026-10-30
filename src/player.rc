@@ -1,0 +1,31 @@
+// Version resource of the release DLL, shown on the file's Details tab in Explorer.
+#include <winver.h>
+#include "version.h"
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION GC_VERSION_MAJOR,GC_VERSION_MINOR,GC_VERSION_PATCH,0
+ PRODUCTVERSION GC_VERSION_MAJOR,GC_VERSION_MINOR,GC_VERSION_PATCH,0
+ FILEFLAGSMASK VS_FFI_FILEFLAGSMASK
+ FILEFLAGS 0x0L
+ FILEOS VOS_NT_WINDOWS32
+ FILETYPE VFT_DLL
+ FILESUBTYPE VFT2_UNKNOWN
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "FileDescription", "Galactic Conquest Together: co-op and Versus Galactic Conquest for Star Wars Battlefront II (2005, Steam)"
+            VALUE "FileVersion", GC_VERSION
+            VALUE "InternalName", "gct"
+            VALUE "OriginalFilename", "dinput8.dll"
+            VALUE "ProductName", "Galactic Conquest Together"
+            VALUE "ProductVersion", GC_VERSION
+            VALUE "Comments", "Fan-made mod. Not affiliated with or endorsed by Electronic Arts, Lucasfilm or Valve."
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END

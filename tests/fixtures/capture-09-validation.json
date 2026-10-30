@@ -1,0 +1,274 @@
+{
+  "producer_version": 3,
+  "valid_snapshots": 1,
+  "unique_states": 1,
+  "transport_rejections": [],
+  "snapshots": [
+    {
+      "sequence": 1,
+      "source_table": 2,
+      "update_ticket": 1,
+      "unchanged_samples": 0,
+      "normalized_sha256": "fee0b67de8837bbeeb5b2838b3da4de431be8796d53e12ba2a51def9d502dc0f",
+      "model_observations": [
+        "controllerPlayer: key absent from resource-team keys: 0",
+        "controllerTeam: key absent from resource-team keys: 0",
+        "fleetPtr: entry value kind is not representable: table",
+        "planetNext is absent from ownership map",
+        "teamName: key absent from resource-team keys: 0"
+      ]
+    }
+  ],
+  "comparisons": [],
+  "probed_shapes": {
+    "controllerPlayer": [
+      "map"
+    ],
+    "controllerTeam": [
+      "map"
+    ],
+    "fleetPtr": [
+      "map"
+    ],
+    "otherSide": [
+      "scalar"
+    ],
+    "playerSide": [
+      "scalar"
+    ],
+    "teamCode": [
+      "map"
+    ],
+    "teamName": [
+      "map"
+    ]
+  },
+  "unchanged_samples_total": 0,
+  "producer_observations": [],
+  "against": {
+    "file": "capture-04.json",
+    "before_sequence": 1,
+    "after_sequence": 3,
+    "changes": [
+      {
+        "section": "probed",
+        "field": "controllerTeam",
+        "change": "changed",
+        "before": {
+          "kind": "map",
+          "entries": [
+            {
+              "key_type": "integer",
+              "key": 0,
+              "value": 2
+            }
+          ]
+        },
+        "after": {
+          "kind": "map",
+          "entries": [
+            {
+              "key_type": "integer",
+              "key": 0,
+              "value": 1
+            }
+          ]
+        }
+      },
+      {
+        "section": "probed",
+        "field": "otherSide",
+        "change": "changed",
+        "before": {
+          "kind": "scalar",
+          "value": "all"
+        },
+        "after": {
+          "kind": "scalar",
+          "value": "imp"
+        }
+      },
+      {
+        "section": "probed",
+        "field": "playerSide",
+        "change": "changed",
+        "before": {
+          "kind": "scalar",
+          "value": "imp"
+        },
+        "after": {
+          "kind": "scalar",
+          "value": "all"
+        }
+      },
+      {
+        "section": "scalars",
+        "field": "planetNext",
+        "change": "changed",
+        "before": "star17",
+        "after": "myg"
+      },
+      {
+        "section": "scalars",
+        "field": "playerTeam",
+        "change": "changed",
+        "before": 2,
+        "after": 1
+      },
+      {
+        "section": "scalars",
+        "field": "scenario",
+        "change": "changed",
+        "before": "imp",
+        "after": "all"
+      },
+      {
+        "section": "scalars",
+        "field": "turnNumber",
+        "change": "changed",
+        "before": 1,
+        "after": 3
+      },
+      {
+        "section": "maps",
+        "field": "lastFleet",
+        "key_type": "integer",
+        "key": 1,
+        "change": "changed",
+        "before": "dag",
+        "after": "star15"
+      },
+      {
+        "section": "maps",
+        "field": "lastFleet",
+        "key_type": "integer",
+        "key": 2,
+        "change": "changed",
+        "before": "cor",
+        "after": "star18"
+      },
+      {
+        "section": "maps",
+        "field": "lastSelected",
+        "key_type": "integer",
+        "key": 1,
+        "change": "changed",
+        "before": "dag",
+        "after": "star15"
+      },
+      {
+        "section": "maps",
+        "field": "lastSelected",
+        "key_type": "integer",
+        "key": 2,
+        "change": "changed",
+        "before": "cor",
+        "after": "star18"
+      },
+      {
+        "section": "maps",
+        "field": "planetFleet",
+        "key_type": "string",
+        "key": "cor",
+        "change": "removed",
+        "before": 2
+      },
+      {
+        "section": "maps",
+        "field": "planetFleet",
+        "key_type": "string",
+        "key": "dag",
+        "change": "removed",
+        "before": 1
+      },
+      {
+        "section": "maps",
+        "field": "planetFleet",
+        "key_type": "string",
+        "key": "star15",
+        "change": "added",
+        "after": 1
+      },
+      {
+        "section": "maps",
+        "field": "planetFleet",
+        "key_type": "string",
+        "key": "star18",
+        "change": "added",
+        "after": 2
+      },
+      {
+        "section": "maps",
+        "field": "planetTeam",
+        "key_type": "string",
+        "key": "fel",
+        "change": "changed",
+        "before": 1,
+        "after": 2
+      },
+      {
+        "section": "maps",
+        "field": "planetTeam",
+        "key_type": "string",
+        "key": "kas",
+        "change": "changed",
+        "before": 1,
+        "after": 2
+      },
+      {
+        "section": "maps",
+        "field": "planetTeam",
+        "key_type": "string",
+        "key": "myg",
+        "change": "changed",
+        "before": 1,
+        "after": 2
+      },
+      {
+        "section": "maps",
+        "field": "planetTeam",
+        "key_type": "string",
+        "key": "nab",
+        "change": "changed",
+        "before": 1,
+        "after": 2
+      },
+      {
+        "section": "maps",
+        "field": "planetTeam",
+        "key_type": "string",
+        "key": "pol",
+        "change": "changed",
+        "before": 1,
+        "after": 2
+      },
+      {
+        "section": "maps",
+        "field": "planetTeam",
+        "key_type": "string",
+        "key": "tat",
+        "change": "changed",
+        "before": 1,
+        "after": 2
+      },
+      {
+        "section": "maps",
+        "field": "planetTeam",
+        "key_type": "string",
+        "key": "uta",
+        "change": "changed",
+        "before": 1,
+        "after": 2
+      },
+      {
+        "section": "maps",
+        "field": "teamResources",
+        "key_type": "integer",
+        "key": 2,
+        "change": "changed",
+        "before": 100,
+        "after": 20
+      }
+    ]
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "producer_version": 2,
+  "valid_snapshots": 7,
+  "unique_states": 7,
+  "transport_rejections": [],
+  "snapshots": [
+    {
+      "sequence": 1,
+      "source_table": 2,
+      "update_ticket": 1,
+      "unchanged_samples": 0,
+      "normalized_sha256": "d5365328e08f6b9c9b7d8a1bf9452029638664ca63a269e05d41df9ebe736db4",
+      "model_observations": []
+    },
+    {
+      "sequence": 2,
+      "source_table": 2,
+      "update_ticket": 180,
+      "unchanged_samples": 5,
+      "normalized_sha256": "dfad2dbdd1319583c7681dea00566febde585850b58040591f82109e85939470",
+      "model_observations": [
+        "planetNext is absent from ownership map"
+      ]
+    },
+    {
+      "sequence": 3,
+      "source_table": 2,
+      "update_ticket": 300,
+      "unchanged_samples": 3,
+      "normalized_sha256": "18a35fb06243403f234a1c37f41bb9bf4fc381c3136573e8f7fb8570eb5f871c",
+      "model_observations": [
+        "planetNext is absent from ownership map"
+      ]
+    },
+    {
+      "sequence": 4,
+      "source_table": 2,
+      "update_ticket": 390,
+      "unchanged_samples": 2,
+      "normalized_sha256": "09116c0f30c1e624bd11fee8abadee08adba6992be1fd631ff68219eb9391e05",
+      "model_observations": [
+        "lastFleet: referenced planet absent from ownership map: 'star06'",
+        "planetFleet: key absent from ownership map: 'star06'",
+        "planetNext is absent from ownership map"
+      ]
+    },
+    {
+      "sequence": 5,
+      "source_table": 2,
+      "update_ticket": 450,
+      "unchanged_samples": 1,
+      "normalized_sha256": "723d3d50a29c65fd5bbbb2828308300d663f8aa2c0cfd93b453b85187eaf385d",
+      "model_observations": [
+        "lastFleet: referenced planet absent from ownership map: 'star02'",
+        "lastFleet: referenced planet absent from ownership map: 'star06'",
+        "lastSelected: referenced planet absent from ownership map: 'star02'",
+        "lastSelected: referenced planet absent from ownership map: 'star06'",
+        "planetFleet: key absent from ownership map: 'star02'",
+        "planetFleet: key absent from ownership map: 'star06'"
+      ]
+    },
+    {
+      "sequence": 6,
+      "source_table": 2,
+      "update_ticket": 810,
+      "unchanged_samples": 11,
+      "normalized_sha256": "95253d87be5435d28342771f8c7ef0d1d1674b51efc82420b0b885eba06fab9f",
+      "model_observations": [
+        "lastFleet: referenced planet absent from ownership map: 'star02'",
+        "lastFleet: referenced planet absent from ownership map: 'star06'",
+        "lastSelected: referenced planet absent from ownership map: 'star02'",
+        "lastSelected: referenced planet absent from ownership map: 'star06'",
+        "planetFleet: key absent from ownership map: 'star02'",
+        "planetFleet: key absent from ownership map: 'star06'",
+        "planetNext is absent from ownership map"
+      ]
+    },
+    {
+      "sequence": 7,
+      "source_table": 2,
+      "update_ticket": 990,
+      "unchanged_samples": 5,
+      "normalized_sha256": "5a4a225420a97e5061e0ff1ef0d829f5f36555d2790ad2867b76150a6727fc21",
+      "model_observations": [
+        "lastFleet: referenced planet absent from ownership map: 'star02'",
+        "lastFleet: referenced planet absent from ownership map: 'star07'",
+        "lastSelected: referenced planet absent from ownership map: 'star02'",
+        "lastSelected: referenced planet absent from ownership map: 'star06'",
+        "planetFleet: key absent from ownership map: 'star02'",
+        "planetFleet: key absent from ownership map: 'star07'",
+        "planetNext is absent from ownership map"
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "before": 1,
+      "after": 2,
+      "unchanged_samples": 5,
+      "changes": [
+        {
+          "section": "scalars",
+          "field": "planetNext",
+          "change": "changed",
+          "before": "nab",
+          "after": "star05"
+        }
+      ]
+    },
+    {
+      "before": 2,
+      "after": 3,
+      "unchanged_samples": 3,
+      "changes": [
+        {
+          "section": "scalars",
+          "field": "planetNext",
+          "change": "changed",
+          "before": "star05",
+          "after": "star06"
+        }
+      ]
+    },
+    {
+      "before": 3,
+      "after": 4,
+      "unchanged_samples": 2,
+      "changes": [
+        {
+          "section": "maps",
+          "field": "lastFleet",
+          "key_type": "integer",
+          "key": 1,
+          "change": "changed",
+          "before": "dag",
+          "after": "star06"
+        },
+        {
+          "section": "maps",
+          "field": "planetFleet",
+          "key_type": "string",
+          "key": "dag",
+          "change": "removed",
+          "before": 1
+        },
+        {
+          "section": "maps",
+          "field": "planetFleet",
+          "key_type": "string",
+          "key": "star06",
+          "change": "added",
+          "after": 1
+        }
+      ]
+    },
+    {
+      "before": 4,
+      "after": 5,
+      "unchanged_samples": 1,
+      "changes": [
+        {
+          "section": "scalars",
+          "field": "planetNext",
+          "change": "changed",
+          "before": "star06",
+          "after": "uta"
+        },
+        {
+          "section": "scalars",
+          "field": "turnNumber",
+          "change": "changed",
+          "before": 1,
+          "after": 3
+        },
+        {
+          "section": "maps",
+          "field": "lastFleet",
+          "key_type": "integer",
+          "key": 2,
+          "change": "changed",
+          "before": "mus",
+          "after": "star02"
+        },
+        {
+          "section": "maps",
+          "field": "lastSelected",
+          "key_type": "integer",
+          "key": 1,
+          "change": "changed",
+          "before": "dag",
+          "after": "star06"
+        },
+        {
+          "section": "maps",
+          "field": "lastSelected",
+          "key_type": "integer",
+          "key": 2,
+          "change": "changed",
+          "before": "mus",
+          "after": "star02"
+        },
+        {
+          "section": "maps",
+          "field": "planetFleet",
+          "key_type": "string",
+          "key": "mus",
+          "change": "removed",
+          "before": 2
+        },
+        {
+          "section": "maps",
+          "field": "planetFleet",
+          "key_type": "string",
+          "key": "star02",
+          "change": "added",
+          "after": 2
+        },
+        {
+          "section": "maps",
+          "field": "teamResources",
+          "key_type": "integer",
+          "key": 2,
+          "change": "changed",
+          "before": 100,
+          "after": 80
+        }
+      ]
+    },
+    {
+      "before": 5,
+      "after": 6,
+      "unchanged_samples": 11,
+      "changes": [
+        {
+          "section": "scalars",
+          "field": "planetNext",
+          "change": "changed",
+          "before": "uta",
+          "after": "star07"
+        }
+      ]
+    },
+    {
+      "before": 6,
+      "after": 7,
+      "unchanged_samples": 5,
+      "changes": [
+        {
+          "section": "maps",
+          "field": "lastFleet",
+          "key_type": "integer",
+          "key": 1,
+          "change": "changed",
+          "before": "star06",
+          "after": "star07"
+        },
+        {
+          "section": "maps",
+          "field": "planetFleet",
+          "key_type": "string",
+          "key": "star06",
+          "change": "removed",
+          "before": 1
+        },
+        {
+          "section": "maps",
+          "field": "planetFleet",
+          "key_type": "string",
+          "key": "star07",
+          "change": "added",
+          "after": 1
+        }
+      ]
+    }
+  ],
+  "unchanged_samples_total": 27,
+  "producer_observations": []
+}

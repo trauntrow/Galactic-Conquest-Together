@@ -1,0 +1,2084 @@
+2026-09-13T22:20:28.160Z [395205281 pid=14068 tid=13048] GCT rebuild diagnostic bootstrap; DEV=1
+2026-09-13T22:20:28.162Z [395205281 pid=14068 tid=13048] IMAGE base=00C60000 preferred=00C60000 slide=00860000
+2026-09-13T22:20:28.199Z [395205328 pid=14068 tid=13048] GUARD DoBuffer RVA=0029B700 MATCH
+2026-09-13T22:20:28.199Z [395205328 pid=14068 tid=13048] GUARD PushScreen RVA=001852E0 MATCH
+2026-09-13T22:20:28.199Z [395205328 pid=14068 tid=13048] GUARD EnterMission RVA=0017F060 MATCH
+2026-09-13T22:20:28.199Z [395205328 pid=14068 tid=13048] GUARD LaunchLobby RVA=00192860 MATCH
+2026-09-13T22:20:28.200Z [395205328 pid=14068 tid=13048] GUARD ReloadLevel RVA=001807A0 MATCH
+2026-09-13T22:20:28.200Z [395205328 pid=14068 tid=13048] GUARD GetLocalPlayerName RVA=001D6370 MATCH
+2026-09-13T22:20:28.200Z [395205328 pid=14068 tid=13048] GUARD WindowProcedure RVA=002172A0 MATCH
+2026-09-13T22:20:28.200Z [395205328 pid=14068 tid=13048] GUARD FrameLimiter RVA=0013AB20 MATCH
+2026-09-13T22:20:28.200Z [395205328 pid=14068 tid=13048] GUARD FrameDriverCall RVA=00217A97 MATCH
+2026-09-13T22:20:28.200Z [395205328 pid=14068 tid=13048] GUARD RetiredNullPlanetPatch RVA=0033E315 MATCH
+2026-09-13T22:20:28.200Z [395205328 pid=14068 tid=13048] GUARD RetiredNullRenderPatch RVA=0033B714 MATCH
+2026-09-13T22:20:28.200Z [395205328 pid=14068 tid=13048] GUARD RetiredNullScenePatch RVA=00348440 MATCH
+2026-09-13T22:20:28.200Z [395205328 pid=14068 tid=13048] PROFILE ACCEPT; no feature patches enabled
+2026-09-13T22:20:28.200Z [395205328 pid=14068 tid=13048] Read-only exception observer=2386B318
+2026-09-13T22:20:28.200Z [395205328 pid=14068 tid=13048] IAT observation FindFirstFileA=1 OutputDebugStringA=1 W=0
+2026-09-13T22:20:28.200Z [395205328 pid=14068 tid=13048] CAMPAIGN_CAPTURE armed fixed_script=campaign_capture_v6 max_install_attempts=1 main_menu_only=1 max_rearms=4 rearm_requires=same_lua_context
+2026-09-13T22:20:28.223Z [395205343 pid=14068 tid=13048] FRAME_PROBE install=MH_OK target=00D9AE90 caller=00E77A9C
+2026-09-13T22:20:28.223Z [395205343 pid=14068 tid=13048] STATE flow=4 lua=086C11A4 render_count=1 suspend=0 candidate_lock=0
+2026-09-13T22:20:28.223Z [395205343 pid=14068 tid=13048] FRAME_STATE sample_ms=395205343 game_tid=3432 caller=00E77A9C expected=1 context=086C11A4 readable=1 top=086E9D18 base=086E9CD8 raw10=086C8334 raw14=0891D9F4 raw18=086EACC8 raw1c=086E9CD0 raw20=00000205 raw24=0891DB74 raw28=0891D9F4 raw2c=00000010
+2026-09-13T22:20:28.223Z [395205343 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=1 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:20:28.223Z [395205343 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=1 (worker liveness, not game simulation)
+2026-09-13T22:20:28.223Z [395205343 pid=14068 tid=13048] Galaxy GetInstance export=58CE2FBD (not invoked)
+2026-09-13T22:20:30.061Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:1:screen:ifs_freeform_main
+2026-09-13T22:20:30.061Z [395207187 pid=14068 tid=3432] CHANNEL_PATH data\_lvl_pc\GCOBS:1:screen:ifs_freeform_main
+2026-09-13T22:20:30.061Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:1:wrapped:Enter
+2026-09-13T22:20:30.061Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:1:wrapped:Exit
+2026-09-13T22:20:30.061Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:1:wrapped:Update
+2026-09-13T22:20:30.061Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:1:wrapped:SelectPlanet
+2026-09-13T22:20:30.061Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:2:screen:ifs_freeform_fleet
+2026-09-13T22:20:30.061Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:2:wrapped:Enter
+2026-09-13T22:20:30.061Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:2:wrapped:Exit
+2026-09-13T22:20:30.061Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:2:wrapped:Update
+2026-09-13T22:20:30.061Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:2:wrapped:Input_Accept
+2026-09-13T22:20:30.061Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:2:wrapped:Input_Back
+2026-09-13T22:20:30.061Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:3:screen:ifs_freeform_ai
+2026-09-13T22:20:30.061Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:3:wrapped:Enter
+2026-09-13T22:20:30.061Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:3:wrapped:Exit
+2026-09-13T22:20:30.061Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:3:wrapped:Input_Accept
+2026-09-13T22:20:30.061Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:3:wrapped:Input_Back
+2026-09-13T22:20:30.061Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:3:wrapped:CalculatePurchaseItem
+2026-09-13T22:20:30.061Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:3:wrapped:CalculateBuildFleet
+2026-09-13T22:20:30.061Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:3:wrapped:UpdateBuildFleet
+2026-09-13T22:20:30.061Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:3:wrapped:CalculateMoveFleet
+2026-09-13T22:20:30.061Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:3:wrapped:UpdateMoveFleet
+2026-09-13T22:20:30.061Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:3:wrapped:UpdateDone
+2026-09-13T22:20:30.061Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:3:wrapped:UpdateCommon
+2026-09-13T22:20:30.061Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:4:screen:ifs_freeform_summary
+2026-09-13T22:20:30.061Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:4:wrapped:Enter
+2026-09-13T22:20:30.062Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:4:wrapped:Exit
+2026-09-13T22:20:30.062Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:4:wrapped:Update
+2026-09-13T22:20:30.062Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:4:wrapped:Input_Accept
+2026-09-13T22:20:30.062Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:4:wrapped:Input_Back
+2026-09-13T22:20:30.062Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:5:screen:ifs_freeform_result
+2026-09-13T22:20:30.062Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:5:wrapped:Enter
+2026-09-13T22:20:30.062Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:5:wrapped:Exit
+2026-09-13T22:20:30.062Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:5:wrapped:Update
+2026-09-13T22:20:30.062Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:5:wrapped:Input_Accept
+2026-09-13T22:20:30.062Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:5:wrapped:Input_Back
+2026-09-13T22:20:30.062Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:6:screen:ifs_freeform_purchase_unit
+2026-09-13T22:20:30.062Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:6:wrapped:Enter
+2026-09-13T22:20:30.062Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:6:wrapped:Exit
+2026-09-13T22:20:30.062Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:6:wrapped:Update
+2026-09-13T22:20:30.062Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:6:wrapped:Input_Accept
+2026-09-13T22:20:30.062Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:6:wrapped:Input_Back
+2026-09-13T22:20:30.062Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:7:screen:ifs_freeform_purchase_tech
+2026-09-13T22:20:30.062Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:7:wrapped:Enter
+2026-09-13T22:20:30.062Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:7:wrapped:Exit
+2026-09-13T22:20:30.062Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:7:wrapped:Update
+2026-09-13T22:20:30.062Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:7:wrapped:Input_Accept
+2026-09-13T22:20:30.062Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:7:wrapped:Input_Back
+2026-09-13T22:20:30.063Z [395207187 pid=14068 tid=3432] CHANNEL GCOBS:installed:campaign_v6:1
+2026-09-13T22:20:30.323Z [395207453 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:20:38.468Z [395215593 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=662 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:20:38.733Z [395215859 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=41 (worker liveness, not game simulation)
+2026-09-13T22:20:40.568Z [395217687 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:20:41.333Z [395218453 pid=14068 tid=13048] STATE flow=0 lua=086C11A4 render_count=1 suspend=0 candidate_lock=0
+2026-09-13T22:20:42.728Z [395219859 pid=14068 tid=3432] CHANNEL GCOBS:1:Enter:begin:1
+2026-09-13T22:20:42.757Z [395219890 pid=14068 tid=3432] ENGINE Model with 4 segments [all_inf_soldier]
+
+2026-09-13T22:20:42.759Z [395219890 pid=14068 tid=3432] ENGINE Model with 3 segments [all_weap_inf_rifle]
+
+2026-09-13T22:20:42.764Z [395219890 pid=14068 tid=3432] ENGINE Model with 7 segments [all_inf_pilot]
+
+2026-09-13T22:20:42.769Z [395219890 pid=14068 tid=3432] ENGINE Model with 3 segments [all_inf_vanguard]
+
+2026-09-13T22:20:42.786Z [395219906 pid=14068 tid=3432] ENGINE Model with 3 segments [all_inf_tantive4trooper]
+
+2026-09-13T22:20:42.791Z [395219921 pid=14068 tid=3432] ENGINE Model with 4 segments [all_inf_engineer]
+
+2026-09-13T22:20:42.795Z [395219921 pid=14068 tid=3432] ENGINE Model with 3 segments [all_inf_bothanspy]
+
+2026-09-13T22:20:42.798Z [395219921 pid=14068 tid=3432] ENGINE Model with 4 segments [all_weap_inf_seeker]
+
+2026-09-13T22:20:42.804Z [395219937 pid=14068 tid=3432] ENGINE Model with 5 segments [all_inf_wookie]
+
+2026-09-13T22:20:42.819Z [395219953 pid=14068 tid=3432] ENGINE Model with 4 segments [imp_inf_pilot]
+
+2026-09-13T22:20:42.822Z [395219953 pid=14068 tid=3432] ENGINE Model with 3 segments [imp_inf_shocktrooper]
+
+2026-09-13T22:20:42.833Z [395219953 pid=14068 tid=3432] ENGINE Model with 4 segments [imp_inf_atatcommander]
+
+2026-09-13T22:20:42.836Z [395219968 pid=14068 tid=3432] ENGINE Model with 3 segments [imp_inf_darktrooper]
+
+2026-09-13T22:20:42.880Z [395220000 pid=14068 tid=3432] ENGINE Model with 3 segments [gal_prp_assaultship]
+
+2026-09-13T22:20:42.883Z [395220015 pid=14068 tid=3432] ENGINE Model with 5 segments [cis_cap_fedcruiser_dome]
+
+2026-09-13T22:20:42.893Z [395220015 pid=14068 tid=13048] STATE flow=3 lua=086C11A4 render_count=1 suspend=1 candidate_lock=0
+2026-09-13T22:20:42.895Z [395220015 pid=14068 tid=3432] ENGINE Model with 27 segments [gal_prp_stardestroyer]
+
+2026-09-13T22:20:42.901Z [395220031 pid=14068 tid=3432] ENGINE Model with 11 segments [gal_prp_moncalamaricruiser]
+
+2026-09-13T22:20:42.907Z [395220031 pid=14068 tid=3432] ENGINE Model with 4 segments [gal_shell_adrenaline]
+
+2026-09-13T22:20:42.908Z [395220031 pid=14068 tid=3432] ENGINE Model with 4 segments [gal_shell_supply_cache]
+
+2026-09-13T22:20:42.911Z [395220031 pid=14068 tid=3432] ENGINE Model with 4 segments [gal_shell_bacta_refinery]
+
+2026-09-13T22:20:42.915Z [395220046 pid=14068 tid=3432] ENGINE Model with 4 segments [gal_shell_espionage]
+
+2026-09-13T22:20:42.919Z [395220046 pid=14068 tid=3432] ENGINE Model with 6 segments [gal_shell_leadership]
+
+2026-09-13T22:20:42.921Z [395220046 pid=14068 tid=3432] ENGINE Model with 5 segments [gal_shell_defense_grid]
+
+2026-09-13T22:20:42.928Z [395220046 pid=14068 tid=3432] ENGINE Model with 12 segments [gal_shell_reinforcements]
+
+2026-09-13T22:20:42.931Z [395220062 pid=14068 tid=3432] ENGINE Model with 3 segments [gal_shell_advanced_armor]
+
+2026-09-13T22:20:42.935Z [395220062 pid=14068 tid=3432] ENGINE Model with 6 segments [gal_shell_blaster_amplification]
+
+2026-09-13T22:20:42.937Z [395220062 pid=14068 tid=3432] ENGINE Model with 3 segments [gal_shell_surveillance]
+
+2026-09-13T22:20:42.942Z [395220062 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: 72ff5896
+
+2026-09-13T22:20:42.947Z [395220078 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: 42e0807c
+
+2026-09-13T22:20:42.948Z [395220078 pid=14068 tid=3432] ENGINE Model with 4 segments [gal_prp_system]
+
+2026-09-13T22:20:42.952Z [395220078 pid=14068 tid=3432] ENGINE Model with 3 segments [gal_prp_mustafar]
+
+2026-09-13T22:20:42.955Z [395220078 pid=14068 tid=3432] ENGINE Model with 3 segments [gal_prp_geonosis]
+
+2026-09-13T22:20:42.964Z [395220093 pid=14068 tid=3432] ENGINE Model with 3 segments [gal_prp_coruscant]
+
+2026-09-13T22:20:42.974Z [395220093 pid=14068 tid=3432] ENGINE Model with 3 segments [all_prop_blockaderunner]
+
+2026-09-13T22:20:43.001Z [395220125 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: 204b3968
+
+2026-09-13T22:20:43.002Z [395220125 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: 50f54445
+
+2026-09-13T22:20:43.002Z [395220125 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: 249981fd
+
+2026-09-13T22:20:43.003Z [395220125 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: 99fd26e9
+
+2026-09-13T22:20:43.003Z [395220125 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: 4e084c5a
+
+2026-09-13T22:20:43.003Z [395220125 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: c3f4b790
+
+2026-09-13T22:20:43.004Z [395220125 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: c2b729c8
+
+2026-09-13T22:20:43.004Z [395220125 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: 2b4cce44
+
+2026-09-13T22:20:43.005Z [395220125 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: 5b921069
+
+2026-09-13T22:20:43.006Z [395220125 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: 7d44b875
+
+2026-09-13T22:20:43.006Z [395220125 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: f91f725a
+
+2026-09-13T22:20:43.007Z [395220140 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: e7f47d14
+
+2026-09-13T22:20:43.007Z [395220140 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: 78978be2
+
+2026-09-13T22:20:43.158Z [395220281 pid=14068 tid=13048] STATE flow=3 lua=086C11A4 render_count=1 suspend=0 candidate_lock=0
+2026-09-13T22:20:43.174Z [395220296 pid=14068 tid=3432] CHANNEL GCOBS:1:SelectPlanet:begin:1
+2026-09-13T22:20:43.174Z [395220296 pid=14068 tid=3432] CHANNEL GCOBS:1:SelectPlanet:done:1
+2026-09-13T22:20:43.174Z [395220296 pid=14068 tid=3432] CHANNEL GCOBS:1:Enter:done:1
+2026-09-13T22:20:43.174Z [395220296 pid=14068 tid=3432] CHANNEL GCOBS:1:Exit:begin:1
+2026-09-13T22:20:43.174Z [395220296 pid=14068 tid=3432] CHANNEL GCOBS:1:Exit:done:1
+2026-09-13T22:20:43.174Z [395220296 pid=14068 tid=3432] CHANNEL GCOBS:2:Enter:begin:1
+2026-09-13T22:20:43.174Z [395220296 pid=14068 tid=3432] CHANNEL GCOBS:1:SelectPlanet:begin:2
+2026-09-13T22:20:43.174Z [395220296 pid=14068 tid=3432] CHANNEL GCOBS:1:SelectPlanet:done:2
+2026-09-13T22:20:43.178Z [395220296 pid=14068 tid=3432] CHANNEL GCOBS:2:Enter:done:1
+2026-09-13T22:20:43.206Z [395220328 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:1
+2026-09-13T22:20:43.207Z [395220328 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:1
+2026-09-13T22:20:43.207Z [395220328 pid=14068 tid=3432] CHANNEL GCOBS:state:begin:6:1:101:2:1:0
+2026-09-13T22:20:43.207Z [395220328 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:1:activeBonus:z:-:t:-
+2026-09-13T22:20:43.207Z [395220328 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:2:battleResources:z:-:z:-
+2026-09-13T22:20:43.207Z [395220328 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:3:controllerPlayer:i:0:i:0
+2026-09-13T22:20:43.207Z [395220328 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:4:controllerPlayer:z:-:t:-
+2026-09-13T22:20:43.208Z [395220328 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:5:controllerTeam:i:0:i:1
+2026-09-13T22:20:43.208Z [395220328 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:6:controllerTeam:z:-:t:-
+2026-09-13T22:20:43.208Z [395220328 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:7:curScreen:z:-:z:-
+2026-09-13T22:20:43.256Z [395220390 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:2
+2026-09-13T22:20:43.256Z [395220390 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:2
+2026-09-13T22:20:43.256Z [395220390 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:8:custom:z:-:z:-
+2026-09-13T22:20:43.256Z [395220390 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:9:fleet.planetNext:z:-:z:-
+2026-09-13T22:20:43.256Z [395220390 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:10:fleet.planetStart:z:-:z:-
+2026-09-13T22:20:43.256Z [395220390 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:11:fleet.turnNumber:z:-:z:-
+2026-09-13T22:20:43.256Z [395220390 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:12:fleetBattle:z:-:z:-
+2026-09-13T22:20:43.256Z [395220390 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:13:fleetPtr:i:1:c:6E3D31206B3D737472696E6720763D7573657264617461
+2026-09-13T22:20:43.257Z [395220390 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:14:fleetPtr:i:2:c:6E3D31206B3D737472696E6720763D7573657264617461
+2026-09-13T22:20:43.257Z [395220390 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:15:fleetPtr:z:-:t:-
+2026-09-13T22:20:43.268Z [395220390 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:3
+2026-09-13T22:20:43.269Z [395220390 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:3
+2026-09-13T22:20:43.269Z [395220390 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:16:global.ifs_purchase_tech_cards:i:1:t:-
+2026-09-13T22:20:43.269Z [395220390 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:17:global.ifs_purchase_tech_cards:i:2:t:-
+2026-09-13T22:20:43.269Z [395220390 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:18:global.ifs_purchase_tech_cards:p:i/1/i/10:b:1
+2026-09-13T22:20:43.269Z [395220390 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:19:global.ifs_purchase_tech_cards:p:i/1/i/1:b:1
+2026-09-13T22:20:43.269Z [395220390 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:20:global.ifs_purchase_tech_cards:p:i/1/i/2:b:1
+2026-09-13T22:20:43.269Z [395220390 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:21:global.ifs_purchase_tech_cards:p:i/1/i/3:b:1
+2026-09-13T22:20:43.269Z [395220390 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:22:global.ifs_purchase_tech_cards:p:i/1/i/4:b:1
+2026-09-13T22:20:43.269Z [395220390 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:23:global.ifs_purchase_tech_cards:p:i/1/i/5:b:1
+2026-09-13T22:20:43.281Z [395220406 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:4
+2026-09-13T22:20:43.281Z [395220406 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:4
+2026-09-13T22:20:43.281Z [395220406 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:24:global.ifs_purchase_tech_cards:p:i/1/i/6:b:1
+2026-09-13T22:20:43.281Z [395220406 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:25:global.ifs_purchase_tech_cards:p:i/1/i/7:b:1
+2026-09-13T22:20:43.281Z [395220406 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:26:global.ifs_purchase_tech_cards:p:i/1/i/8:b:1
+2026-09-13T22:20:43.281Z [395220406 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:27:global.ifs_purchase_tech_cards:p:i/1/i/9:b:1
+2026-09-13T22:20:43.281Z [395220406 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:28:global.ifs_purchase_tech_cards:p:i/2/i/10:b:1
+2026-09-13T22:20:43.281Z [395220406 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:29:global.ifs_purchase_tech_cards:p:i/2/i/1:b:1
+2026-09-13T22:20:43.281Z [395220406 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:30:global.ifs_purchase_tech_cards:p:i/2/i/2:b:1
+2026-09-13T22:20:43.281Z [395220406 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:31:global.ifs_purchase_tech_cards:p:i/2/i/3:b:1
+2026-09-13T22:20:43.294Z [395220421 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:32:global.ifs_purchase_tech_cards:p:i/2/i/4:b:1
+2026-09-13T22:20:43.294Z [395220421 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:33:global.ifs_purchase_tech_cards:p:i/2/i/5:b:1
+2026-09-13T22:20:43.294Z [395220421 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:34:global.ifs_purchase_tech_cards:p:i/2/i/6:b:1
+2026-09-13T22:20:43.294Z [395220421 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:35:global.ifs_purchase_tech_cards:p:i/2/i/7:b:1
+2026-09-13T22:20:43.294Z [395220421 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:36:global.ifs_purchase_tech_cards:p:i/2/i/8:b:1
+2026-09-13T22:20:43.294Z [395220421 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:37:global.ifs_purchase_tech_cards:p:i/2/i/9:b:1
+2026-09-13T22:20:43.294Z [395220421 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:38:global.ifs_purchase_tech_cards:z:-:t:-
+2026-09-13T22:20:43.294Z [395220421 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:39:global.ifs_purchase_tech_using:i:1:t:-
+2026-09-13T22:20:43.306Z [395220437 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:40:global.ifs_purchase_tech_using:i:2:t:-
+2026-09-13T22:20:43.306Z [395220437 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:41:global.ifs_purchase_tech_using:p:i/1/i/1:i:0
+2026-09-13T22:20:43.306Z [395220437 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:42:global.ifs_purchase_tech_using:p:i/1/i/2:i:0
+2026-09-13T22:20:43.306Z [395220437 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:43:global.ifs_purchase_tech_using:p:i/1/i/3:i:0
+2026-09-13T22:20:43.306Z [395220437 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:44:global.ifs_purchase_tech_using:p:i/2/i/1:i:0
+2026-09-13T22:20:43.306Z [395220437 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:45:global.ifs_purchase_tech_using:p:i/2/i/2:i:0
+2026-09-13T22:20:43.306Z [395220437 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:46:global.ifs_purchase_tech_using:p:i/2/i/3:i:0
+2026-09-13T22:20:43.306Z [395220437 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:47:global.ifs_purchase_tech_using:z:-:t:-
+2026-09-13T22:20:43.319Z [395220453 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:48:global.ifs_purchase_unit_owned:i:1:t:-
+2026-09-13T22:20:43.319Z [395220453 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:49:global.ifs_purchase_unit_owned:i:2:t:-
+2026-09-13T22:20:43.319Z [395220453 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:50:global.ifs_purchase_unit_owned:p:i/1/s/70696C6F74:b:1
+2026-09-13T22:20:43.319Z [395220453 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:51:global.ifs_purchase_unit_owned:p:i/1/s/736F6C64696572:b:1
+2026-09-13T22:20:43.319Z [395220453 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:52:global.ifs_purchase_unit_owned:p:i/2/s/70696C6F74:b:1
+2026-09-13T22:20:43.319Z [395220453 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:53:global.ifs_purchase_unit_owned:p:i/2/s/736F6C64696572:b:1
+2026-09-13T22:20:43.319Z [395220453 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:54:global.ifs_purchase_unit_owned:z:-:t:-
+2026-09-13T22:20:43.319Z [395220453 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:55:lastFleet:i:1:s:686F74
+2026-09-13T22:20:43.332Z [395220453 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:56:lastFleet:i:2:s:656E64
+2026-09-13T22:20:43.332Z [395220453 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:57:lastFleet:z:-:t:-
+2026-09-13T22:20:43.332Z [395220453 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:58:lastSelected:i:1:s:686F74
+2026-09-13T22:20:43.332Z [395220453 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:59:lastSelected:i:2:s:656E64
+2026-09-13T22:20:43.332Z [395220453 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:60:lastSelected:z:-:t:-
+2026-09-13T22:20:43.332Z [395220453 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:61:launchMission:z:-:z:-
+2026-09-13T22:20:43.332Z [395220453 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:62:otherSide:z:-:s:696D70
+2026-09-13T22:20:43.332Z [395220453 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:63:planetBase:i:1:s:686F74
+2026-09-13T22:20:43.344Z [395220468 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:64:planetBase:i:2:s:656E64
+2026-09-13T22:20:43.344Z [395220468 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:65:planetBase:z:-:t:-
+2026-09-13T22:20:43.344Z [395220468 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:66:planetFleet:s:656E64:i:2
+2026-09-13T22:20:43.344Z [395220468 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:67:planetFleet:s:686F74:i:1
+2026-09-13T22:20:43.344Z [395220468 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:68:planetFleet:z:-:t:-
+2026-09-13T22:20:43.344Z [395220468 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:69:planetNext:z:-:s:737461723033
+2026-09-13T22:20:43.344Z [395220468 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:70:planetResources:z:-:z:-
+2026-09-13T22:20:43.344Z [395220468 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:71:planetTeam:s:636F72:i:2
+2026-09-13T22:20:43.357Z [395220484 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:72:planetTeam:s:646167:i:1
+2026-09-13T22:20:43.357Z [395220484 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:73:planetTeam:s:656E64:i:2
+2026-09-13T22:20:43.357Z [395220484 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:74:planetTeam:s:66656C:i:2
+2026-09-13T22:20:43.357Z [395220484 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:75:planetTeam:s:686F74:i:1
+2026-09-13T22:20:43.357Z [395220484 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:76:planetTeam:s:6B6173:i:2
+2026-09-13T22:20:43.357Z [395220484 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:77:planetTeam:s:6D7573:i:2
+2026-09-13T22:20:43.357Z [395220484 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:78:planetTeam:s:6D7967:i:2
+2026-09-13T22:20:43.357Z [395220484 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:79:planetTeam:s:6E6162:i:2
+2026-09-13T22:20:43.369Z [395220500 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:80:planetTeam:s:706F6C:i:2
+2026-09-13T22:20:43.369Z [395220500 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:81:planetTeam:s:746174:i:2
+2026-09-13T22:20:43.369Z [395220500 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:82:planetTeam:s:757461:i:2
+2026-09-13T22:20:43.369Z [395220500 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:83:planetTeam:s:796176:i:1
+2026-09-13T22:20:43.369Z [395220500 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:84:planetTeam:z:-:t:-
+2026-09-13T22:20:43.369Z [395220500 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:85:playerSide:z:-:s:616C6C
+2026-09-13T22:20:43.369Z [395220500 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:86:playerTeam:z:-:i:1
+2026-09-13T22:20:43.369Z [395220500 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:87:recentPlanets:z:-:t:-
+2026-09-13T22:20:43.381Z [395220500 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:88:scenario:z:-:s:616C6C
+2026-09-13T22:20:43.381Z [395220500 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:89:soakMode:z:-:z:-
+2026-09-13T22:20:43.381Z [395220500 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:90:teamCode:i:1:s:616C6C
+2026-09-13T22:20:43.381Z [395220500 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:91:teamCode:i:2:s:696D70
+2026-09-13T22:20:43.381Z [395220500 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:92:teamCode:z:-:t:-
+2026-09-13T22:20:43.381Z [395220500 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:93:teamName:i:0:s:-
+2026-09-13T22:20:43.382Z [395220515 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:94:teamName:i:1:s:636F6D6D6F6E2E73696465732E616C6C2E6E616D65
+2026-09-13T22:20:43.382Z [395220515 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:95:teamName:i:2:s:636F6D6D6F6E2E73696465732E696D702E6E616D65
+2026-09-13T22:20:43.394Z [395220515 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:96:teamName:z:-:t:-
+2026-09-13T22:20:43.394Z [395220515 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:97:teamResources:i:1:i:100
+2026-09-13T22:20:43.394Z [395220515 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:98:teamResources:i:2:i:100
+2026-09-13T22:20:43.394Z [395220515 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:99:teamResources:z:-:t:-
+2026-09-13T22:20:43.394Z [395220515 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:100:turnNumber:z:-:i:1
+2026-09-13T22:20:43.394Z [395220515 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:101:winnerTeam:z:-:z:-
+2026-09-13T22:20:43.394Z [395220515 pid=14068 tid=3432] CHANNEL GCOBS:state:end:1:101
+2026-09-13T22:20:46.982Z [395224109 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:300
+2026-09-13T22:20:46.982Z [395224109 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:300
+2026-09-13T22:20:48.583Z [395225703 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=1397 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:20:49.100Z [395226234 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=81 (worker liveness, not game simulation)
+2026-09-13T22:20:50.639Z [395227765 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:20:50.732Z [395227859 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:600
+2026-09-13T22:20:50.732Z [395227859 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:600
+2026-09-13T22:20:54.481Z [395231609 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:900
+2026-09-13T22:20:54.481Z [395231609 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:900
+2026-09-13T22:20:58.232Z [395235359 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:1200
+2026-09-13T22:20:58.232Z [395235359 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:1200
+2026-09-13T22:20:58.686Z [395235812 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=2205 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:20:59.466Z [395236593 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=121 (worker liveness, not game simulation)
+2026-09-13T22:21:00.786Z [395237906 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:21:02.845Z [395239968 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:1500
+2026-09-13T22:21:02.845Z [395239968 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:1500
+2026-09-13T22:21:07.492Z [395244625 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:1800
+2026-09-13T22:21:07.492Z [395244625 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:1800
+2026-09-13T22:21:08.901Z [395246031 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=2859 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:21:09.954Z [395247078 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=161 (worker liveness, not game simulation)
+2026-09-13T22:21:11.003Z [395248125 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:21:12.127Z [395249250 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:2100
+2026-09-13T22:21:12.127Z [395249250 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:2100
+2026-09-13T22:21:16.759Z [395253890 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:2400
+2026-09-13T22:21:16.759Z [395253890 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:2400
+2026-09-13T22:21:19.131Z [395256250 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=3522 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:21:20.448Z [395257578 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=201 (worker liveness, not game simulation)
+2026-09-13T22:21:21.239Z [395258359 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:21:21.407Z [395258531 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:2700
+2026-09-13T22:21:21.407Z [395258531 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:2700
+2026-09-13T22:21:26.048Z [395263171 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:3000
+2026-09-13T22:21:26.049Z [395263171 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:3000
+2026-09-13T22:21:29.355Z [395266484 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=4183 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:21:30.678Z [395267796 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:3300
+2026-09-13T22:21:30.678Z [395267796 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:3300
+2026-09-13T22:21:30.924Z [395268046 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=241 (worker liveness, not game simulation)
+2026-09-13T22:21:31.452Z [395268578 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:21:35.304Z [395272437 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:3600
+2026-09-13T22:21:35.304Z [395272437 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:3600
+2026-09-13T22:21:39.570Z [395276703 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=4845 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:21:39.944Z [395277078 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:3900
+2026-09-13T22:21:39.944Z [395277078 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:3900
+2026-09-13T22:21:41.406Z [395278531 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=281 (worker liveness, not game simulation)
+2026-09-13T22:21:41.669Z [395278796 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:21:44.573Z [395281703 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:4200
+2026-09-13T22:21:44.573Z [395281703 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:4200
+2026-09-13T22:21:48.613Z [395285734 pid=14068 tid=3432] CHANNEL GCOBS:2:Input_Accept:begin:1
+2026-09-13T22:21:48.613Z [395285734 pid=14068 tid=3432] CHANNEL GCOBS:2:Input_Accept:done:1
+2026-09-13T22:21:48.613Z [395285734 pid=14068 tid=3432] CHANNEL GCOBS:2:Exit:begin:1
+2026-09-13T22:21:48.613Z [395285734 pid=14068 tid=3432] CHANNEL GCOBS:2:Exit:done:1
+2026-09-13T22:21:48.613Z [395285734 pid=14068 tid=3432] CHANNEL GCOBS:7:Enter:begin:1
+2026-09-13T22:21:48.616Z [395285750 pid=14068 tid=3432] CHANNEL GCOBS:7:Enter:done:1
+2026-09-13T22:21:48.660Z [395285781 pid=14068 tid=3432] CHANNEL GCOBS:7:Update:begin:1
+2026-09-13T22:21:48.660Z [395285781 pid=14068 tid=3432] CHANNEL GCOBS:7:Update:done:1
+2026-09-13T22:21:48.690Z [395285812 pid=14068 tid=3432] CHANNEL GCOBS:7:Update:begin:2
+2026-09-13T22:21:48.690Z [395285812 pid=14068 tid=3432] CHANNEL GCOBS:7:Update:done:2
+2026-09-13T22:21:48.709Z [395285828 pid=14068 tid=3432] CHANNEL GCOBS:7:Update:begin:3
+2026-09-13T22:21:48.709Z [395285828 pid=14068 tid=3432] CHANNEL GCOBS:7:Update:done:3
+2026-09-13T22:21:48.721Z [395285843 pid=14068 tid=3432] CHANNEL GCOBS:7:Update:begin:4
+2026-09-13T22:21:48.721Z [395285843 pid=14068 tid=3432] CHANNEL GCOBS:7:Update:done:4
+2026-09-13T22:21:49.744Z [395286875 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=5515 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:21:51.118Z [395288250 pid=14068 tid=3432] CHANNEL GCOBS:7:Input_Accept:begin:1
+2026-09-13T22:21:51.118Z [395288250 pid=14068 tid=3432] CHANNEL GCOBS:7:Input_Accept:done:1
+2026-09-13T22:21:51.779Z [395288906 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:21:51.779Z [395288906 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=321 (worker liveness, not game simulation)
+2026-09-13T22:21:52.298Z [395289421 pid=14068 tid=3432] CHANNEL GCOBS:7:Input_Accept:begin:2
+2026-09-13T22:21:52.298Z [395289421 pid=14068 tid=3432] CHANNEL GCOBS:7:Input_Accept:done:2
+2026-09-13T22:21:52.485Z [395289609 pid=14068 tid=3432] CHANNEL GCOBS:7:Update:begin:300
+2026-09-13T22:21:52.485Z [395289609 pid=14068 tid=3432] CHANNEL GCOBS:7:Update:done:300
+2026-09-13T22:21:56.180Z [395293312 pid=14068 tid=3432] CHANNEL GCOBS:7:Input_Accept:begin:3
+2026-09-13T22:21:56.180Z [395293312 pid=14068 tid=3432] CHANNEL GCOBS:7:Input_Accept:done:3
+2026-09-13T22:21:56.180Z [395293312 pid=14068 tid=3432] CHANNEL GCOBS:7:Exit:begin:1
+2026-09-13T22:21:56.180Z [395293312 pid=14068 tid=3432] CHANNEL GCOBS:7:Exit:done:1
+2026-09-13T22:21:56.180Z [395293312 pid=14068 tid=3432] CHANNEL GCOBS:2:Enter:begin:2
+2026-09-13T22:21:56.180Z [395293312 pid=14068 tid=3432] CHANNEL GCOBS:1:SelectPlanet:begin:3
+2026-09-13T22:21:56.180Z [395293312 pid=14068 tid=3432] CHANNEL GCOBS:1:SelectPlanet:done:3
+2026-09-13T22:21:56.181Z [395293312 pid=14068 tid=3432] CHANNEL GCOBS:2:Enter:done:2
+2026-09-13T22:21:56.281Z [395293406 pid=14068 tid=3432] CHANNEL GCOBS:state:begin:6:2:101:2:4470:148
+2026-09-13T22:21:56.281Z [395293406 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:1:activeBonus:z:-:t:-
+2026-09-13T22:21:56.281Z [395293406 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:2:battleResources:z:-:z:-
+2026-09-13T22:21:56.281Z [395293406 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:3:controllerPlayer:i:0:i:0
+2026-09-13T22:21:56.281Z [395293406 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:4:controllerPlayer:z:-:t:-
+2026-09-13T22:21:56.281Z [395293406 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:5:controllerTeam:i:0:i:1
+2026-09-13T22:21:56.281Z [395293406 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:6:controllerTeam:z:-:t:-
+2026-09-13T22:21:56.281Z [395293406 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:7:curScreen:z:-:z:-
+2026-09-13T22:21:56.292Z [395293421 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:8:custom:z:-:z:-
+2026-09-13T22:21:56.293Z [395293421 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:9:fleet.planetNext:z:-:z:-
+2026-09-13T22:21:56.293Z [395293421 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:10:fleet.planetStart:z:-:z:-
+2026-09-13T22:21:56.293Z [395293421 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:11:fleet.turnNumber:z:-:z:-
+2026-09-13T22:21:56.293Z [395293421 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:12:fleetBattle:z:-:z:-
+2026-09-13T22:21:56.293Z [395293421 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:13:fleetPtr:i:1:c:6E3D31206B3D737472696E6720763D7573657264617461
+2026-09-13T22:21:56.293Z [395293421 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:14:fleetPtr:i:2:c:6E3D31206B3D737472696E6720763D7573657264617461
+2026-09-13T22:21:56.293Z [395293421 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:15:fleetPtr:z:-:t:-
+2026-09-13T22:21:56.305Z [395293437 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:16:global.ifs_purchase_tech_cards:i:1:t:-
+2026-09-13T22:21:56.306Z [395293437 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:17:global.ifs_purchase_tech_cards:i:2:t:-
+2026-09-13T22:21:56.306Z [395293437 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:18:global.ifs_purchase_tech_cards:p:i/1/i/10:b:1
+2026-09-13T22:21:56.306Z [395293437 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:19:global.ifs_purchase_tech_cards:p:i/1/i/1:b:1
+2026-09-13T22:21:56.306Z [395293437 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:20:global.ifs_purchase_tech_cards:p:i/1/i/2:b:1
+2026-09-13T22:21:56.306Z [395293437 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:21:global.ifs_purchase_tech_cards:p:i/1/i/3:b:1
+2026-09-13T22:21:56.306Z [395293437 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:22:global.ifs_purchase_tech_cards:p:i/1/i/4:b:1
+2026-09-13T22:21:56.306Z [395293437 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:23:global.ifs_purchase_tech_cards:p:i/1/i/5:b:1
+2026-09-13T22:21:56.317Z [395293437 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:24:global.ifs_purchase_tech_cards:p:i/1/i/6:b:1
+2026-09-13T22:21:56.318Z [395293437 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:25:global.ifs_purchase_tech_cards:p:i/1/i/7:b:1
+2026-09-13T22:21:56.318Z [395293437 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:26:global.ifs_purchase_tech_cards:p:i/1/i/8:b:1
+2026-09-13T22:21:56.318Z [395293437 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:27:global.ifs_purchase_tech_cards:p:i/1/i/9:b:1
+2026-09-13T22:21:56.318Z [395293437 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:28:global.ifs_purchase_tech_cards:p:i/2/i/10:b:1
+2026-09-13T22:21:56.318Z [395293437 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:29:global.ifs_purchase_tech_cards:p:i/2/i/1:b:1
+2026-09-13T22:21:56.318Z [395293437 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:30:global.ifs_purchase_tech_cards:p:i/2/i/2:b:1
+2026-09-13T22:21:56.318Z [395293437 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:31:global.ifs_purchase_tech_cards:p:i/2/i/3:b:1
+2026-09-13T22:21:56.331Z [395293453 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:32:global.ifs_purchase_tech_cards:p:i/2/i/4:b:1
+2026-09-13T22:21:56.331Z [395293453 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:33:global.ifs_purchase_tech_cards:p:i/2/i/5:b:1
+2026-09-13T22:21:56.331Z [395293453 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:34:global.ifs_purchase_tech_cards:p:i/2/i/6:b:1
+2026-09-13T22:21:56.331Z [395293453 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:35:global.ifs_purchase_tech_cards:p:i/2/i/7:b:1
+2026-09-13T22:21:56.331Z [395293453 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:36:global.ifs_purchase_tech_cards:p:i/2/i/8:b:1
+2026-09-13T22:21:56.331Z [395293453 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:37:global.ifs_purchase_tech_cards:p:i/2/i/9:b:1
+2026-09-13T22:21:56.331Z [395293453 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:38:global.ifs_purchase_tech_cards:z:-:t:-
+2026-09-13T22:21:56.331Z [395293453 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:39:global.ifs_purchase_tech_using:i:1:t:-
+2026-09-13T22:21:56.343Z [395293468 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:40:global.ifs_purchase_tech_using:i:2:t:-
+2026-09-13T22:21:56.343Z [395293468 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:41:global.ifs_purchase_tech_using:p:i/1/i/1:i:1
+2026-09-13T22:21:56.343Z [395293468 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:42:global.ifs_purchase_tech_using:p:i/1/i/2:i:0
+2026-09-13T22:21:56.343Z [395293468 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:43:global.ifs_purchase_tech_using:p:i/1/i/3:i:0
+2026-09-13T22:21:56.343Z [395293468 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:44:global.ifs_purchase_tech_using:p:i/2/i/1:i:0
+2026-09-13T22:21:56.343Z [395293468 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:45:global.ifs_purchase_tech_using:p:i/2/i/2:i:0
+2026-09-13T22:21:56.343Z [395293468 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:46:global.ifs_purchase_tech_using:p:i/2/i/3:i:0
+2026-09-13T22:21:56.343Z [395293468 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:47:global.ifs_purchase_tech_using:z:-:t:-
+2026-09-13T22:21:56.355Z [395293484 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:48:global.ifs_purchase_unit_owned:i:1:t:-
+2026-09-13T22:21:56.355Z [395293484 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:49:global.ifs_purchase_unit_owned:i:2:t:-
+2026-09-13T22:21:56.355Z [395293484 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:50:global.ifs_purchase_unit_owned:p:i/1/s/70696C6F74:b:1
+2026-09-13T22:21:56.355Z [395293484 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:51:global.ifs_purchase_unit_owned:p:i/1/s/736F6C64696572:b:1
+2026-09-13T22:21:56.355Z [395293484 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:52:global.ifs_purchase_unit_owned:p:i/2/s/70696C6F74:b:1
+2026-09-13T22:21:56.355Z [395293484 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:53:global.ifs_purchase_unit_owned:p:i/2/s/736F6C64696572:b:1
+2026-09-13T22:21:56.355Z [395293484 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:54:global.ifs_purchase_unit_owned:z:-:t:-
+2026-09-13T22:21:56.355Z [395293484 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:55:lastFleet:i:1:s:686F74
+2026-09-13T22:21:56.368Z [395293500 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:56:lastFleet:i:2:s:656E64
+2026-09-13T22:21:56.368Z [395293500 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:57:lastFleet:z:-:t:-
+2026-09-13T22:21:56.368Z [395293500 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:58:lastSelected:i:1:s:686F74
+2026-09-13T22:21:56.368Z [395293500 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:59:lastSelected:i:2:s:656E64
+2026-09-13T22:21:56.368Z [395293500 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:60:lastSelected:z:-:t:-
+2026-09-13T22:21:56.368Z [395293500 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:61:launchMission:z:-:z:-
+2026-09-13T22:21:56.368Z [395293500 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:62:otherSide:z:-:s:696D70
+2026-09-13T22:21:56.368Z [395293500 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:63:planetBase:i:1:s:686F74
+2026-09-13T22:21:56.380Z [395293500 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:64:planetBase:i:2:s:656E64
+2026-09-13T22:21:56.380Z [395293500 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:65:planetBase:z:-:t:-
+2026-09-13T22:21:56.380Z [395293500 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:66:planetFleet:s:656E64:i:2
+2026-09-13T22:21:56.380Z [395293500 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:67:planetFleet:s:686F74:i:1
+2026-09-13T22:21:56.380Z [395293500 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:68:planetFleet:z:-:t:-
+2026-09-13T22:21:56.380Z [395293500 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:69:planetNext:z:-:s:737461723032
+2026-09-13T22:21:56.380Z [395293500 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:70:planetResources:z:-:z:-
+2026-09-13T22:21:56.380Z [395293500 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:71:planetTeam:s:636F72:i:2
+2026-09-13T22:21:56.393Z [395293515 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:72:planetTeam:s:646167:i:1
+2026-09-13T22:21:56.393Z [395293515 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:73:planetTeam:s:656E64:i:2
+2026-09-13T22:21:56.393Z [395293515 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:74:planetTeam:s:66656C:i:2
+2026-09-13T22:21:56.393Z [395293515 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:75:planetTeam:s:686F74:i:1
+2026-09-13T22:21:56.393Z [395293515 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:76:planetTeam:s:6B6173:i:2
+2026-09-13T22:21:56.393Z [395293515 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:77:planetTeam:s:6D7573:i:2
+2026-09-13T22:21:56.393Z [395293515 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:78:planetTeam:s:6D7967:i:2
+2026-09-13T22:21:56.393Z [395293515 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:79:planetTeam:s:6E6162:i:2
+2026-09-13T22:21:56.405Z [395293531 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:80:planetTeam:s:706F6C:i:2
+2026-09-13T22:21:56.405Z [395293531 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:81:planetTeam:s:746174:i:2
+2026-09-13T22:21:56.405Z [395293531 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:82:planetTeam:s:757461:i:2
+2026-09-13T22:21:56.405Z [395293531 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:83:planetTeam:s:796176:i:1
+2026-09-13T22:21:56.405Z [395293531 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:84:planetTeam:z:-:t:-
+2026-09-13T22:21:56.405Z [395293531 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:85:playerSide:z:-:s:616C6C
+2026-09-13T22:21:56.405Z [395293531 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:86:playerTeam:z:-:i:1
+2026-09-13T22:21:56.405Z [395293531 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:87:recentPlanets:z:-:t:-
+2026-09-13T22:21:56.418Z [395293546 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:88:scenario:z:-:s:616C6C
+2026-09-13T22:21:56.418Z [395293546 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:89:soakMode:z:-:z:-
+2026-09-13T22:21:56.418Z [395293546 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:90:teamCode:i:1:s:616C6C
+2026-09-13T22:21:56.418Z [395293546 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:91:teamCode:i:2:s:696D70
+2026-09-13T22:21:56.418Z [395293546 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:92:teamCode:z:-:t:-
+2026-09-13T22:21:56.418Z [395293546 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:93:teamName:i:0:s:-
+2026-09-13T22:21:56.418Z [395293546 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:94:teamName:i:1:s:636F6D6D6F6E2E73696465732E616C6C2E6E616D65
+2026-09-13T22:21:56.418Z [395293546 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:95:teamName:i:2:s:636F6D6D6F6E2E73696465732E696D702E6E616D65
+2026-09-13T22:21:56.430Z [395293562 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:96:teamName:z:-:t:-
+2026-09-13T22:21:56.430Z [395293562 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:97:teamResources:i:1:i:80
+2026-09-13T22:21:56.430Z [395293562 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:98:teamResources:i:2:i:100
+2026-09-13T22:21:56.430Z [395293562 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:99:teamResources:z:-:t:-
+2026-09-13T22:21:56.430Z [395293562 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:100:turnNumber:z:-:i:1
+2026-09-13T22:21:56.430Z [395293562 pid=14068 tid=3432] CHANNEL GCOBS:state:item:2:101:winnerTeam:z:-:z:-
+2026-09-13T22:21:56.430Z [395293562 pid=14068 tid=3432] CHANNEL GCOBS:state:end:2:101
+2026-09-13T22:21:56.662Z [395293781 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:4500
+2026-09-13T22:21:56.662Z [395293781 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:4500
+2026-09-13T22:21:59.748Z [395296875 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=6305 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:22:00.412Z [395297531 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:4800
+2026-09-13T22:22:00.412Z [395297531 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:4800
+2026-09-13T22:22:01.842Z [395298968 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:22:02.092Z [395299218 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=361 (worker liveness, not game simulation)
+2026-09-13T22:22:04.163Z [395301296 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:5100
+2026-09-13T22:22:04.163Z [395301296 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:5100
+2026-09-13T22:22:07.913Z [395305046 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:5400
+2026-09-13T22:22:07.913Z [395305046 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:5400
+2026-09-13T22:22:09.777Z [395306906 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=7107 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:22:11.663Z [395308796 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:5700
+2026-09-13T22:22:11.663Z [395308796 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:5700
+2026-09-13T22:22:11.854Z [395308984 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:22:12.368Z [395309500 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=401 (worker liveness, not game simulation)
+2026-09-13T22:22:15.935Z [395313062 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:6000
+2026-09-13T22:22:15.935Z [395313062 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:6000
+2026-09-13T22:22:19.974Z [395317093 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=7819 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:22:20.577Z [395317703 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:6300
+2026-09-13T22:22:20.577Z [395317703 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:6300
+2026-09-13T22:22:22.076Z [395319203 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:22:22.861Z [395319984 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=441 (worker liveness, not game simulation)
+2026-09-13T22:22:25.210Z [395322343 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:6600
+2026-09-13T22:22:25.210Z [395322343 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:6600
+2026-09-13T22:22:29.841Z [395326968 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:6900
+2026-09-13T22:22:29.841Z [395326968 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:6900
+2026-09-13T22:22:30.196Z [395327328 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=8481 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:22:32.286Z [395329406 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:22:33.342Z [395330468 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=481 (worker liveness, not game simulation)
+2026-09-13T22:22:34.482Z [395331609 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:7200
+2026-09-13T22:22:34.482Z [395331609 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:7200
+2026-09-13T22:22:39.118Z [395336250 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:7500
+2026-09-13T22:22:39.118Z [395336250 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:7500
+2026-09-13T22:22:40.413Z [395337546 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=9142 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:22:42.515Z [395339640 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:22:43.751Z [395340875 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:7800
+2026-09-13T22:22:43.751Z [395340875 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:7800
+2026-09-13T22:22:43.827Z [395340953 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=521 (worker liveness, not game simulation)
+2026-09-13T22:22:48.372Z [395345500 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:8100
+2026-09-13T22:22:48.372Z [395345500 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:8100
+2026-09-13T22:22:50.639Z [395347765 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=9805 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:22:52.741Z [395349859 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:22:53.004Z [395350125 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:8400
+2026-09-13T22:22:53.004Z [395350125 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:8400
+2026-09-13T22:22:54.315Z [395351437 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=561 (worker liveness, not game simulation)
+2026-09-13T22:22:57.641Z [395354765 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:8700
+2026-09-13T22:22:57.641Z [395354765 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:8700
+2026-09-13T22:23:00.877Z [395358000 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=10467 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:23:02.269Z [395359390 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:9000
+2026-09-13T22:23:02.269Z [395359390 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:9000
+2026-09-13T22:23:02.979Z [395360109 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:23:04.821Z [395361953 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=601 (worker liveness, not game simulation)
+2026-09-13T22:23:06.902Z [395364031 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:9300
+2026-09-13T22:23:06.902Z [395364031 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:9300
+2026-09-13T22:23:11.129Z [395368250 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=11130 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:23:11.542Z [395368671 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:9600
+2026-09-13T22:23:11.542Z [395368671 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:9600
+2026-09-13T22:23:13.225Z [395370359 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:23:15.318Z [395372437 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=641 (worker liveness, not game simulation)
+2026-09-13T22:23:16.180Z [395373312 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:9900
+2026-09-13T22:23:16.180Z [395373312 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:9900
+2026-09-13T22:23:20.839Z [395377968 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:10200
+2026-09-13T22:23:20.839Z [395377968 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:10200
+2026-09-13T22:23:21.351Z [395378484 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=11791 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:23:23.442Z [395380562 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:23:25.480Z [395382609 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:10500
+2026-09-13T22:23:25.480Z [395382609 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:10500
+2026-09-13T22:23:25.803Z [395382937 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=681 (worker liveness, not game simulation)
+2026-09-13T22:23:30.104Z [395387234 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:10800
+2026-09-13T22:23:30.104Z [395387234 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:10800
+2026-09-13T22:23:31.569Z [395388687 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=12453 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:23:33.654Z [395390781 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:23:34.713Z [395391843 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:11100
+2026-09-13T22:23:34.713Z [395391843 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:11100
+2026-09-13T22:23:36.276Z [395393406 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=721 (worker liveness, not game simulation)
+2026-09-13T22:23:39.340Z [395396468 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:11400
+2026-09-13T22:23:39.340Z [395396468 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:11400
+2026-09-13T22:23:41.772Z [395398890 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=13116 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:23:43.855Z [395400984 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:23:43.964Z [395401093 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:11700
+2026-09-13T22:23:43.964Z [395401093 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:11700
+2026-09-13T22:23:46.750Z [395403875 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=761 (worker liveness, not game simulation)
+2026-09-13T22:23:48.604Z [395405734 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:12000
+2026-09-13T22:23:48.604Z [395405734 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:12000
+2026-09-13T22:23:52.004Z [395409125 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=13777 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:23:53.251Z [395410375 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:12300
+2026-09-13T22:23:53.251Z [395410375 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:12300
+2026-09-13T22:23:54.086Z [395411218 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:23:57.230Z [395414359 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=801 (worker liveness, not game simulation)
+2026-09-13T22:23:57.895Z [395415015 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:12600
+2026-09-13T22:23:57.895Z [395415015 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:12600
+2026-09-13T22:24:02.210Z [395419343 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=14437 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:24:02.537Z [395419656 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:12900
+2026-09-13T22:24:02.537Z [395419656 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:12900
+2026-09-13T22:24:04.307Z [395421437 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:24:07.161Z [395424281 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:13200
+2026-09-13T22:24:07.161Z [395424281 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:13200
+2026-09-13T22:24:07.701Z [395424828 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=841 (worker liveness, not game simulation)
+2026-09-13T22:24:11.789Z [395428921 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:13500
+2026-09-13T22:24:11.789Z [395428921 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:13500
+2026-09-13T22:24:12.422Z [395429546 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=15099 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:24:14.529Z [395431656 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:24:16.438Z [395433562 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:13800
+2026-09-13T22:24:16.438Z [395433562 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:13800
+2026-09-13T22:24:18.223Z [395435343 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=881 (worker liveness, not game simulation)
+2026-09-13T22:24:21.017Z [395438140 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:14100
+2026-09-13T22:24:21.017Z [395438140 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:14100
+2026-09-13T22:24:21.066Z [395438187 pid=14068 tid=3432] CHANNEL GCOBS:2:Input_Accept:begin:2
+2026-09-13T22:24:21.066Z [395438187 pid=14068 tid=3432] CHANNEL GCOBS:2:Input_Accept:done:2
+2026-09-13T22:24:21.378Z [395438500 pid=14068 tid=3432] CHANNEL GCOBS:2:Input_Accept:begin:3
+2026-09-13T22:24:21.378Z [395438500 pid=14068 tid=3432] CHANNEL GCOBS:2:Input_Accept:done:3
+2026-09-13T22:24:22.091Z [395439218 pid=14068 tid=3432] CHANNEL GCOBS:2:Input_Accept:begin:4
+2026-09-13T22:24:22.091Z [395439218 pid=14068 tid=3432] CHANNEL GCOBS:2:Input_Accept:done:4
+2026-09-13T22:24:22.341Z [395439468 pid=14068 tid=3432] CHANNEL GCOBS:2:Input_Accept:begin:5
+2026-09-13T22:24:22.341Z [395439468 pid=14068 tid=3432] CHANNEL GCOBS:1:SelectPlanet:begin:4
+2026-09-13T22:24:22.341Z [395439468 pid=14068 tid=3432] CHANNEL GCOBS:1:SelectPlanet:done:4
+2026-09-13T22:24:22.344Z [395439468 pid=14068 tid=3432] CHANNEL GCOBS:2:Input_Accept:done:5
+2026-09-13T22:24:22.517Z [395439640 pid=14068 tid=3432] CHANNEL GCOBS:state:begin:6:3:101:2:14220:324
+2026-09-13T22:24:22.517Z [395439640 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:1:activeBonus:z:-:t:-
+2026-09-13T22:24:22.517Z [395439640 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:2:battleResources:z:-:z:-
+2026-09-13T22:24:22.517Z [395439640 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:3:controllerPlayer:i:0:i:0
+2026-09-13T22:24:22.517Z [395439640 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:4:controllerPlayer:z:-:t:-
+2026-09-13T22:24:22.517Z [395439640 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:5:controllerTeam:i:0:i:1
+2026-09-13T22:24:22.517Z [395439640 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:6:controllerTeam:z:-:t:-
+2026-09-13T22:24:22.517Z [395439640 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:7:curScreen:z:-:z:-
+2026-09-13T22:24:22.529Z [395439656 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:8:custom:z:-:z:-
+2026-09-13T22:24:22.529Z [395439656 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:9:fleet.planetNext:z:-:s:737461723033
+2026-09-13T22:24:22.529Z [395439656 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:10:fleet.planetStart:z:-:s:686F74
+2026-09-13T22:24:22.529Z [395439656 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:11:fleet.turnNumber:z:-:i:1
+2026-09-13T22:24:22.529Z [395439656 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:12:fleetBattle:z:-:z:-
+2026-09-13T22:24:22.529Z [395439656 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:13:fleetPtr:i:1:c:6E3D31206B3D737472696E6720763D7573657264617461
+2026-09-13T22:24:22.529Z [395439656 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:14:fleetPtr:i:2:c:6E3D31206B3D737472696E6720763D7573657264617461
+2026-09-13T22:24:22.529Z [395439656 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:15:fleetPtr:z:-:t:-
+2026-09-13T22:24:22.542Z [395439671 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:16:global.ifs_purchase_tech_cards:i:1:t:-
+2026-09-13T22:24:22.542Z [395439671 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:17:global.ifs_purchase_tech_cards:i:2:t:-
+2026-09-13T22:24:22.542Z [395439671 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:18:global.ifs_purchase_tech_cards:p:i/1/i/10:b:1
+2026-09-13T22:24:22.542Z [395439671 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:19:global.ifs_purchase_tech_cards:p:i/1/i/1:b:1
+2026-09-13T22:24:22.542Z [395439671 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:20:global.ifs_purchase_tech_cards:p:i/1/i/2:b:1
+2026-09-13T22:24:22.542Z [395439671 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:21:global.ifs_purchase_tech_cards:p:i/1/i/3:b:1
+2026-09-13T22:24:22.542Z [395439671 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:22:global.ifs_purchase_tech_cards:p:i/1/i/4:b:1
+2026-09-13T22:24:22.542Z [395439671 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:23:global.ifs_purchase_tech_cards:p:i/1/i/5:b:1
+2026-09-13T22:24:22.554Z [395439687 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:24:global.ifs_purchase_tech_cards:p:i/1/i/6:b:1
+2026-09-13T22:24:22.554Z [395439687 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:25:global.ifs_purchase_tech_cards:p:i/1/i/7:b:1
+2026-09-13T22:24:22.554Z [395439687 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:26:global.ifs_purchase_tech_cards:p:i/1/i/8:b:1
+2026-09-13T22:24:22.554Z [395439687 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:27:global.ifs_purchase_tech_cards:p:i/1/i/9:b:1
+2026-09-13T22:24:22.554Z [395439687 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:28:global.ifs_purchase_tech_cards:p:i/2/i/10:b:1
+2026-09-13T22:24:22.554Z [395439687 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:29:global.ifs_purchase_tech_cards:p:i/2/i/1:b:1
+2026-09-13T22:24:22.554Z [395439687 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:30:global.ifs_purchase_tech_cards:p:i/2/i/2:b:1
+2026-09-13T22:24:22.554Z [395439687 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:31:global.ifs_purchase_tech_cards:p:i/2/i/3:b:1
+2026-09-13T22:24:22.566Z [395439687 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:32:global.ifs_purchase_tech_cards:p:i/2/i/4:b:1
+2026-09-13T22:24:22.566Z [395439687 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:33:global.ifs_purchase_tech_cards:p:i/2/i/5:b:1
+2026-09-13T22:24:22.566Z [395439687 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:34:global.ifs_purchase_tech_cards:p:i/2/i/6:b:1
+2026-09-13T22:24:22.566Z [395439687 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:35:global.ifs_purchase_tech_cards:p:i/2/i/7:b:1
+2026-09-13T22:24:22.566Z [395439687 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:36:global.ifs_purchase_tech_cards:p:i/2/i/8:b:1
+2026-09-13T22:24:22.566Z [395439687 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:37:global.ifs_purchase_tech_cards:p:i/2/i/9:b:1
+2026-09-13T22:24:22.566Z [395439687 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:38:global.ifs_purchase_tech_cards:z:-:t:-
+2026-09-13T22:24:22.566Z [395439687 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:39:global.ifs_purchase_tech_using:i:1:t:-
+2026-09-13T22:24:22.578Z [395439703 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:40:global.ifs_purchase_tech_using:i:2:t:-
+2026-09-13T22:24:22.578Z [395439703 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:41:global.ifs_purchase_tech_using:p:i/1/i/1:i:1
+2026-09-13T22:24:22.578Z [395439703 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:42:global.ifs_purchase_tech_using:p:i/1/i/2:i:0
+2026-09-13T22:24:22.578Z [395439703 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:43:global.ifs_purchase_tech_using:p:i/1/i/3:i:0
+2026-09-13T22:24:22.578Z [395439703 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:44:global.ifs_purchase_tech_using:p:i/2/i/1:i:0
+2026-09-13T22:24:22.578Z [395439703 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:45:global.ifs_purchase_tech_using:p:i/2/i/2:i:0
+2026-09-13T22:24:22.578Z [395439703 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:46:global.ifs_purchase_tech_using:p:i/2/i/3:i:0
+2026-09-13T22:24:22.579Z [395439703 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:47:global.ifs_purchase_tech_using:z:-:t:-
+2026-09-13T22:24:22.591Z [395439718 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:48:global.ifs_purchase_unit_owned:i:1:t:-
+2026-09-13T22:24:22.591Z [395439718 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:49:global.ifs_purchase_unit_owned:i:2:t:-
+2026-09-13T22:24:22.591Z [395439718 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:50:global.ifs_purchase_unit_owned:p:i/1/s/70696C6F74:b:1
+2026-09-13T22:24:22.591Z [395439718 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:51:global.ifs_purchase_unit_owned:p:i/1/s/736F6C64696572:b:1
+2026-09-13T22:24:22.592Z [395439718 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:52:global.ifs_purchase_unit_owned:p:i/2/s/70696C6F74:b:1
+2026-09-13T22:24:22.592Z [395439718 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:53:global.ifs_purchase_unit_owned:p:i/2/s/736F6C64696572:b:1
+2026-09-13T22:24:22.592Z [395439718 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:54:global.ifs_purchase_unit_owned:z:-:t:-
+2026-09-13T22:24:22.592Z [395439718 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:55:lastFleet:i:1:s:737461723033
+2026-09-13T22:24:22.603Z [395439734 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=15785 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:24:22.603Z [395439734 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:56:lastFleet:i:2:s:656E64
+2026-09-13T22:24:22.603Z [395439734 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:57:lastFleet:z:-:t:-
+2026-09-13T22:24:22.603Z [395439734 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:58:lastSelected:i:1:s:686F74
+2026-09-13T22:24:22.603Z [395439734 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:59:lastSelected:i:2:s:656E64
+2026-09-13T22:24:22.603Z [395439734 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:60:lastSelected:z:-:t:-
+2026-09-13T22:24:22.603Z [395439734 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:61:launchMission:z:-:z:-
+2026-09-13T22:24:22.603Z [395439734 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:62:otherSide:z:-:s:696D70
+2026-09-13T22:24:22.604Z [395439734 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:63:planetBase:i:1:s:686F74
+2026-09-13T22:24:22.616Z [395439750 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:64:planetBase:i:2:s:656E64
+2026-09-13T22:24:22.616Z [395439750 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:65:planetBase:z:-:t:-
+2026-09-13T22:24:22.616Z [395439750 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:66:planetFleet:s:656E64:i:2
+2026-09-13T22:24:22.616Z [395439750 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:67:planetFleet:s:737461723033:i:1
+2026-09-13T22:24:22.616Z [395439750 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:68:planetFleet:z:-:t:-
+2026-09-13T22:24:22.616Z [395439750 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:69:planetNext:z:-:s:737461723033
+2026-09-13T22:24:22.616Z [395439750 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:70:planetResources:z:-:z:-
+2026-09-13T22:24:22.616Z [395439750 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:71:planetTeam:s:636F72:i:2
+2026-09-13T22:24:22.629Z [395439750 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:72:planetTeam:s:646167:i:1
+2026-09-13T22:24:22.629Z [395439750 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:73:planetTeam:s:656E64:i:2
+2026-09-13T22:24:22.629Z [395439750 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:74:planetTeam:s:66656C:i:2
+2026-09-13T22:24:22.629Z [395439750 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:75:planetTeam:s:686F74:i:1
+2026-09-13T22:24:22.629Z [395439750 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:76:planetTeam:s:6B6173:i:2
+2026-09-13T22:24:22.629Z [395439750 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:77:planetTeam:s:6D7573:i:2
+2026-09-13T22:24:22.629Z [395439750 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:78:planetTeam:s:6D7967:i:2
+2026-09-13T22:24:22.629Z [395439750 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:79:planetTeam:s:6E6162:i:2
+2026-09-13T22:24:22.642Z [395439765 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:80:planetTeam:s:706F6C:i:2
+2026-09-13T22:24:22.642Z [395439765 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:81:planetTeam:s:746174:i:2
+2026-09-13T22:24:22.642Z [395439765 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:82:planetTeam:s:757461:i:2
+2026-09-13T22:24:22.642Z [395439765 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:83:planetTeam:s:796176:i:1
+2026-09-13T22:24:22.642Z [395439765 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:84:planetTeam:z:-:t:-
+2026-09-13T22:24:22.642Z [395439765 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:85:playerSide:z:-:s:616C6C
+2026-09-13T22:24:22.642Z [395439765 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:86:playerTeam:z:-:i:1
+2026-09-13T22:24:22.642Z [395439765 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:87:recentPlanets:z:-:t:-
+2026-09-13T22:24:22.654Z [395439781 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:88:scenario:z:-:s:616C6C
+2026-09-13T22:24:22.654Z [395439781 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:89:soakMode:z:-:z:-
+2026-09-13T22:24:22.654Z [395439781 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:90:teamCode:i:1:s:616C6C
+2026-09-13T22:24:22.654Z [395439781 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:91:teamCode:i:2:s:696D70
+2026-09-13T22:24:22.654Z [395439781 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:92:teamCode:z:-:t:-
+2026-09-13T22:24:22.654Z [395439781 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:93:teamName:i:0:s:-
+2026-09-13T22:24:22.654Z [395439781 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:94:teamName:i:1:s:636F6D6D6F6E2E73696465732E616C6C2E6E616D65
+2026-09-13T22:24:22.654Z [395439781 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:95:teamName:i:2:s:636F6D6D6F6E2E73696465732E696D702E6E616D65
+2026-09-13T22:24:22.666Z [395439796 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:96:teamName:z:-:t:-
+2026-09-13T22:24:22.675Z [395439796 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:97:teamResources:i:1:i:80
+2026-09-13T22:24:22.675Z [395439796 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:98:teamResources:i:2:i:100
+2026-09-13T22:24:22.675Z [395439796 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:99:teamResources:z:-:t:-
+2026-09-13T22:24:22.675Z [395439796 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:100:turnNumber:z:-:i:1
+2026-09-13T22:24:22.675Z [395439796 pid=14068 tid=3432] CHANNEL GCOBS:state:item:3:101:winnerTeam:z:-:z:-
+2026-09-13T22:24:22.675Z [395439796 pid=14068 tid=3432] CHANNEL GCOBS:state:end:3:101
+2026-09-13T22:24:23.332Z [395440453 pid=14068 tid=3432] CHANNEL GCOBS:2:Exit:begin:2
+2026-09-13T22:24:23.332Z [395440453 pid=14068 tid=3432] CHANNEL GCOBS:2:Exit:done:2
+2026-09-13T22:24:23.332Z [395440453 pid=14068 tid=3432] CHANNEL GCOBS:4:Enter:begin:1
+2026-09-13T22:24:23.332Z [395440453 pid=14068 tid=3432] CHANNEL GCOBS:4:Enter:done:1
+2026-09-13T22:24:23.345Z [395440468 pid=14068 tid=3432] CHANNEL GCOBS:4:Update:begin:1
+2026-09-13T22:24:23.345Z [395440468 pid=14068 tid=3432] CHANNEL GCOBS:4:Update:done:1
+2026-09-13T22:24:23.356Z [395440484 pid=14068 tid=3432] CHANNEL GCOBS:4:Update:begin:2
+2026-09-13T22:24:23.356Z [395440484 pid=14068 tid=3432] CHANNEL GCOBS:4:Update:done:2
+2026-09-13T22:24:23.369Z [395440500 pid=14068 tid=3432] CHANNEL GCOBS:4:Update:begin:3
+2026-09-13T22:24:23.369Z [395440500 pid=14068 tid=3432] CHANNEL GCOBS:4:Update:done:3
+2026-09-13T22:24:23.381Z [395440515 pid=14068 tid=3432] CHANNEL GCOBS:4:Update:begin:4
+2026-09-13T22:24:23.381Z [395440515 pid=14068 tid=3432] CHANNEL GCOBS:4:Update:done:4
+2026-09-13T22:24:24.081Z [395441203 pid=14068 tid=3432] CHANNEL GCOBS:4:Input_Accept:begin:1
+2026-09-13T22:24:24.082Z [395441203 pid=14068 tid=3432] CHANNEL GCOBS:1:SelectPlanet:begin:5
+2026-09-13T22:24:24.082Z [395441203 pid=14068 tid=3432] CHANNEL GCOBS:1:SelectPlanet:done:5
+2026-09-13T22:24:24.082Z [395441203 pid=14068 tid=3432] CHANNEL GCOBS:4:Input_Accept:done:1
+2026-09-13T22:24:24.082Z [395441203 pid=14068 tid=3432] CHANNEL GCOBS:4:Exit:begin:1
+2026-09-13T22:24:24.082Z [395441203 pid=14068 tid=3432] CHANNEL GCOBS:4:Exit:done:1
+2026-09-13T22:24:24.082Z [395441203 pid=14068 tid=3432] CHANNEL GCOBS:1:Enter:begin:2
+2026-09-13T22:24:24.082Z [395441203 pid=14068 tid=3432] CHANNEL GCOBS:1:Enter:done:2
+2026-09-13T22:24:24.082Z [395441203 pid=14068 tid=3432] CHANNEL GCOBS:1:Exit:begin:2
+2026-09-13T22:24:24.082Z [395441203 pid=14068 tid=3432] CHANNEL GCOBS:1:Exit:done:2
+2026-09-13T22:24:24.082Z [395441203 pid=14068 tid=3432] CHANNEL GCOBS:3:Enter:begin:1
+2026-09-13T22:24:24.082Z [395441203 pid=14068 tid=3432] CHANNEL GCOBS:3:Enter:done:1
+2026-09-13T22:24:24.094Z [395441218 pid=14068 tid=3432] CHANNEL GCOBS:3:CalculatePurchaseItem:begin:1
+2026-09-13T22:24:24.094Z [395441218 pid=14068 tid=3432] CHANNEL GCOBS:3:CalculateBuildFleet:begin:1
+2026-09-13T22:24:24.094Z [395441218 pid=14068 tid=3432] CHANNEL GCOBS:3:CalculateMoveFleet:begin:1
+2026-09-13T22:24:24.094Z [395441218 pid=14068 tid=3432] CHANNEL GCOBS:1:SelectPlanet:begin:6
+2026-09-13T22:24:24.094Z [395441218 pid=14068 tid=3432] CHANNEL GCOBS:1:SelectPlanet:done:6
+2026-09-13T22:24:24.094Z [395441218 pid=14068 tid=3432] CHANNEL GCOBS:3:UpdateMoveFleet:begin:1
+2026-09-13T22:24:24.094Z [395441218 pid=14068 tid=3432] CHANNEL GCOBS:3:UpdateCommon:begin:1
+2026-09-13T22:24:24.094Z [395441218 pid=14068 tid=3432] CHANNEL GCOBS:3:UpdateCommon:done:1
+2026-09-13T22:24:24.095Z [395441218 pid=14068 tid=3432] CHANNEL GCOBS:3:UpdateMoveFleet:done:1
+2026-09-13T22:24:24.095Z [395441218 pid=14068 tid=3432] CHANNEL GCOBS:3:CalculateMoveFleet:done:1
+2026-09-13T22:24:24.095Z [395441218 pid=14068 tid=3432] CHANNEL GCOBS:3:CalculateBuildFleet:done:1
+2026-09-13T22:24:24.095Z [395441218 pid=14068 tid=3432] CHANNEL GCOBS:3:CalculatePurchaseItem:done:1
+2026-09-13T22:24:24.107Z [395441234 pid=14068 tid=3432] CHANNEL GCOBS:3:UpdateMoveFleet:begin:2
+2026-09-13T22:24:24.107Z [395441234 pid=14068 tid=3432] CHANNEL GCOBS:3:UpdateCommon:begin:2
+2026-09-13T22:24:24.107Z [395441234 pid=14068 tid=3432] CHANNEL GCOBS:3:UpdateCommon:done:2
+2026-09-13T22:24:24.107Z [395441234 pid=14068 tid=3432] CHANNEL GCOBS:3:UpdateMoveFleet:done:2
+2026-09-13T22:24:24.119Z [395441250 pid=14068 tid=3432] CHANNEL GCOBS:3:UpdateMoveFleet:begin:3
+2026-09-13T22:24:24.119Z [395441250 pid=14068 tid=3432] CHANNEL GCOBS:3:UpdateCommon:begin:3
+2026-09-13T22:24:24.119Z [395441250 pid=14068 tid=3432] CHANNEL GCOBS:3:UpdateCommon:done:3
+2026-09-13T22:24:24.119Z [395441250 pid=14068 tid=3432] CHANNEL GCOBS:3:UpdateMoveFleet:done:3
+2026-09-13T22:24:24.132Z [395441265 pid=14068 tid=3432] CHANNEL GCOBS:3:UpdateMoveFleet:begin:4
+2026-09-13T22:24:24.132Z [395441265 pid=14068 tid=3432] CHANNEL GCOBS:3:UpdateCommon:begin:4
+2026-09-13T22:24:24.132Z [395441265 pid=14068 tid=3432] CHANNEL GCOBS:3:UpdateCommon:done:4
+2026-09-13T22:24:24.132Z [395441265 pid=14068 tid=3432] CHANNEL GCOBS:3:UpdateMoveFleet:done:4
+2026-09-13T22:24:24.650Z [395441781 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:24:26.094Z [395443218 pid=14068 tid=3432] CHANNEL GCOBS:1:SelectPlanet:begin:7
+2026-09-13T22:24:26.094Z [395443218 pid=14068 tid=3432] CHANNEL GCOBS:1:SelectPlanet:done:7
+2026-09-13T22:24:27.107Z [395444234 pid=14068 tid=3432] CHANNEL GCOBS:3:Exit:begin:1
+2026-09-13T22:24:27.107Z [395444234 pid=14068 tid=3432] CHANNEL GCOBS:3:Exit:done:1
+2026-09-13T22:24:27.107Z [395444234 pid=14068 tid=3432] CHANNEL GCOBS:4:Enter:begin:2
+2026-09-13T22:24:27.107Z [395444234 pid=14068 tid=3432] CHANNEL GCOBS:1:SelectPlanet:begin:8
+2026-09-13T22:24:27.107Z [395444234 pid=14068 tid=3432] CHANNEL GCOBS:1:SelectPlanet:done:8
+2026-09-13T22:24:27.107Z [395444234 pid=14068 tid=3432] CHANNEL GCOBS:4:Enter:done:2
+2026-09-13T22:24:27.108Z [395444234 pid=14068 tid=3432] CHANNEL GCOBS:4:Exit:begin:2
+2026-09-13T22:24:27.108Z [395444234 pid=14068 tid=3432] CHANNEL GCOBS:4:Exit:done:2
+2026-09-13T22:24:27.108Z [395444234 pid=14068 tid=3432] CHANNEL GCOBS:1:Enter:begin:3
+2026-09-13T22:24:27.108Z [395444234 pid=14068 tid=3432] CHANNEL GCOBS:1:Enter:done:3
+2026-09-13T22:24:27.108Z [395444234 pid=14068 tid=3432] CHANNEL GCOBS:1:Exit:begin:3
+2026-09-13T22:24:27.108Z [395444234 pid=14068 tid=3432] CHANNEL GCOBS:1:Exit:done:3
+2026-09-13T22:24:27.108Z [395444234 pid=14068 tid=3432] CHANNEL GCOBS:2:Enter:begin:3
+2026-09-13T22:24:27.108Z [395444234 pid=14068 tid=3432] CHANNEL GCOBS:1:SelectPlanet:begin:9
+2026-09-13T22:24:27.108Z [395444234 pid=14068 tid=3432] CHANNEL GCOBS:1:SelectPlanet:done:9
+2026-09-13T22:24:27.108Z [395444234 pid=14068 tid=3432] CHANNEL GCOBS:2:Enter:done:3
+2026-09-13T22:24:27.420Z [395444546 pid=14068 tid=3432] CHANNEL GCOBS:state:begin:6:4:102:2:14310:2
+2026-09-13T22:24:27.420Z [395444546 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:1:activeBonus:z:-:t:-
+2026-09-13T22:24:27.420Z [395444546 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:2:battleResources:z:-:z:-
+2026-09-13T22:24:27.420Z [395444546 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:3:controllerPlayer:i:0:i:0
+2026-09-13T22:24:27.420Z [395444546 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:4:controllerPlayer:z:-:t:-
+2026-09-13T22:24:27.420Z [395444546 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:5:controllerTeam:i:0:i:1
+2026-09-13T22:24:27.421Z [395444546 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:6:controllerTeam:z:-:t:-
+2026-09-13T22:24:27.421Z [395444546 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:7:curScreen:z:-:z:-
+2026-09-13T22:24:27.432Z [395444562 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:8:custom:z:-:z:-
+2026-09-13T22:24:27.432Z [395444562 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:9:fleet.planetNext:z:-:z:-
+2026-09-13T22:24:27.432Z [395444562 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:10:fleet.planetStart:z:-:z:-
+2026-09-13T22:24:27.432Z [395444562 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:11:fleet.turnNumber:z:-:z:-
+2026-09-13T22:24:27.432Z [395444562 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:12:fleetBattle:z:-:z:-
+2026-09-13T22:24:27.432Z [395444562 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:13:fleetPtr:i:1:c:6E3D31206B3D737472696E6720763D7573657264617461
+2026-09-13T22:24:27.432Z [395444562 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:14:fleetPtr:i:2:c:6E3D31206B3D737472696E6720763D7573657264617461
+2026-09-13T22:24:27.433Z [395444562 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:15:fleetPtr:z:-:t:-
+2026-09-13T22:24:27.445Z [395444578 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:16:global.ifs_purchase_tech_cards:i:1:t:-
+2026-09-13T22:24:27.445Z [395444578 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:17:global.ifs_purchase_tech_cards:i:2:t:-
+2026-09-13T22:24:27.445Z [395444578 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:18:global.ifs_purchase_tech_cards:p:i/1/i/10:b:1
+2026-09-13T22:24:27.445Z [395444578 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:19:global.ifs_purchase_tech_cards:p:i/1/i/1:b:1
+2026-09-13T22:24:27.445Z [395444578 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:20:global.ifs_purchase_tech_cards:p:i/1/i/2:b:1
+2026-09-13T22:24:27.445Z [395444578 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:21:global.ifs_purchase_tech_cards:p:i/1/i/3:b:1
+2026-09-13T22:24:27.445Z [395444578 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:22:global.ifs_purchase_tech_cards:p:i/1/i/4:b:1
+2026-09-13T22:24:27.445Z [395444578 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:23:global.ifs_purchase_tech_cards:p:i/1/i/5:b:1
+2026-09-13T22:24:27.457Z [395444578 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:24:global.ifs_purchase_tech_cards:p:i/1/i/6:b:1
+2026-09-13T22:24:27.457Z [395444578 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:25:global.ifs_purchase_tech_cards:p:i/1/i/7:b:1
+2026-09-13T22:24:27.457Z [395444578 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:26:global.ifs_purchase_tech_cards:p:i/1/i/8:b:1
+2026-09-13T22:24:27.457Z [395444578 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:27:global.ifs_purchase_tech_cards:p:i/1/i/9:b:1
+2026-09-13T22:24:27.457Z [395444578 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:28:global.ifs_purchase_tech_cards:p:i/2/i/10:b:1
+2026-09-13T22:24:27.457Z [395444578 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:29:global.ifs_purchase_tech_cards:p:i/2/i/1:b:1
+2026-09-13T22:24:27.457Z [395444578 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:30:global.ifs_purchase_tech_cards:p:i/2/i/2:b:1
+2026-09-13T22:24:27.457Z [395444578 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:31:global.ifs_purchase_tech_cards:p:i/2/i/3:b:1
+2026-09-13T22:24:27.469Z [395444593 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:32:global.ifs_purchase_tech_cards:p:i/2/i/4:b:1
+2026-09-13T22:24:27.469Z [395444593 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:33:global.ifs_purchase_tech_cards:p:i/2/i/5:b:1
+2026-09-13T22:24:27.469Z [395444593 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:34:global.ifs_purchase_tech_cards:p:i/2/i/6:b:1
+2026-09-13T22:24:27.469Z [395444593 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:35:global.ifs_purchase_tech_cards:p:i/2/i/7:b:1
+2026-09-13T22:24:27.469Z [395444593 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:36:global.ifs_purchase_tech_cards:p:i/2/i/8:b:1
+2026-09-13T22:24:27.469Z [395444593 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:37:global.ifs_purchase_tech_cards:p:i/2/i/9:b:1
+2026-09-13T22:24:27.469Z [395444593 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:38:global.ifs_purchase_tech_cards:z:-:t:-
+2026-09-13T22:24:27.469Z [395444593 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:39:global.ifs_purchase_tech_using:i:1:t:-
+2026-09-13T22:24:27.482Z [395444609 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:40:global.ifs_purchase_tech_using:i:2:t:-
+2026-09-13T22:24:27.482Z [395444609 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:41:global.ifs_purchase_tech_using:p:i/1/i/1:i:1
+2026-09-13T22:24:27.482Z [395444609 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:42:global.ifs_purchase_tech_using:p:i/1/i/2:i:0
+2026-09-13T22:24:27.482Z [395444609 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:43:global.ifs_purchase_tech_using:p:i/1/i/3:i:0
+2026-09-13T22:24:27.482Z [395444609 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:44:global.ifs_purchase_tech_using:p:i/2/i/1:i:0
+2026-09-13T22:24:27.482Z [395444609 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:45:global.ifs_purchase_tech_using:p:i/2/i/2:i:0
+2026-09-13T22:24:27.482Z [395444609 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:46:global.ifs_purchase_tech_using:p:i/2/i/3:i:0
+2026-09-13T22:24:27.482Z [395444609 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:47:global.ifs_purchase_tech_using:z:-:t:-
+2026-09-13T22:24:27.494Z [395444625 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:48:global.ifs_purchase_unit_owned:i:1:t:-
+2026-09-13T22:24:27.494Z [395444625 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:49:global.ifs_purchase_unit_owned:i:2:t:-
+2026-09-13T22:24:27.495Z [395444625 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:50:global.ifs_purchase_unit_owned:p:i/1/s/70696C6F74:b:1
+2026-09-13T22:24:27.495Z [395444625 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:51:global.ifs_purchase_unit_owned:p:i/1/s/736F6C64696572:b:1
+2026-09-13T22:24:27.495Z [395444625 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:52:global.ifs_purchase_unit_owned:p:i/2/s/6D6172696E65:b:1
+2026-09-13T22:24:27.495Z [395444625 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:53:global.ifs_purchase_unit_owned:p:i/2/s/70696C6F74:b:1
+2026-09-13T22:24:27.495Z [395444625 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:54:global.ifs_purchase_unit_owned:p:i/2/s/736F6C64696572:b:1
+2026-09-13T22:24:27.495Z [395444625 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:55:global.ifs_purchase_unit_owned:z:-:t:-
+2026-09-13T22:24:27.507Z [395444640 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:56:lastFleet:i:1:s:737461723033
+2026-09-13T22:24:27.507Z [395444640 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:57:lastFleet:i:2:s:737461723138
+2026-09-13T22:24:27.507Z [395444640 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:58:lastFleet:z:-:t:-
+2026-09-13T22:24:27.507Z [395444640 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:59:lastSelected:i:1:s:737461723033
+2026-09-13T22:24:27.508Z [395444640 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:60:lastSelected:i:2:s:737461723138
+2026-09-13T22:24:27.508Z [395444640 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:61:lastSelected:z:-:t:-
+2026-09-13T22:24:27.508Z [395444640 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:62:launchMission:z:-:z:-
+2026-09-13T22:24:27.508Z [395444640 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:63:otherSide:z:-:s:696D70
+2026-09-13T22:24:27.519Z [395444640 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:64:planetBase:i:1:s:686F74
+2026-09-13T22:24:27.519Z [395444640 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:65:planetBase:i:2:s:656E64
+2026-09-13T22:24:27.519Z [395444640 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:66:planetBase:z:-:t:-
+2026-09-13T22:24:27.519Z [395444640 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:67:planetFleet:s:737461723033:i:1
+2026-09-13T22:24:27.519Z [395444640 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:68:planetFleet:s:737461723138:i:2
+2026-09-13T22:24:27.520Z [395444640 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:69:planetFleet:z:-:t:-
+2026-09-13T22:24:27.520Z [395444640 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:70:planetNext:z:-:s:706F6C
+2026-09-13T22:24:27.520Z [395444640 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:71:planetResources:z:-:z:-
+2026-09-13T22:24:27.532Z [395444656 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:72:planetTeam:s:636F72:i:2
+2026-09-13T22:24:27.532Z [395444656 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:73:planetTeam:s:646167:i:1
+2026-09-13T22:24:27.532Z [395444656 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:74:planetTeam:s:656E64:i:2
+2026-09-13T22:24:27.532Z [395444656 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:75:planetTeam:s:66656C:i:2
+2026-09-13T22:24:27.532Z [395444656 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:76:planetTeam:s:686F74:i:1
+2026-09-13T22:24:27.532Z [395444656 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:77:planetTeam:s:6B6173:i:2
+2026-09-13T22:24:27.532Z [395444656 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:78:planetTeam:s:6D7573:i:2
+2026-09-13T22:24:27.532Z [395444656 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:79:planetTeam:s:6D7967:i:2
+2026-09-13T22:24:27.545Z [395444671 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:80:planetTeam:s:6E6162:i:2
+2026-09-13T22:24:27.545Z [395444671 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:81:planetTeam:s:706F6C:i:2
+2026-09-13T22:24:27.545Z [395444671 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:82:planetTeam:s:746174:i:2
+2026-09-13T22:24:27.545Z [395444671 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:83:planetTeam:s:757461:i:2
+2026-09-13T22:24:27.545Z [395444671 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:84:planetTeam:s:796176:i:1
+2026-09-13T22:24:27.545Z [395444671 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:85:planetTeam:z:-:t:-
+2026-09-13T22:24:27.545Z [395444671 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:86:playerSide:z:-:s:616C6C
+2026-09-13T22:24:27.545Z [395444671 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:87:playerTeam:z:-:i:1
+2026-09-13T22:24:27.557Z [395444687 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:88:recentPlanets:z:-:t:-
+2026-09-13T22:24:27.557Z [395444687 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:89:scenario:z:-:s:616C6C
+2026-09-13T22:24:27.557Z [395444687 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:90:soakMode:z:-:z:-
+2026-09-13T22:24:27.557Z [395444687 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:91:teamCode:i:1:s:616C6C
+2026-09-13T22:24:27.557Z [395444687 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:92:teamCode:i:2:s:696D70
+2026-09-13T22:24:27.557Z [395444687 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:93:teamCode:z:-:t:-
+2026-09-13T22:24:27.558Z [395444687 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:94:teamName:i:0:s:-
+2026-09-13T22:24:27.558Z [395444687 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:95:teamName:i:1:s:636F6D6D6F6E2E73696465732E616C6C2E6E616D65
+2026-09-13T22:24:27.569Z [395444703 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:96:teamName:i:2:s:636F6D6D6F6E2E73696465732E696D702E6E616D65
+2026-09-13T22:24:27.569Z [395444703 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:97:teamName:z:-:t:-
+2026-09-13T22:24:27.569Z [395444703 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:98:teamResources:i:1:i:80
+2026-09-13T22:24:27.569Z [395444703 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:99:teamResources:i:2:i:20
+2026-09-13T22:24:27.569Z [395444703 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:100:teamResources:z:-:t:-
+2026-09-13T22:24:27.569Z [395444703 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:101:turnNumber:z:-:i:3
+2026-09-13T22:24:27.570Z [395444703 pid=14068 tid=3432] CHANNEL GCOBS:state:item:4:102:winnerTeam:z:-:z:-
+2026-09-13T22:24:27.570Z [395444703 pid=14068 tid=3432] CHANNEL GCOBS:state:end:4:102
+2026-09-13T22:24:28.432Z [395445562 pid=14068 tid=3432] CHANNEL GCOBS:2:Input_Accept:begin:6
+2026-09-13T22:24:28.432Z [395445562 pid=14068 tid=3432] CHANNEL GCOBS:1:SelectPlanet:begin:10
+2026-09-13T22:24:28.432Z [395445562 pid=14068 tid=3432] CHANNEL GCOBS:1:SelectPlanet:done:10
+2026-09-13T22:24:28.432Z [395445562 pid=14068 tid=3432] CHANNEL GCOBS:2:Input_Accept:done:6
+2026-09-13T22:24:28.544Z [395445671 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:14400
+2026-09-13T22:24:28.544Z [395445671 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:14400
+2026-09-13T22:24:28.544Z [395445671 pid=14068 tid=3432] CHANNEL GCOBS:state:begin:6:5:102:2:14400:2
+2026-09-13T22:24:28.544Z [395445671 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:1:activeBonus:z:-:t:-
+2026-09-13T22:24:28.544Z [395445671 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:2:battleResources:z:-:z:-
+2026-09-13T22:24:28.545Z [395445671 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:3:controllerPlayer:i:0:i:0
+2026-09-13T22:24:28.545Z [395445671 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:4:controllerPlayer:z:-:t:-
+2026-09-13T22:24:28.545Z [395445671 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:5:controllerTeam:i:0:i:1
+2026-09-13T22:24:28.545Z [395445671 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:6:controllerTeam:z:-:t:-
+2026-09-13T22:24:28.545Z [395445671 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:7:curScreen:z:-:z:-
+2026-09-13T22:24:28.550Z [395445671 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=921 (worker liveness, not game simulation)
+2026-09-13T22:24:28.557Z [395445687 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:8:custom:z:-:z:-
+2026-09-13T22:24:28.557Z [395445687 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:9:fleet.planetNext:z:-:s:706F6C
+2026-09-13T22:24:28.557Z [395445687 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:10:fleet.planetStart:z:-:s:737461723033
+2026-09-13T22:24:28.557Z [395445687 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:11:fleet.turnNumber:z:-:i:3
+2026-09-13T22:24:28.557Z [395445687 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:12:fleetBattle:z:-:z:-
+2026-09-13T22:24:28.557Z [395445687 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:13:fleetPtr:i:1:c:6E3D31206B3D737472696E6720763D7573657264617461
+2026-09-13T22:24:28.557Z [395445687 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:14:fleetPtr:i:2:c:6E3D31206B3D737472696E6720763D7573657264617461
+2026-09-13T22:24:28.557Z [395445687 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:15:fleetPtr:z:-:t:-
+2026-09-13T22:24:28.569Z [395445703 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:16:global.ifs_purchase_tech_cards:i:1:t:-
+2026-09-13T22:24:28.569Z [395445703 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:17:global.ifs_purchase_tech_cards:i:2:t:-
+2026-09-13T22:24:28.569Z [395445703 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:18:global.ifs_purchase_tech_cards:p:i/1/i/10:b:1
+2026-09-13T22:24:28.569Z [395445703 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:19:global.ifs_purchase_tech_cards:p:i/1/i/1:b:1
+2026-09-13T22:24:28.569Z [395445703 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:20:global.ifs_purchase_tech_cards:p:i/1/i/2:b:1
+2026-09-13T22:24:28.569Z [395445703 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:21:global.ifs_purchase_tech_cards:p:i/1/i/3:b:1
+2026-09-13T22:24:28.569Z [395445703 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:22:global.ifs_purchase_tech_cards:p:i/1/i/4:b:1
+2026-09-13T22:24:28.569Z [395445703 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:23:global.ifs_purchase_tech_cards:p:i/1/i/5:b:1
+2026-09-13T22:24:28.582Z [395445703 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:24:global.ifs_purchase_tech_cards:p:i/1/i/6:b:1
+2026-09-13T22:24:28.582Z [395445703 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:25:global.ifs_purchase_tech_cards:p:i/1/i/7:b:1
+2026-09-13T22:24:28.582Z [395445703 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:26:global.ifs_purchase_tech_cards:p:i/1/i/8:b:1
+2026-09-13T22:24:28.582Z [395445703 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:27:global.ifs_purchase_tech_cards:p:i/1/i/9:b:1
+2026-09-13T22:24:28.582Z [395445703 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:28:global.ifs_purchase_tech_cards:p:i/2/i/10:b:1
+2026-09-13T22:24:28.582Z [395445703 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:29:global.ifs_purchase_tech_cards:p:i/2/i/1:b:1
+2026-09-13T22:24:28.582Z [395445703 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:30:global.ifs_purchase_tech_cards:p:i/2/i/2:b:1
+2026-09-13T22:24:28.582Z [395445703 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:31:global.ifs_purchase_tech_cards:p:i/2/i/3:b:1
+2026-09-13T22:24:28.595Z [395445718 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:32:global.ifs_purchase_tech_cards:p:i/2/i/4:b:1
+2026-09-13T22:24:28.595Z [395445718 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:33:global.ifs_purchase_tech_cards:p:i/2/i/5:b:1
+2026-09-13T22:24:28.595Z [395445718 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:34:global.ifs_purchase_tech_cards:p:i/2/i/6:b:1
+2026-09-13T22:24:28.595Z [395445718 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:35:global.ifs_purchase_tech_cards:p:i/2/i/7:b:1
+2026-09-13T22:24:28.595Z [395445718 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:36:global.ifs_purchase_tech_cards:p:i/2/i/8:b:1
+2026-09-13T22:24:28.595Z [395445718 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:37:global.ifs_purchase_tech_cards:p:i/2/i/9:b:1
+2026-09-13T22:24:28.595Z [395445718 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:38:global.ifs_purchase_tech_cards:z:-:t:-
+2026-09-13T22:24:28.595Z [395445718 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:39:global.ifs_purchase_tech_using:i:1:t:-
+2026-09-13T22:24:28.607Z [395445734 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:40:global.ifs_purchase_tech_using:i:2:t:-
+2026-09-13T22:24:28.607Z [395445734 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:41:global.ifs_purchase_tech_using:p:i/1/i/1:i:1
+2026-09-13T22:24:28.607Z [395445734 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:42:global.ifs_purchase_tech_using:p:i/1/i/2:i:0
+2026-09-13T22:24:28.607Z [395445734 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:43:global.ifs_purchase_tech_using:p:i/1/i/3:i:0
+2026-09-13T22:24:28.607Z [395445734 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:44:global.ifs_purchase_tech_using:p:i/2/i/1:i:0
+2026-09-13T22:24:28.607Z [395445734 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:45:global.ifs_purchase_tech_using:p:i/2/i/2:i:0
+2026-09-13T22:24:28.607Z [395445734 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:46:global.ifs_purchase_tech_using:p:i/2/i/3:i:0
+2026-09-13T22:24:28.607Z [395445734 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:47:global.ifs_purchase_tech_using:z:-:t:-
+2026-09-13T22:24:28.619Z [395445750 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:48:global.ifs_purchase_unit_owned:i:1:t:-
+2026-09-13T22:24:28.619Z [395445750 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:49:global.ifs_purchase_unit_owned:i:2:t:-
+2026-09-13T22:24:28.619Z [395445750 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:50:global.ifs_purchase_unit_owned:p:i/1/s/70696C6F74:b:1
+2026-09-13T22:24:28.619Z [395445750 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:51:global.ifs_purchase_unit_owned:p:i/1/s/736F6C64696572:b:1
+2026-09-13T22:24:28.619Z [395445750 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:52:global.ifs_purchase_unit_owned:p:i/2/s/6D6172696E65:b:1
+2026-09-13T22:24:28.619Z [395445750 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:53:global.ifs_purchase_unit_owned:p:i/2/s/70696C6F74:b:1
+2026-09-13T22:24:28.619Z [395445750 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:54:global.ifs_purchase_unit_owned:p:i/2/s/736F6C64696572:b:1
+2026-09-13T22:24:28.619Z [395445750 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:55:global.ifs_purchase_unit_owned:z:-:t:-
+2026-09-13T22:24:28.631Z [395445765 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:56:lastFleet:i:1:s:706F6C
+2026-09-13T22:24:28.631Z [395445765 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:57:lastFleet:i:2:s:737461723138
+2026-09-13T22:24:28.632Z [395445765 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:58:lastFleet:z:-:t:-
+2026-09-13T22:24:28.632Z [395445765 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:59:lastSelected:i:1:s:737461723033
+2026-09-13T22:24:28.632Z [395445765 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:60:lastSelected:i:2:s:737461723138
+2026-09-13T22:24:28.632Z [395445765 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:61:lastSelected:z:-:t:-
+2026-09-13T22:24:28.632Z [395445765 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:62:launchMission:z:-:z:-
+2026-09-13T22:24:28.632Z [395445765 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:63:otherSide:z:-:s:696D70
+2026-09-13T22:24:28.644Z [395445765 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:64:planetBase:i:1:s:686F74
+2026-09-13T22:24:28.644Z [395445765 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:65:planetBase:i:2:s:656E64
+2026-09-13T22:24:28.644Z [395445765 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:66:planetBase:z:-:t:-
+2026-09-13T22:24:28.644Z [395445765 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:67:planetFleet:s:706F6C:i:1
+2026-09-13T22:24:28.644Z [395445765 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:68:planetFleet:s:737461723138:i:2
+2026-09-13T22:24:28.644Z [395445765 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:69:planetFleet:z:-:t:-
+2026-09-13T22:24:28.644Z [395445765 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:70:planetNext:z:-:s:706F6C
+2026-09-13T22:24:28.644Z [395445765 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:71:planetResources:z:-:z:-
+2026-09-13T22:24:28.657Z [395445781 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:72:planetTeam:s:636F72:i:2
+2026-09-13T22:24:28.657Z [395445781 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:73:planetTeam:s:646167:i:1
+2026-09-13T22:24:28.657Z [395445781 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:74:planetTeam:s:656E64:i:2
+2026-09-13T22:24:28.657Z [395445781 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:75:planetTeam:s:66656C:i:2
+2026-09-13T22:24:28.657Z [395445781 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:76:planetTeam:s:686F74:i:1
+2026-09-13T22:24:28.657Z [395445781 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:77:planetTeam:s:6B6173:i:2
+2026-09-13T22:24:28.657Z [395445781 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:78:planetTeam:s:6D7573:i:2
+2026-09-13T22:24:28.657Z [395445781 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:79:planetTeam:s:6D7967:i:2
+2026-09-13T22:24:28.669Z [395445796 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:80:planetTeam:s:6E6162:i:2
+2026-09-13T22:24:28.669Z [395445796 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:81:planetTeam:s:706F6C:i:2
+2026-09-13T22:24:28.669Z [395445796 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:82:planetTeam:s:746174:i:2
+2026-09-13T22:24:28.669Z [395445796 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:83:planetTeam:s:757461:i:2
+2026-09-13T22:24:28.669Z [395445796 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:84:planetTeam:s:796176:i:1
+2026-09-13T22:24:28.669Z [395445796 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:85:planetTeam:z:-:t:-
+2026-09-13T22:24:28.669Z [395445796 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:86:playerSide:z:-:s:616C6C
+2026-09-13T22:24:28.669Z [395445796 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:87:playerTeam:z:-:i:1
+2026-09-13T22:24:28.682Z [395445812 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:88:recentPlanets:z:-:t:-
+2026-09-13T22:24:28.682Z [395445812 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:89:scenario:z:-:s:616C6C
+2026-09-13T22:24:28.682Z [395445812 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:90:soakMode:z:-:z:-
+2026-09-13T22:24:28.682Z [395445812 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:91:teamCode:i:1:s:616C6C
+2026-09-13T22:24:28.682Z [395445812 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:92:teamCode:i:2:s:696D70
+2026-09-13T22:24:28.682Z [395445812 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:93:teamCode:z:-:t:-
+2026-09-13T22:24:28.682Z [395445812 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:94:teamName:i:0:s:-
+2026-09-13T22:24:28.682Z [395445812 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:95:teamName:i:1:s:636F6D6D6F6E2E73696465732E616C6C2E6E616D65
+2026-09-13T22:24:28.694Z [395445828 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:96:teamName:i:2:s:636F6D6D6F6E2E73696465732E696D702E6E616D65
+2026-09-13T22:24:28.695Z [395445828 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:97:teamName:z:-:t:-
+2026-09-13T22:24:28.695Z [395445828 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:98:teamResources:i:1:i:80
+2026-09-13T22:24:28.695Z [395445828 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:99:teamResources:i:2:i:20
+2026-09-13T22:24:28.695Z [395445828 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:100:teamResources:z:-:t:-
+2026-09-13T22:24:28.695Z [395445828 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:101:turnNumber:z:-:i:3
+2026-09-13T22:24:28.695Z [395445828 pid=14068 tid=3432] CHANNEL GCOBS:state:item:5:102:winnerTeam:z:-:z:-
+2026-09-13T22:24:28.695Z [395445828 pid=14068 tid=3432] CHANNEL GCOBS:state:end:5:102
+2026-09-13T22:24:29.432Z [395446562 pid=14068 tid=3432] CHANNEL GCOBS:2:Exit:begin:3
+2026-09-13T22:24:29.432Z [395446562 pid=14068 tid=3432] CHANNEL GCOBS:2:Exit:done:3
+2026-09-13T22:24:32.644Z [395449765 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=16587 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:24:34.685Z [395451812 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:24:36.821Z [395453953 pid=14068 tid=3432] ENGINE pcSetDisplayMode- width: 2560 hieght: 1440 windowed: 0 mstype: 8 msquality: 0 vsync: 1 
+
+2026-09-13T22:24:36.999Z [395454125 pid=14068 tid=13048] STATE flow=3 lua=08561348 render_count=1 suspend=0 candidate_lock=0
+2026-09-13T22:24:37.233Z [395454359 pid=14068 tid=3432] ENGINE Font [gamefont_large]	Hash 0xb3e564de
+
+2026-09-13T22:24:37.236Z [395454359 pid=14068 tid=3432] ENGINE Font [gamefont_medium]	Hash 0xaa8876fc
+
+2026-09-13T22:24:37.238Z [395454359 pid=14068 tid=3432] ENGINE Font [gamefont_small]	Hash 0x8f4b7122
+
+2026-09-13T22:24:37.245Z [395454375 pid=14068 tid=3432] ENGINE pcRedShader [normal]	Hash 0xe68b9c52
+
+2026-09-13T22:24:37.245Z [395454375 pid=14068 tid=3432] ENGINE pcRedShaderDef [normal_shader.xml]	Hash 0x7010c655
+
+2026-09-13T22:24:37.251Z [395454375 pid=14068 tid=13048] STATE flow=3 lua=08561348 render_count=1 suspend=1 candidate_lock=0
+2026-09-13T22:24:37.263Z [395454390 pid=14068 tid=3432] ENGINE pcRedShader [Terrain2]	Hash 0x31fc3674
+
+2026-09-13T22:24:37.263Z [395454390 pid=14068 tid=3432] ENGINE pcRedShaderDef [normal_terrain_shader.xml]	Hash 0x0a4fafb7
+
+2026-09-13T22:24:37.265Z [395454390 pid=14068 tid=3432] ENGINE pcRedShader [interface]	Hash 0x84ea5130
+
+2026-09-13T22:24:37.265Z [395454390 pid=14068 tid=3432] ENGINE pcRedShaderDef [interface_shader.xml]	Hash 0xf8613147
+
+2026-09-13T22:24:37.265Z [395454390 pid=14068 tid=3432] ENGINE pcRedShader [particle]	Hash 0x8a8743bf
+
+2026-09-13T22:24:37.265Z [395454390 pid=14068 tid=3432] ENGINE pcRedShaderDef [particle_shader.xml]	Hash 0x3b58396e
+
+2026-09-13T22:24:37.265Z [395454390 pid=14068 tid=3432] ENGINE pcRedShader [sprite]	Hash 0x81e2581c
+
+2026-09-13T22:24:37.265Z [395454390 pid=14068 tid=3432] ENGINE Error: pcRedShader 0x81e2581c not found
+
+2026-09-13T22:24:37.265Z [395454390 pid=14068 tid=3432] ENGINE pcRedShader [skyfog]	Hash 0x890efa1e
+
+2026-09-13T22:24:37.265Z [395454390 pid=14068 tid=3432] ENGINE pcRedShaderDef [skyfog_shader.xml]	Hash 0x3eb49919
+
+2026-09-13T22:24:37.266Z [395454390 pid=14068 tid=3432] ENGINE pcRedShader [foliage]	Hash 0x3b1f5e08
+
+2026-09-13T22:24:37.266Z [395454390 pid=14068 tid=3432] ENGINE Error: pcRedShader 0x3b1f5e08 not found
+
+2026-09-13T22:24:37.266Z [395454390 pid=14068 tid=3432] ENGINE pcRedShader [lightbeam]	Hash 0xe8651328
+
+2026-09-13T22:24:37.266Z [395454390 pid=14068 tid=3432] ENGINE pcRedShaderDef [lightbeam_shader.xml]	Hash 0xc5b0a02f
+
+2026-09-13T22:24:37.266Z [395454390 pid=14068 tid=3432] ENGINE pcRedShader [scroll]	Hash 0xdd4ec22c
+
+2026-09-13T22:24:37.266Z [395454390 pid=14068 tid=3432] ENGINE Error: pcRedShader 0xdd4ec22c not found
+
+2026-09-13T22:24:37.266Z [395454390 pid=14068 tid=3432] ENGINE pcRedShader [flare]	Hash 0x96834737
+
+2026-09-13T22:24:37.266Z [395454390 pid=14068 tid=3432] ENGINE pcRedShaderDef [flare_shader.xml]	Hash 0xcdc316b6
+
+2026-09-13T22:24:37.266Z [395454390 pid=14068 tid=3432] ENGINE pcRedShader [sample]	Hash 0x96e382a7
+
+2026-09-13T22:24:37.266Z [395454390 pid=14068 tid=3432] ENGINE pcRedShaderDef [sample_shader.xml]	Hash 0x9a9cec86
+
+2026-09-13T22:24:37.266Z [395454390 pid=14068 tid=3432] ENGINE pcRedShader [rain]	Hash 0x89a3b5d3
+
+2026-09-13T22:24:37.267Z [395454390 pid=14068 tid=3432] ENGINE pcRedShaderDef [rain_shader.xml]	Hash 0xad8cc90a
+
+2026-09-13T22:24:37.267Z [395454390 pid=14068 tid=3432] ENGINE pcRedShader [normalmapadder]	Hash 0x160d173c
+
+2026-09-13T22:24:37.267Z [395454390 pid=14068 tid=3432] ENGINE pcRedShaderDef [normalmapadder_shader.xml]	Hash 0x886ad64b
+
+2026-09-13T22:24:37.267Z [395454390 pid=14068 tid=3432] ENGINE pcRedShader [prereflection]	Hash 0x99fe618f
+
+2026-09-13T22:24:37.267Z [395454390 pid=14068 tid=3432] ENGINE pcRedShaderDef [prereflection_shader.xml]	Hash 0xd8c9e8de
+
+2026-09-13T22:24:37.267Z [395454390 pid=14068 tid=3432] ENGINE pcRedShader [water]	Hash 0x49c69a10
+
+2026-09-13T22:24:37.267Z [395454390 pid=14068 tid=3432] ENGINE pcRedShaderDef [water_shader.xml]	Hash 0x04d601a7
+
+2026-09-13T22:24:37.269Z [395454390 pid=14068 tid=3432] ENGINE pcRedShader [stencilshadow]	Hash 0x78214ac3
+
+2026-09-13T22:24:37.269Z [395454390 pid=14068 tid=3432] ENGINE pcRedShaderDef [stencilshadow_shader.xml]	Hash 0x9b41e2da
+
+2026-09-13T22:24:37.270Z [395454390 pid=14068 tid=3432] ENGINE pcRedShader [shadowquad]	Hash 0x9296fc1a
+
+2026-09-13T22:24:37.271Z [395454390 pid=14068 tid=3432] ENGINE pcRedShaderDef [shadowquad_shader.xml]	Hash 0xfc9f792d
+
+2026-09-13T22:24:37.271Z [395454390 pid=14068 tid=3432] ENGINE pcRedShader [specmap]	Hash 0x1ae39af8
+
+2026-09-13T22:24:37.271Z [395454390 pid=14068 tid=3432] ENGINE Error: pcRedShader 0x1ae39af8 not found
+
+2026-09-13T22:24:37.271Z [395454390 pid=14068 tid=3432] ENGINE pcRedShader [detail]	Hash 0x60345894
+
+2026-09-13T22:24:37.271Z [395454390 pid=14068 tid=3432] ENGINE Error: pcRedShader 0x60345894 not found
+
+2026-09-13T22:24:37.271Z [395454390 pid=14068 tid=3432] ENGINE pcRedShader [ocean]	Hash 0xd4705991
+
+2026-09-13T22:24:37.271Z [395454390 pid=14068 tid=3432] ENGINE pcRedShaderDef [ocean_shader.xml]	Hash 0x8add48d4
+
+2026-09-13T22:24:37.271Z [395454390 pid=14068 tid=3432] ENGINE pcRedShader [refraction]	Hash 0x4cc5882a
+
+2026-09-13T22:24:37.271Z [395454390 pid=14068 tid=3432] ENGINE pcRedShaderDef [refraction_shader.xml]	Hash 0xa21740dd
+
+2026-09-13T22:24:37.277Z [395454406 pid=14068 tid=3432] ENGINE pcRedShader [decal]	Hash 0xde15f6ae
+
+2026-09-13T22:24:37.277Z [395454406 pid=14068 tid=3432] ENGINE pcRedShaderDef [decal_shader.xml]	Hash 0xb8473c09
+
+2026-09-13T22:24:37.278Z [395454406 pid=14068 tid=3432] ENGINE pcRedShader [filtercopy]	Hash 0xfb9eb106
+
+2026-09-13T22:24:37.278Z [395454406 pid=14068 tid=3432] ENGINE pcRedShaderDef [filtercopy_shader.xml]	Hash 0x441ebcd1
+
+2026-09-13T22:24:37.278Z [395454406 pid=14068 tid=3432] ENGINE pcRedShader [shield]	Hash 0x337519b0
+
+2026-09-13T22:24:37.278Z [395454406 pid=14068 tid=3432] ENGINE pcRedShaderDef [shield_shader.xml]	Hash 0x0dd59ec7
+
+2026-09-13T22:24:37.278Z [395454406 pid=14068 tid=3432] ENGINE pcRedShader [bump]	Hash 0x623c0fb5
+
+2026-09-13T22:24:37.278Z [395454406 pid=14068 tid=3432] ENGINE Error: pcRedShader 0x623c0fb5 not found
+
+2026-09-13T22:24:37.279Z [395454406 pid=14068 tid=3432] ENGINE pcRedShader [zprepass]	Hash 0x9a2b93af
+
+2026-09-13T22:24:37.279Z [395454406 pid=14068 tid=3432] ENGINE pcRedShaderDef [zprepass_shader.xml]	Hash 0x9dcac87e
+
+2026-09-13T22:24:37.279Z [395454406 pid=14068 tid=3432] ENGINE pcRedShader [pervertexdiffuselighting]	Hash 0x2e2fba04
+
+2026-09-13T22:24:37.280Z [395454406 pid=14068 tid=3432] ENGINE pcRedShaderDef [pervertexdiffuselighting_shader.xml]	Hash 0x19a1d463
+
+2026-09-13T22:24:37.281Z [395454406 pid=14068 tid=3432] ENGINE pcRedShader [perpixeldiffuselighting]	Hash 0xd3a5cfca
+
+2026-09-13T22:24:37.281Z [395454406 pid=14068 tid=3432] ENGINE pcRedShaderDef [perpixeldiffuselighting_shader.xml]	Hash 0x677e5e7d
+
+2026-09-13T22:24:37.286Z [395454406 pid=14068 tid=3432] ENGINE pcRedShader [specularlighting]	Hash 0xe846f024
+
+2026-09-13T22:24:37.286Z [395454406 pid=14068 tid=3432] ENGINE pcRedShaderDef [specularlighting_shader.xml]	Hash 0xd2573283
+
+2026-09-13T22:24:37.288Z [395454421 pid=14068 tid=3432] ENGINE pcRedShader [hdr]	Hash 0xfeb6dbe1
+
+2026-09-13T22:24:37.288Z [395454421 pid=14068 tid=3432] ENGINE pcRedShaderDef [hdr_shader.xml]	Hash 0x1aa9c5c4
+
+2026-09-13T22:24:37.804Z [395454937 pid=14068 tid=3432] ENGINE Model with 4 segments [com_item_powerup_dual]
+
+2026-09-13T22:24:37.854Z [395454984 pid=14068 tid=3432] ENGINE Model with 4 segments [hud_health_regen]
+
+2026-09-13T22:24:37.870Z [395455000 pid=14068 tid=3432] ENGINE Model with 3 segments [com_item_healthrecharge_dst]
+
+2026-09-13T22:24:37.943Z [395455062 pid=14068 tid=3432] ENGINE Font [gamefont_large_rema]	Hash 0xbdfedf94
+
+2026-09-13T22:24:37.946Z [395455078 pid=14068 tid=3432] ENGINE Font [gamefont_medium_rema]	Hash 0x146b6c26
+
+2026-09-13T22:24:37.948Z [395455078 pid=14068 tid=3432] ENGINE Font [gamefont_small_rema]	Hash 0x9efde978
+
+2026-09-13T22:24:37.951Z [395455078 pid=14068 tid=3432] ENGINE Font [gamefont_tiny]	Hash 0x46f060d5
+
+2026-09-13T22:24:37.953Z [395455078 pid=14068 tid=3432] ENGINE Font [gamefont_super_tiny]	Hash 0x548190d5
+
+2026-09-13T22:24:37.991Z [395455125 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: db1fea7e
+
+2026-09-13T22:24:38.007Z [395455140 pid=14068 tid=3432] ENGINE Model with 6 segments [new_cp]
+
+2026-09-13T22:24:38.008Z [395455140 pid=14068 tid=3432] ENGINE Model with 5 segments [new_cpLOWD]
+
+2026-09-13T22:24:38.033Z [395455156 pid=14068 tid=3432] ENGINE Model with 3 segments [new_dmedic]
+
+2026-09-13T22:24:38.322Z [395455453 pid=14068 tid=3432] ENGINE Model with 3 segments [all_inf_tantive4trooper]
+
+2026-09-13T22:24:38.335Z [395455468 pid=14068 tid=3432] ENGINE Model with 4 segments [all_inf_soldier]
+
+2026-09-13T22:24:38.338Z [395455468 pid=14068 tid=3432] ENGINE Model with 3 segments [all_inf_soldier_low1]
+
+2026-09-13T22:24:38.342Z [395455468 pid=14068 tid=3432] ENGINE Model with 6 segments [all_inf_snowtrooper]
+
+2026-09-13T22:24:38.345Z [395455468 pid=14068 tid=3432] ENGINE Model with 5 segments [all_inf_snowtrooper_low1]
+
+2026-09-13T22:24:38.387Z [395455515 pid=14068 tid=3432] ENGINE Model with 5 segments [all_inf_gran]
+
+2026-09-13T22:24:38.427Z [395455546 pid=14068 tid=3432] ENGINE Model with 4 segments [all_inf_gran_low1]
+
+2026-09-13T22:24:38.433Z [395455562 pid=14068 tid=3432] ENGINE Model with 7 segments [kotamilitia_saboteur]
+
+2026-09-13T22:24:38.435Z [395455562 pid=14068 tid=3432] ENGINE Model with 5 segments [kotamilitia_saboteur_low1]
+
+2026-09-13T22:24:38.447Z [395455578 pid=14068 tid=3432] ENGINE Model with 4 segments [all_inf_markspersonsnow]
+
+2026-09-13T22:24:38.449Z [395455578 pid=14068 tid=3432] ENGINE Model with 3 segments [all_inf_markspersonsnow_low1]
+
+2026-09-13T22:24:38.565Z [395455687 pid=14068 tid=3432] ENGINE Model with 3 segments [all_inf_marksperson_blue]
+
+2026-09-13T22:24:38.573Z [395455703 pid=14068 tid=3432] ENGINE Model with 5 segments [all_inf_marine]
+
+2026-09-13T22:24:38.577Z [395455703 pid=14068 tid=3432] ENGINE Model with 5 segments [all_inf_soldier_moncala]
+
+2026-09-13T22:24:38.581Z [395455703 pid=14068 tid=3432] ENGINE Model with 4 segments [all_inf_engineer_moncala]
+
+2026-09-13T22:24:38.584Z [395455703 pid=14068 tid=3432] ENGINE Model with 4 segments [all_inf_rebel_quarren]
+
+2026-09-13T22:24:38.586Z [395455718 pid=14068 tid=3432] ENGINE Model with 5 segments [all_inf_rebel_quarren_pouch]
+
+2026-09-13T22:24:38.613Z [395455734 pid=14068 tid=3432] ENGINE Model with 4 segments [all_inf_deathstarleia]
+
+2026-09-13T22:24:38.628Z [395455750 pid=14068 tid=3432] ENGINE Model with 6 segments [all_inf_hothleia]
+
+2026-09-13T22:24:38.632Z [395455765 pid=14068 tid=3432] ENGINE Model with 7 segments [all_inf_endorleia]
+
+2026-09-13T22:24:38.659Z [395455781 pid=14068 tid=3432] ENGINE Model with 3 segments [all_inf_slaveleia]
+
+2026-09-13T22:24:38.668Z [395455796 pid=14068 tid=3432] ENGINE Model with 3 segments [all_hover_tank]
+
+2026-09-13T22:24:38.689Z [395455812 pid=14068 tid=3432] ENGINE Model with 3 segments [all_weap_inf_shotgun]
+
+2026-09-13T22:24:38.692Z [395455812 pid=14068 tid=3432] ENGINE Model with 4 segments [all_weap_inf_fusioncutter]
+
+2026-09-13T22:24:38.693Z [395455812 pid=14068 tid=3432] ENGINE Model with 4 segments [all_1st_weap_inf_fusioncutter]
+
+2026-09-13T22:24:38.720Z [395455843 pid=14068 tid=3432] ENGINE Model with 4 segments [all_inf_engineer]
+
+2026-09-13T22:24:38.723Z [395455843 pid=14068 tid=3432] ENGINE Model with 3 segments [all_inf_engineer_low1]
+
+2026-09-13T22:24:38.729Z [395455859 pid=14068 tid=3432] ENGINE Model with 5 segments [all_inf_hothpilot]
+
+2026-09-13T22:24:38.733Z [395455859 pid=14068 tid=3432] ENGINE Model with 7 segments [all_inf_pilot]
+
+2026-09-13T22:24:38.735Z [395455859 pid=14068 tid=3432] ENGINE Model with 6 segments [all_inf_pilot_low1]
+
+2026-09-13T22:24:38.742Z [395455875 pid=14068 tid=3432] ENGINE Model with 4 segments [all_weap_inf_seeker]
+
+2026-09-13T22:24:38.749Z [395455875 pid=14068 tid=3432] ENGINE Model with 3 segments [all_inf_bothanspy]
+
+2026-09-13T22:24:38.767Z [395455890 pid=14068 tid=3432] ENGINE Model with 3 segments [all_weap_inf_rifle]
+
+2026-09-13T22:24:38.769Z [395455890 pid=14068 tid=3432] ENGINE Model with 3 segments [all_1st_weap_inf_rifle]
+
+2026-09-13T22:24:38.782Z [395455906 pid=14068 tid=3432] ENGINE Model with 4 segments [command_pistol]
+
+2026-09-13T22:24:38.798Z [395455921 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=961 (worker liveness, not game simulation)
+2026-09-13T22:24:38.839Z [395455968 pid=14068 tid=3432] ENGINE Model with 3 segments [all_inf_vanguard]
+
+2026-09-13T22:24:38.847Z [395455968 pid=14068 tid=3432] ENGINE Model with 3 segments [all_inf_snowtrooper2]
+
+2026-09-13T22:24:38.857Z [395455984 pid=14068 tid=3432] ENGINE Model with 5 segments [all_inf_grenadier]
+
+2026-09-13T22:24:38.910Z [395456031 pid=14068 tid=3432] ENGINE Model with 5 segments [all_inf_marksperson_rodian]
+
+2026-09-13T22:24:38.919Z [395456046 pid=14068 tid=3432] ENGINE Model with 3 segments [all_1st_weap_inf_bowcaster]
+
+2026-09-13T22:24:38.922Z [395456046 pid=14068 tid=3432] ENGINE Model with 3 segments [w_grenades]
+
+2026-09-13T22:24:38.924Z [395456046 pid=14068 tid=3432] ENGINE Model with 3 segments [w_rocket_launcher]
+
+2026-09-13T22:24:38.924Z [395456046 pid=14068 tid=3432] ENGINE Model with 3 segments [w_rocket_launcher_1st]
+
+2026-09-13T22:24:38.936Z [395456062 pid=14068 tid=3432] ENGINE Model with 4 segments [all_weap_probedroid]
+
+2026-09-13T22:24:38.937Z [395456062 pid=14068 tid=3432] ENGINE Model with 4 segments [all_weap_probedroidLOWD]
+
+2026-09-13T22:24:38.948Z [395456078 pid=14068 tid=3432] ENGINE Model with 5 segments [all_inf_wookie]
+
+2026-09-13T22:24:38.957Z [395456078 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: 3581829a
+
+2026-09-13T22:24:38.962Z [395456093 pid=14068 tid=3432] ENGINE Model with 5 segments [imp_inf_deathtrooper]
+
+2026-09-13T22:24:38.969Z [395456093 pid=14068 tid=3432] ENGINE Model with 4 segments [imp_inf_magmatrooper]
+
+2026-09-13T22:24:38.980Z [395456109 pid=14068 tid=3432] ENGINE Model with 5 segments [imp_inf_sandtrooper1]
+
+2026-09-13T22:24:38.983Z [395456109 pid=14068 tid=3432] ENGINE Model with 5 segments [imp_inf_sandtrooper2]
+
+2026-09-13T22:24:38.986Z [395456109 pid=14068 tid=3432] ENGINE Model with 3 segments [imp_inf_snowtrooper]
+
+2026-09-13T22:24:39.000Z [395456125 pid=14068 tid=3432] ENGINE Model with 6 segments [imp_inf_shoretrooper]
+
+2026-09-13T22:24:39.006Z [395456125 pid=14068 tid=3432] ENGINE Model with 4 segments [imp_inf_tank_driver]
+
+2026-09-13T22:24:39.011Z [395456140 pid=14068 tid=3432] ENGINE Model with 5 segments [imp_501st]
+
+2026-09-13T22:24:39.013Z [395456140 pid=14068 tid=3432] ENGINE Model with 5 segments [imp_501st_low1]
+
+2026-09-13T22:24:39.015Z [395456140 pid=14068 tid=3432] ENGINE Model with 5 segments [imp_inf_marine]
+
+2026-09-13T22:24:39.018Z [395456140 pid=14068 tid=3432] ENGINE Model with 6 segments [imp_inf_shadowshocktrooper]
+
+2026-09-13T22:24:39.023Z [395456156 pid=14068 tid=3432] ENGINE Model with 7 segments [imp_inf_swamptrooper]
+
+2026-09-13T22:24:39.026Z [395456156 pid=14068 tid=3432] ENGINE Model with 7 segments [imp_inf_swamp_engineer]
+
+2026-09-13T22:24:39.033Z [395456156 pid=14068 tid=3432] ENGINE Model with 5 segments [imp_inf_atstpilot]
+
+2026-09-13T22:24:39.036Z [395456156 pid=14068 tid=3432] ENGINE Model with 3 segments [imp_inf_atatcommander]
+
+2026-09-13T22:24:39.041Z [395456171 pid=14068 tid=3432] ENGINE Model with 5 segments [imp_inf_purgetrooper]
+
+2026-09-13T22:24:39.047Z [395456171 pid=14068 tid=3432] ENGINE Model with 4 segments [imp_inf_purgetrooper_low1]
+
+2026-09-13T22:24:39.053Z [395456171 pid=14068 tid=3432] ENGINE Model with 3 segments [imp_inf_phase3]
+
+2026-09-13T22:24:39.059Z [395456187 pid=14068 tid=3432] ENGINE Model with 4 segments [imp_inf_stormtrooper]
+
+2026-09-13T22:24:39.061Z [395456187 pid=14068 tid=3432] ENGINE Model with 3 segments [imp_inf_stormtrooper_low1]
+
+2026-09-13T22:24:39.066Z [395456187 pid=14068 tid=3432] ENGINE Model with 4 segments [imp_inf_mudtrooper]
+
+2026-09-13T22:24:39.068Z [395456187 pid=14068 tid=3432] ENGINE Model with 4 segments [imp_shadowtrooper]
+
+2026-09-13T22:24:39.071Z [395456203 pid=14068 tid=3432] ENGINE Model with 3 segments [imp_shadowtrooper_low1]
+
+2026-09-13T22:24:39.108Z [395456234 pid=14068 tid=3432] ENGINE Model with 5 segments [imp_inf_darthsidious]
+
+2026-09-13T22:24:39.119Z [395456250 pid=14068 tid=3432] ENGINE Model with 5 segments [rep_hero_iamthesenate]
+
+2026-09-13T22:24:39.125Z [395456250 pid=14068 tid=3432] ENGINE Model with 3 segments [rep_hero_iamthesenatehuman]
+
+2026-09-13T22:24:39.133Z [395456265 pid=14068 tid=3432] ENGINE Model with 3 segments [arc_caster]
+
+2026-09-13T22:24:39.164Z [395456296 pid=14068 tid=3432] ENGINE Model with 5 segments [imp_inf_darktrooper]
+
+2026-09-13T22:24:39.166Z [395456296 pid=14068 tid=3432] ENGINE Model with 4 segments [imp_inf_darktrooper_low1]
+
+2026-09-13T22:24:39.256Z [395456375 pid=14068 tid=3432] ENGINE Model with 3 segments [imp_inf_darktrooper_og]
+
+2026-09-13T22:24:39.261Z [395456390 pid=14068 tid=3432] ENGINE Model with 4 segments [imp_inf_darktrooper_og_black]
+
+2026-09-13T22:24:39.305Z [395456437 pid=14068 tid=3432] ENGINE Model with 4 segments [imp_inf_darktrooper_old]
+
+2026-09-13T22:24:39.308Z [395456437 pid=14068 tid=3432] ENGINE Model with 3 segments [imp_inf_darktrooper_old_low1]
+
+2026-09-13T22:24:39.315Z [395456437 pid=14068 tid=3432] ENGINE Model with 5 segments [imp_weap_inf_fusioncutter]
+
+2026-09-13T22:24:39.319Z [395456453 pid=14068 tid=3432] ENGINE Model with 5 segments [imp_1st_weap_inf_fusioncutter]
+
+2026-09-13T22:24:39.353Z [395456484 pid=14068 tid=3432] ENGINE Model with 4 segments [imp_inf_gunner]
+
+2026-09-13T22:24:39.361Z [395456484 pid=14068 tid=3432] ENGINE Model with 3 segments [imp_inf_gunner_og]
+
+2026-09-13T22:24:39.366Z [395456500 pid=14068 tid=3432] ENGINE Model with 6 segments [imp_inf_atatpilot]
+
+2026-09-13T22:24:39.369Z [395456500 pid=14068 tid=3432] ENGINE Model with 5 segments [imp_inf_atatpilot_low1]
+
+2026-09-13T22:24:39.378Z [395456500 pid=14068 tid=3432] ENGINE Model with 4 segments [imp_inf_pilot]
+
+2026-09-13T22:24:39.410Z [395456531 pid=14068 tid=3432] ENGINE Model with 4 segments [imp_weap_inf_torpedo]
+
+2026-09-13T22:24:39.411Z [395456531 pid=14068 tid=3432] ENGINE Model with 3 segments [imp_weap_inf_torpedo_1st]
+
+2026-09-13T22:24:39.427Z [395456546 pid=14068 tid=3432] ENGINE Model with 3 segments [imp_weap_inf_rifle]
+
+2026-09-13T22:24:39.429Z [395456562 pid=14068 tid=3432] ENGINE Model with 3 segments [imp_1st_weap_inf_rifle]
+
+2026-09-13T22:24:39.491Z [395456625 pid=14068 tid=3432] ENGINE Model with 3 segments [award_weap_inf_launcher]
+
+2026-09-13T22:24:39.523Z [395456656 pid=14068 tid=3432] ENGINE Model with 6 segments [imp_inf_shocktrooper]
+
+2026-09-13T22:24:39.528Z [395456656 pid=14068 tid=3432] ENGINE Model with 5 segments [imp_inf_shocktrooper_low1]
+
+2026-09-13T22:24:39.540Z [395456671 pid=14068 tid=3432] ENGINE Model with 3 segments [imp_1st_weap_inf_sniperrifle]
+
+2026-09-13T22:24:39.575Z [395456703 pid=14068 tid=3432] ENGINE Model with 3 segments [imp_inf_scout]
+
+2026-09-13T22:24:39.582Z [395456703 pid=14068 tid=3432] ENGINE Model with 3 segments [com_weap_gunturret]
+
+2026-09-13T22:24:39.599Z [395456718 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: 5e4e5101
+
+2026-09-13T22:24:39.599Z [395456718 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: 72ae0a0b
+
+2026-09-13T22:24:39.601Z [395456734 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: 292b687b
+
+2026-09-13T22:24:39.601Z [395456734 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: 5c36a96d
+
+2026-09-13T22:24:39.603Z [395456734 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: 9fcaa686
+
+2026-09-13T22:24:39.603Z [395456734 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: 9facc188
+
+2026-09-13T22:24:39.603Z [395456734 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: 75f9ac2c
+
+2026-09-13T22:24:39.603Z [395456734 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: bd89772e
+
+2026-09-13T22:24:39.605Z [395456734 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: bfeb451b
+
+2026-09-13T22:24:39.605Z [395456734 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: 28a32b0d
+
+2026-09-13T22:24:39.605Z [395456734 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: a10dc574
+
+2026-09-13T22:24:39.605Z [395456734 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: e2fff936
+
+2026-09-13T22:24:39.606Z [395456734 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: 32f5669c
+
+2026-09-13T22:24:39.606Z [395456734 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: 14feae7e
+
+2026-09-13T22:24:39.737Z [395456859 pid=14068 tid=3432] ENGINE Model with 4 segments [pol1_bldg_hall_hanger]
+
+2026-09-13T22:24:39.758Z [395456890 pid=14068 tid=3432] ENGINE Model with 9 segments [pol_bldg_health_center]
+
+2026-09-13T22:24:39.771Z [395456890 pid=14068 tid=3432] ENGINE Model with 13 segments [pol_bldg_health_west02]
+
+2026-09-13T22:24:39.789Z [395456921 pid=14068 tid=3432] ENGINE Model with 6 segments [pol_bldg_hanger_dockingbay]
+
+2026-09-13T22:24:39.798Z [395456921 pid=14068 tid=3432] ENGINE Model with 9 segments [pol1_bldg_radar_bridge]
+
+2026-09-13T22:24:39.801Z [395456921 pid=14068 tid=3432] ENGINE Model with 11 segments [pol_bldg_health_west01]
+
+2026-09-13T22:24:39.811Z [395456937 pid=14068 tid=3432] ENGINE Model with 7 segments [pol_bldg_health]
+
+2026-09-13T22:24:39.822Z [395456953 pid=14068 tid=3432] ENGINE Model with 10 segments [pol_bldg_hanger_04]
+
+2026-09-13T22:24:39.828Z [395456953 pid=14068 tid=3432] ENGINE Model with 3 segments [pol_prop_cavern_pillars]
+
+2026-09-13T22:24:39.842Z [395456968 pid=14068 tid=3432] ENGINE Model with 5 segments [pol1_bldg_hall_left]
+
+2026-09-13T22:24:39.852Z [395456984 pid=14068 tid=3432] ENGINE Model with 4 segments [pol_prop_shore_walls]
+
+2026-09-13T22:24:39.860Z [395456984 pid=14068 tid=3432] ENGINE Model with 6 segments [pol1_bldg_radar_center]
+
+2026-09-13T22:24:39.862Z [395456984 pid=14068 tid=3432] ENGINE Model with 3 segments [pol1_prop_medical_bed]
+
+2026-09-13T22:24:39.868Z [395457000 pid=14068 tid=3432] ENGINE Model with 6 segments [pol1_bldg_radar_screens]
+
+2026-09-13T22:24:39.870Z [395457000 pid=14068 tid=3432] ENGINE Model with 7 segments [pol_bldg_health_easthallway]
+
+2026-09-13T22:24:39.877Z [395457000 pid=14068 tid=3432] ENGINE Model with 9 segments [pol_bldg_hanger_03]
+
+2026-09-13T22:24:39.882Z [395457015 pid=14068 tid=3432] ENGINE Model with 6 segments [pol_prop_landing]
+
+2026-09-13T22:24:39.887Z [395457015 pid=14068 tid=3432] ENGINE Model with 7 segments [pol_bldg_health_westhallway]
+
+2026-09-13T22:24:39.893Z [395457015 pid=14068 tid=3432] ENGINE Model with 10 segments [pol1_bldg_cavern_dockingstation]
+
+2026-09-13T22:24:39.898Z [395457031 pid=14068 tid=3432] ENGINE Model with 3 segments [pol1_bldg_radar_center_walk]
+
+2026-09-13T22:24:39.906Z [395457031 pid=14068 tid=3432] ENGINE Model with 7 segments [pol_prop_cavern_2]
+
+2026-09-13T22:24:39.913Z [395457046 pid=14068 tid=3432] ENGINE Model with 11 segments [pol_bldg_health_east01]
+
+2026-09-13T22:24:39.920Z [395457046 pid=14068 tid=3432] ENGINE Model with 9 segments [pol_bldg_hanger_control]
+
+2026-09-13T22:24:39.925Z [395457046 pid=14068 tid=3432] ENGINE Model with 6 segments [pol_bldg_health_dock]
+
+2026-09-13T22:24:39.936Z [395457062 pid=14068 tid=3432] ENGINE Model with 4 segments [pol1_bldg_radar_main01]
+
+2026-09-13T22:24:39.940Z [395457062 pid=14068 tid=3432] ENGINE Model with 5 segments [pol_bldg_radar_stairway]
+
+2026-09-13T22:24:39.948Z [395457078 pid=14068 tid=3432] ENGINE Model with 5 segments [pol_prop_cavern]
+
+2026-09-13T22:24:39.951Z [395457078 pid=14068 tid=3432] ENGINE Model with 11 segments [pol_bldg_hanger_02]
+
+2026-09-13T22:24:39.965Z [395457093 pid=14068 tid=3432] ENGINE Model with 4 segments [pol1_bldg_radar_main02]
+
+2026-09-13T22:24:39.971Z [395457093 pid=14068 tid=3432] ENGINE Model with 7 segments [pol_bldg_interior_building]
+
+2026-09-13T22:24:39.973Z [395457093 pid=14068 tid=3432] ENGINE Model with 7 segments [pol1_prop_commscreen]
+
+2026-09-13T22:24:39.975Z [395457109 pid=14068 tid=3432] ENGINE Model with 5 segments [pol1_bldg_hall_right]
+
+2026-09-13T22:24:39.979Z [395457109 pid=14068 tid=3432] ENGINE Model with 10 segments [pol_bldg_hanger_01]
+
+2026-09-13T22:24:39.985Z [395457109 pid=14068 tid=3432] ENGINE Model with 4 segments [pol1_bldg_radar_main03]
+
+2026-09-13T22:24:39.990Z [395457109 pid=14068 tid=3432] ENGINE Model with 13 segments [pol_bldg_health_east02]
+
+2026-09-13T22:24:39.999Z [395457125 pid=14068 tid=3432] ENGINE Model with 7 segments [pol1_prop_commscreen_scroll]
+
+2026-09-13T22:24:40.000Z [395457125 pid=14068 tid=3432] ENGINE Model with 4 segments [pol1_bldg_radar_main04]
+
+2026-09-13T22:24:40.025Z [395457156 pid=14068 tid=3432] ENGINE Model with 14 segments [pol1_prop_control_console]
+
+2026-09-13T22:24:40.027Z [395457156 pid=14068 tid=3432] ENGINE Model with 8 segments [pol1_prop_commscreen_dest]
+
+2026-09-13T22:24:40.083Z [395457203 pid=14068 tid=13048] STATE flow=3 lua=08561348 render_count=1 suspend=0 candidate_lock=0
+2026-09-13T22:24:40.105Z [395457234 pid=14068 tid=3432] ENGINE Model with 11 segments [all_1st_cockpit_combatspeeder]
+
+2026-09-13T22:24:40.110Z [395457234 pid=14068 tid=3432] ENGINE Model with 4 segments [all_1st_engineer]
+
+2026-09-13T22:24:40.112Z [395457234 pid=14068 tid=3432] ENGINE Model with 4 segments [all_1st_bothanspy]
+
+2026-09-13T22:24:40.113Z [395457234 pid=14068 tid=3432] ENGINE Model with 6 segments [all_1st_trooper]
+
+2026-09-13T22:24:40.117Z [395457250 pid=14068 tid=3432] ENGINE Model with 4 segments [all_1st_marksperson]
+
+2026-09-13T22:24:40.118Z [395457250 pid=14068 tid=3432] ENGINE Model with 6 segments [all_1st_wookie]
+
+2026-09-13T22:24:40.121Z [395457250 pid=14068 tid=3432] ENGINE Model with 6 segments [imp_1st_darktrooper]
+
+2026-09-13T22:24:40.123Z [395457250 pid=14068 tid=3432] ENGINE Model with 6 segments [imp_1st_stormtrooper]
+
+2026-09-13T22:24:40.126Z [395457250 pid=14068 tid=3432] ENGINE Model with 4 segments [imp_1st_officer]
+
+2026-09-13T22:24:40.128Z [395457250 pid=14068 tid=3432] ENGINE Model with 4 segments [imp_1st_scout]
+
+2026-09-13T22:24:40.176Z [395457296 pid=14068 tid=3432] REARM reload=1 observed; checking fresh guards for bounded reinstall
+2026-09-13T22:24:40.177Z [395457296 pid=14068 tid=3432] REARM waiting reload=1 flow=3 caller=1 transition=1 suspend=1 context=1 idle=1 stable=1
+2026-09-13T22:24:40.333Z [395457453 pid=14068 tid=13048] FRAME_STATE sample_ms=395457296 game_tid=3432 caller=00E77A9C expected=1 context=08561348 readable=1 top=0856F1D8 base=0856F198 raw10=08563948 raw14=08655A38 raw18=08570188 raw1c=0856F190 raw20=00000205 raw24=08655BB8 raw28=08655A38 raw2c=00000010
+2026-09-13T22:24:41.745Z [395458875 pid=14068 tid=3432] REARM skipped reload=1 reason=context_mismatch installed=086C11A4 current=08561348
+2026-09-13T22:24:42.642Z [395459765 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=17112 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:24:44.716Z [395461843 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:24:49.100Z [395466234 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=1001 (worker liveness, not game simulation)
+2026-09-13T22:24:52.685Z [395469812 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=17900 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:24:54.758Z [395471890 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:24:59.318Z [395476437 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=1041 (worker liveness, not game simulation)
+2026-09-13T22:25:02.905Z [395480031 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=18713 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:25:04.942Z [395482062 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:25:09.567Z [395486687 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=1081 (worker liveness, not game simulation)
+2026-09-13T22:25:12.899Z [395490031 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=19513 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:25:14.975Z [395492093 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:25:19.847Z [395496968 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=1121 (worker liveness, not game simulation)
+2026-09-13T22:25:23.141Z [395500265 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=20332 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:25:25.177Z [395502296 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:25:30.038Z [395507171 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=1161 (worker liveness, not game simulation)
+2026-09-13T22:25:33.384Z [395510515 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=21151 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:25:35.182Z [395512312 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:25:40.328Z [395517453 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=1201 (worker liveness, not game simulation)
+2026-09-13T22:25:43.437Z [395520562 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=21955 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:25:45.252Z [395522375 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:25:50.582Z [395527703 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=1241 (worker liveness, not game simulation)
+2026-09-13T22:25:53.667Z [395530796 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=22771 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:25:55.490Z [395532609 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:26:00.944Z [395538078 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=1281 (worker liveness, not game simulation)
+2026-09-13T22:26:03.802Z [395540921 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=23582 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:26:05.599Z [395542718 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:26:11.240Z [395548359 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=1321 (worker liveness, not game simulation)
+2026-09-13T22:26:13.822Z [395550953 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=24383 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:26:15.647Z [395552781 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:26:21.624Z [395558750 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=1361 (worker liveness, not game simulation)
+2026-09-13T22:26:23.940Z [395561062 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=25193 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:26:25.767Z [395562890 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:26:31.942Z [395569062 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=1401 (worker liveness, not game simulation)
+2026-09-13T22:26:33.991Z [395571125 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=25996 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:26:35.776Z [395572906 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:26:42.179Z [395579312 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=1441 (worker liveness, not game simulation)
+2026-09-13T22:26:43.991Z [395581125 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=26796 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:26:45.774Z [395582906 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:26:52.440Z [395589562 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=1481 (worker liveness, not game simulation)
+2026-09-13T22:26:54.222Z [395591343 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=27615 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:26:56.009Z [395593140 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:27:02.664Z [395599796 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=1521 (worker liveness, not game simulation)
+2026-09-13T22:27:04.460Z [395601593 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=28434 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:27:06.023Z [395603156 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:27:13.060Z [395610187 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=1561 (worker liveness, not game simulation)
+2026-09-13T22:27:14.610Z [395611734 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=29246 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:27:16.153Z [395613281 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:27:23.407Z [395620531 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=1601 (worker liveness, not game simulation)
+2026-09-13T22:27:24.704Z [395621828 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=30053 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:27:26.226Z [395623359 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:27:33.657Z [395630781 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=1641 (worker liveness, not game simulation)
+2026-09-13T22:27:34.945Z [395632078 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=30873 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:27:36.232Z [395633359 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:27:43.867Z [395641000 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=1681 (worker liveness, not game simulation)
+2026-09-13T22:27:45.150Z [395642281 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=31689 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:27:46.410Z [395643531 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:27:54.041Z [395651171 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=1721 (worker liveness, not game simulation)
+2026-09-13T22:27:55.301Z [395652421 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=32501 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:27:56.610Z [395653734 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:28:04.274Z [395661406 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=1761 (worker liveness, not game simulation)
+2026-09-13T22:28:05.534Z [395662656 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=33319 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:28:06.831Z [395663953 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:28:14.565Z [395671687 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=1801 (worker liveness, not game simulation)
+2026-09-13T22:28:15.610Z [395672734 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=34125 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:28:16.878Z [395674000 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:28:24.812Z [395681937 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=1841 (worker liveness, not game simulation)
+2026-09-13T22:28:25.820Z [395682953 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=34940 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:28:27.116Z [395684250 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:28:35.041Z [395692171 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=1881 (worker liveness, not game simulation)
+2026-09-13T22:28:35.824Z [395692953 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=35741 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:28:37.334Z [395694453 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:28:45.287Z [395702406 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=1921 (worker liveness, not game simulation)
+2026-09-13T22:28:46.043Z [395703171 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=36558 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:28:47.325Z [395704453 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:28:55.544Z [395712671 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=1961 (worker liveness, not game simulation)
+2026-09-13T22:28:56.073Z [395713203 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=37361 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:28:57.360Z [395714484 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:29:03.200Z [395720328 pid=14068 tid=3432] ENGINE pcSetDisplayMode- width: 800 hieght: 600 windowed: 0 mstype: 0 msquality: 0 vsync: 1 
+
+2026-09-13T22:29:03.288Z [395720421 pid=14068 tid=13048] STATE flow=3 lua=086C11A4 render_count=1 suspend=0 candidate_lock=0
+2026-09-13T22:29:03.586Z [395720718 pid=14068 tid=3432] ENGINE Font [gamefont_large]	Hash 0xb3e564de
+
+2026-09-13T22:29:03.588Z [395720718 pid=14068 tid=3432] ENGINE Font [gamefont_medium]	Hash 0xaa8876fc
+
+2026-09-13T22:29:03.591Z [395720718 pid=14068 tid=3432] ENGINE Font [gamefont_small]	Hash 0x8f4b7122
+
+2026-09-13T22:29:03.597Z [395720718 pid=14068 tid=3432] ENGINE pcRedShader [normal]	Hash 0xe68b9c52
+
+2026-09-13T22:29:03.597Z [395720718 pid=14068 tid=3432] ENGINE pcRedShaderDef [normal_shader.xml]	Hash 0x7010c655
+
+2026-09-13T22:29:03.616Z [395720750 pid=14068 tid=3432] ENGINE pcRedShader [Terrain2]	Hash 0x31fc3674
+
+2026-09-13T22:29:03.616Z [395720750 pid=14068 tid=3432] ENGINE pcRedShaderDef [normal_terrain_shader.xml]	Hash 0x0a4fafb7
+
+2026-09-13T22:29:03.617Z [395720750 pid=14068 tid=3432] ENGINE pcRedShader [interface]	Hash 0x84ea5130
+
+2026-09-13T22:29:03.617Z [395720750 pid=14068 tid=3432] ENGINE pcRedShaderDef [interface_shader.xml]	Hash 0xf8613147
+
+2026-09-13T22:29:03.617Z [395720750 pid=14068 tid=3432] ENGINE pcRedShader [particle]	Hash 0x8a8743bf
+
+2026-09-13T22:29:03.617Z [395720750 pid=14068 tid=3432] ENGINE pcRedShaderDef [particle_shader.xml]	Hash 0x3b58396e
+
+2026-09-13T22:29:03.618Z [395720750 pid=14068 tid=3432] ENGINE pcRedShader [sprite]	Hash 0x81e2581c
+
+2026-09-13T22:29:03.618Z [395720750 pid=14068 tid=3432] ENGINE Error: pcRedShader 0x81e2581c not found
+
+2026-09-13T22:29:03.618Z [395720750 pid=14068 tid=3432] ENGINE pcRedShader [skyfog]	Hash 0x890efa1e
+
+2026-09-13T22:29:03.618Z [395720750 pid=14068 tid=3432] ENGINE pcRedShaderDef [skyfog_shader.xml]	Hash 0x3eb49919
+
+2026-09-13T22:29:03.618Z [395720750 pid=14068 tid=3432] ENGINE pcRedShader [foliage]	Hash 0x3b1f5e08
+
+2026-09-13T22:29:03.618Z [395720750 pid=14068 tid=3432] ENGINE Error: pcRedShader 0x3b1f5e08 not found
+
+2026-09-13T22:29:03.618Z [395720750 pid=14068 tid=3432] ENGINE pcRedShader [lightbeam]	Hash 0xe8651328
+
+2026-09-13T22:29:03.618Z [395720750 pid=14068 tid=3432] ENGINE pcRedShaderDef [lightbeam_shader.xml]	Hash 0xc5b0a02f
+
+2026-09-13T22:29:03.618Z [395720750 pid=14068 tid=3432] ENGINE pcRedShader [scroll]	Hash 0xdd4ec22c
+
+2026-09-13T22:29:03.618Z [395720750 pid=14068 tid=3432] ENGINE Error: pcRedShader 0xdd4ec22c not found
+
+2026-09-13T22:29:03.618Z [395720750 pid=14068 tid=3432] ENGINE pcRedShader [flare]	Hash 0x96834737
+
+2026-09-13T22:29:03.618Z [395720750 pid=14068 tid=3432] ENGINE pcRedShaderDef [flare_shader.xml]	Hash 0xcdc316b6
+
+2026-09-13T22:29:03.618Z [395720750 pid=14068 tid=3432] ENGINE pcRedShader [sample]	Hash 0x96e382a7
+
+2026-09-13T22:29:03.618Z [395720750 pid=14068 tid=3432] ENGINE pcRedShaderDef [sample_shader.xml]	Hash 0x9a9cec86
+
+2026-09-13T22:29:03.618Z [395720750 pid=14068 tid=3432] ENGINE pcRedShader [rain]	Hash 0x89a3b5d3
+
+2026-09-13T22:29:03.618Z [395720750 pid=14068 tid=3432] ENGINE pcRedShaderDef [rain_shader.xml]	Hash 0xad8cc90a
+
+2026-09-13T22:29:03.620Z [395720750 pid=14068 tid=3432] ENGINE pcRedShader [normalmapadder]	Hash 0x160d173c
+
+2026-09-13T22:29:03.620Z [395720750 pid=14068 tid=3432] ENGINE pcRedShaderDef [normalmapadder_shader.xml]	Hash 0x886ad64b
+
+2026-09-13T22:29:03.620Z [395720750 pid=14068 tid=3432] ENGINE pcRedShader [prereflection]	Hash 0x99fe618f
+
+2026-09-13T22:29:03.620Z [395720750 pid=14068 tid=3432] ENGINE pcRedShaderDef [prereflection_shader.xml]	Hash 0xd8c9e8de
+
+2026-09-13T22:29:03.620Z [395720750 pid=14068 tid=3432] ENGINE pcRedShader [water]	Hash 0x49c69a10
+
+2026-09-13T22:29:03.620Z [395720750 pid=14068 tid=3432] ENGINE pcRedShaderDef [water_shader.xml]	Hash 0x04d601a7
+
+2026-09-13T22:29:03.622Z [395720750 pid=14068 tid=3432] ENGINE pcRedShader [stencilshadow]	Hash 0x78214ac3
+
+2026-09-13T22:29:03.622Z [395720750 pid=14068 tid=3432] ENGINE pcRedShaderDef [stencilshadow_shader.xml]	Hash 0x9b41e2da
+
+2026-09-13T22:29:03.624Z [395720750 pid=14068 tid=3432] ENGINE pcRedShader [shadowquad]	Hash 0x9296fc1a
+
+2026-09-13T22:29:03.624Z [395720750 pid=14068 tid=3432] ENGINE pcRedShaderDef [shadowquad_shader.xml]	Hash 0xfc9f792d
+
+2026-09-13T22:29:03.624Z [395720750 pid=14068 tid=3432] ENGINE pcRedShader [specmap]	Hash 0x1ae39af8
+
+2026-09-13T22:29:03.624Z [395720750 pid=14068 tid=3432] ENGINE Error: pcRedShader 0x1ae39af8 not found
+
+2026-09-13T22:29:03.624Z [395720750 pid=14068 tid=3432] ENGINE pcRedShader [detail]	Hash 0x60345894
+
+2026-09-13T22:29:03.624Z [395720750 pid=14068 tid=3432] ENGINE Error: pcRedShader 0x60345894 not found
+
+2026-09-13T22:29:03.624Z [395720750 pid=14068 tid=3432] ENGINE pcRedShader [ocean]	Hash 0xd4705991
+
+2026-09-13T22:29:03.624Z [395720750 pid=14068 tid=3432] ENGINE pcRedShaderDef [ocean_shader.xml]	Hash 0x8add48d4
+
+2026-09-13T22:29:03.624Z [395720750 pid=14068 tid=3432] ENGINE pcRedShader [refraction]	Hash 0x4cc5882a
+
+2026-09-13T22:29:03.625Z [395720750 pid=14068 tid=3432] ENGINE pcRedShaderDef [refraction_shader.xml]	Hash 0xa21740dd
+
+2026-09-13T22:29:03.631Z [395720765 pid=14068 tid=3432] ENGINE pcRedShader [decal]	Hash 0xde15f6ae
+
+2026-09-13T22:29:03.631Z [395720765 pid=14068 tid=3432] ENGINE pcRedShaderDef [decal_shader.xml]	Hash 0xb8473c09
+
+2026-09-13T22:29:03.631Z [395720765 pid=14068 tid=3432] ENGINE pcRedShader [filtercopy]	Hash 0xfb9eb106
+
+2026-09-13T22:29:03.631Z [395720765 pid=14068 tid=3432] ENGINE pcRedShaderDef [filtercopy_shader.xml]	Hash 0x441ebcd1
+
+2026-09-13T22:29:03.631Z [395720765 pid=14068 tid=3432] ENGINE pcRedShader [shield]	Hash 0x337519b0
+
+2026-09-13T22:29:03.631Z [395720765 pid=14068 tid=3432] ENGINE pcRedShaderDef [shield_shader.xml]	Hash 0x0dd59ec7
+
+2026-09-13T22:29:03.632Z [395720765 pid=14068 tid=3432] ENGINE pcRedShader [bump]	Hash 0x623c0fb5
+
+2026-09-13T22:29:03.632Z [395720765 pid=14068 tid=3432] ENGINE Error: pcRedShader 0x623c0fb5 not found
+
+2026-09-13T22:29:03.632Z [395720765 pid=14068 tid=3432] ENGINE pcRedShader [zprepass]	Hash 0x9a2b93af
+
+2026-09-13T22:29:03.632Z [395720765 pid=14068 tid=3432] ENGINE pcRedShaderDef [zprepass_shader.xml]	Hash 0x9dcac87e
+
+2026-09-13T22:29:03.632Z [395720765 pid=14068 tid=3432] ENGINE pcRedShader [pervertexdiffuselighting]	Hash 0x2e2fba04
+
+2026-09-13T22:29:03.632Z [395720765 pid=14068 tid=3432] ENGINE pcRedShaderDef [pervertexdiffuselighting_shader.xml]	Hash 0x19a1d463
+
+2026-09-13T22:29:03.633Z [395720765 pid=14068 tid=3432] ENGINE pcRedShader [perpixeldiffuselighting]	Hash 0xd3a5cfca
+
+2026-09-13T22:29:03.633Z [395720765 pid=14068 tid=3432] ENGINE pcRedShaderDef [perpixeldiffuselighting_shader.xml]	Hash 0x677e5e7d
+
+2026-09-13T22:29:03.639Z [395720765 pid=14068 tid=3432] ENGINE pcRedShader [specularlighting]	Hash 0xe846f024
+
+2026-09-13T22:29:03.639Z [395720765 pid=14068 tid=3432] ENGINE pcRedShaderDef [specularlighting_shader.xml]	Hash 0xd2573283
+
+2026-09-13T22:29:03.641Z [395720765 pid=14068 tid=3432] ENGINE pcRedShader [hdr]	Hash 0xfeb6dbe1
+
+2026-09-13T22:29:03.641Z [395720765 pid=14068 tid=3432] ENGINE pcRedShaderDef [hdr_shader.xml]	Hash 0x1aa9c5c4
+
+2026-09-13T22:29:03.695Z [395720828 pid=14068 tid=3432] ENGINE Font [gamefont_large_rema]	Hash 0xbdfedf94
+
+2026-09-13T22:29:03.697Z [395720828 pid=14068 tid=3432] ENGINE Font [gamefont_medium_rema]	Hash 0x146b6c26
+
+2026-09-13T22:29:03.700Z [395720828 pid=14068 tid=3432] ENGINE Font [gamefont_small_rema]	Hash 0x9efde978
+
+2026-09-13T22:29:03.702Z [395720828 pid=14068 tid=3432] ENGINE Font [gamefont_tiny]	Hash 0x46f060d5
+
+2026-09-13T22:29:03.704Z [395720828 pid=14068 tid=3432] ENGINE Font [gamefont_super_tiny]	Hash 0x548190d5
+
+2026-09-13T22:29:03.810Z [395720937 pid=14068 tid=3432] ENGINE Model with 4 segments [all_inf_soldier]
+
+2026-09-13T22:29:03.813Z [395720937 pid=14068 tid=3432] ENGINE Model with 3 segments [all_weap_inf_rifle]
+
+2026-09-13T22:29:03.817Z [395720937 pid=14068 tid=3432] ENGINE Model with 7 segments [all_inf_pilot]
+
+2026-09-13T22:29:03.818Z [395720937 pid=14068 tid=13048] STATE flow=3 lua=086C11A4 render_count=1 suspend=1 candidate_lock=0
+2026-09-13T22:29:03.822Z [395720953 pid=14068 tid=3432] ENGINE Model with 3 segments [all_inf_vanguard]
+
+2026-09-13T22:29:03.839Z [395720968 pid=14068 tid=3432] ENGINE Model with 3 segments [all_inf_tantive4trooper]
+
+2026-09-13T22:29:03.845Z [395720968 pid=14068 tid=3432] ENGINE Model with 4 segments [all_inf_engineer]
+
+2026-09-13T22:29:03.848Z [395720968 pid=14068 tid=3432] ENGINE Model with 3 segments [all_inf_bothanspy]
+
+2026-09-13T22:29:03.850Z [395720968 pid=14068 tid=3432] ENGINE Model with 4 segments [all_weap_inf_seeker]
+
+2026-09-13T22:29:03.856Z [395720984 pid=14068 tid=3432] ENGINE Model with 5 segments [all_inf_wookie]
+
+2026-09-13T22:29:03.872Z [395721000 pid=14068 tid=3432] ENGINE Model with 4 segments [imp_inf_pilot]
+
+2026-09-13T22:29:03.876Z [395721000 pid=14068 tid=3432] ENGINE Model with 3 segments [imp_inf_shocktrooper]
+
+2026-09-13T22:29:03.886Z [395721015 pid=14068 tid=3432] ENGINE Model with 4 segments [imp_inf_atatcommander]
+
+2026-09-13T22:29:03.890Z [395721015 pid=14068 tid=3432] ENGINE Model with 3 segments [imp_inf_darktrooper]
+
+2026-09-13T22:29:03.933Z [395721062 pid=14068 tid=3432] ENGINE Model with 3 segments [gal_prp_assaultship]
+
+2026-09-13T22:29:03.937Z [395721062 pid=14068 tid=3432] ENGINE Model with 5 segments [cis_cap_fedcruiser_dome]
+
+2026-09-13T22:29:03.949Z [395721078 pid=14068 tid=3432] ENGINE Model with 27 segments [gal_prp_stardestroyer]
+
+2026-09-13T22:29:03.955Z [395721078 pid=14068 tid=3432] ENGINE Model with 11 segments [gal_prp_moncalamaricruiser]
+
+2026-09-13T22:29:03.962Z [395721093 pid=14068 tid=3432] ENGINE Model with 4 segments [gal_shell_adrenaline]
+
+2026-09-13T22:29:03.963Z [395721093 pid=14068 tid=3432] ENGINE Model with 4 segments [gal_shell_supply_cache]
+
+2026-09-13T22:29:03.966Z [395721093 pid=14068 tid=3432] ENGINE Model with 4 segments [gal_shell_bacta_refinery]
+
+2026-09-13T22:29:03.969Z [395721093 pid=14068 tid=3432] ENGINE Model with 4 segments [gal_shell_espionage]
+
+2026-09-13T22:29:03.974Z [395721093 pid=14068 tid=3432] ENGINE Model with 6 segments [gal_shell_leadership]
+
+2026-09-13T22:29:03.976Z [395721109 pid=14068 tid=3432] ENGINE Model with 5 segments [gal_shell_defense_grid]
+
+2026-09-13T22:29:03.984Z [395721109 pid=14068 tid=3432] ENGINE Model with 12 segments [gal_shell_reinforcements]
+
+2026-09-13T22:29:03.987Z [395721109 pid=14068 tid=3432] ENGINE Model with 3 segments [gal_shell_advanced_armor]
+
+2026-09-13T22:29:03.991Z [395721125 pid=14068 tid=3432] ENGINE Model with 6 segments [gal_shell_blaster_amplification]
+
+2026-09-13T22:29:03.993Z [395721125 pid=14068 tid=3432] ENGINE Model with 3 segments [gal_shell_surveillance]
+
+2026-09-13T22:29:03.999Z [395721125 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: 72ff5896
+
+2026-09-13T22:29:04.003Z [395721125 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: 42e0807c
+
+2026-09-13T22:29:04.004Z [395721125 pid=14068 tid=3432] ENGINE Model with 4 segments [gal_prp_system]
+
+2026-09-13T22:29:04.009Z [395721140 pid=14068 tid=3432] ENGINE Model with 3 segments [gal_prp_mustafar]
+
+2026-09-13T22:29:04.012Z [395721140 pid=14068 tid=3432] ENGINE Model with 3 segments [gal_prp_geonosis]
+
+2026-09-13T22:29:04.021Z [395721140 pid=14068 tid=3432] ENGINE Model with 3 segments [gal_prp_coruscant]
+
+2026-09-13T22:29:04.032Z [395721156 pid=14068 tid=3432] ENGINE Model with 3 segments [all_prop_blockaderunner]
+
+2026-09-13T22:29:04.058Z [395721187 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: 204b3968
+
+2026-09-13T22:29:04.060Z [395721187 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: 50f54445
+
+2026-09-13T22:29:04.061Z [395721187 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: 249981fd
+
+2026-09-13T22:29:04.062Z [395721187 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: 99fd26e9
+
+2026-09-13T22:29:04.062Z [395721187 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: 4e084c5a
+
+2026-09-13T22:29:04.062Z [395721187 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: c3f4b790
+
+2026-09-13T22:29:04.063Z [395721187 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: c2b729c8
+
+2026-09-13T22:29:04.063Z [395721187 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: 2b4cce44
+
+2026-09-13T22:29:04.064Z [395721187 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: 5b921069
+
+2026-09-13T22:29:04.065Z [395721187 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: 7d44b875
+
+2026-09-13T22:29:04.065Z [395721187 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: f91f725a
+
+2026-09-13T22:29:04.066Z [395721187 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: e7f47d14
+
+2026-09-13T22:29:04.066Z [395721187 pid=14068 tid=3432] ENGINE FIXME: Duplicate RedModel name exists in another level file: 78978be2
+
+2026-09-13T22:29:04.298Z [395721421 pid=14068 tid=3432] REARM reload=2 observed; checking fresh guards for bounded reinstall
+2026-09-13T22:29:04.298Z [395721421 pid=14068 tid=3432] REARM waiting reload=2 flow=3 caller=1 transition=1 suspend=1 context=1 idle=1 stable=1
+2026-09-13T22:29:04.320Z [395721453 pid=14068 tid=13048] STATE flow=3 lua=086C11A4 render_count=1 suspend=0 candidate_lock=0
+2026-09-13T22:29:04.320Z [395721453 pid=14068 tid=13048] FRAME_STATE sample_ms=395721421 game_tid=3432 caller=00E77A9C expected=1 context=086C11A4 readable=1 top=086E9D18 base=086E9CD8 raw10=086C8334 raw14=0891D9CC raw18=086EACC8 raw1c=086E9CD0 raw20=00000205 raw24=0891DB4C raw28=0891D9CC raw2c=00000010
+2026-09-13T22:29:05.778Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:1:screen:ifs_freeform_main
+2026-09-13T22:29:05.778Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:1:wrapped:Enter
+2026-09-13T22:29:05.778Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:1:wrapped:Exit
+2026-09-13T22:29:05.778Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:1:wrapped:Update
+2026-09-13T22:29:05.778Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:1:wrapped:SelectPlanet
+2026-09-13T22:29:05.778Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:2:screen:ifs_freeform_fleet
+2026-09-13T22:29:05.779Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:2:wrapped:Enter
+2026-09-13T22:29:05.779Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:2:wrapped:Exit
+2026-09-13T22:29:05.779Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:2:wrapped:Update
+2026-09-13T22:29:05.779Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:2:wrapped:Input_Accept
+2026-09-13T22:29:05.779Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:2:wrapped:Input_Back
+2026-09-13T22:29:05.779Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:3:screen:ifs_freeform_ai
+2026-09-13T22:29:05.779Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:3:wrapped:Enter
+2026-09-13T22:29:05.779Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:3:wrapped:Exit
+2026-09-13T22:29:05.779Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:3:wrapped:Input_Accept
+2026-09-13T22:29:05.779Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:3:wrapped:Input_Back
+2026-09-13T22:29:05.779Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:3:wrapped:CalculatePurchaseItem
+2026-09-13T22:29:05.779Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:3:wrapped:CalculateBuildFleet
+2026-09-13T22:29:05.779Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:3:wrapped:UpdateBuildFleet
+2026-09-13T22:29:05.779Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:3:wrapped:CalculateMoveFleet
+2026-09-13T22:29:05.779Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:3:wrapped:UpdateMoveFleet
+2026-09-13T22:29:05.779Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:3:wrapped:UpdateDone
+2026-09-13T22:29:05.779Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:3:wrapped:UpdateCommon
+2026-09-13T22:29:05.779Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:4:screen:ifs_freeform_summary
+2026-09-13T22:29:05.779Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:4:wrapped:Enter
+2026-09-13T22:29:05.779Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:4:wrapped:Exit
+2026-09-13T22:29:05.779Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:4:wrapped:Update
+2026-09-13T22:29:05.779Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:4:wrapped:Input_Accept
+2026-09-13T22:29:05.779Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:4:wrapped:Input_Back
+2026-09-13T22:29:05.780Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:5:screen:ifs_freeform_result
+2026-09-13T22:29:05.780Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:5:wrapped:Enter
+2026-09-13T22:29:05.780Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:5:wrapped:Exit
+2026-09-13T22:29:05.780Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:5:wrapped:Update
+2026-09-13T22:29:05.780Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:5:wrapped:Input_Accept
+2026-09-13T22:29:05.780Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:5:wrapped:Input_Back
+2026-09-13T22:29:05.780Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:6:screen:ifs_freeform_purchase_unit
+2026-09-13T22:29:05.780Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:6:wrapped:Enter
+2026-09-13T22:29:05.780Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:6:wrapped:Exit
+2026-09-13T22:29:05.780Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:6:wrapped:Update
+2026-09-13T22:29:05.780Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:6:wrapped:Input_Accept
+2026-09-13T22:29:05.780Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:6:wrapped:Input_Back
+2026-09-13T22:29:05.780Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:7:screen:ifs_freeform_purchase_tech
+2026-09-13T22:29:05.780Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:7:wrapped:Enter
+2026-09-13T22:29:05.780Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:7:wrapped:Exit
+2026-09-13T22:29:05.780Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:7:wrapped:Update
+2026-09-13T22:29:05.780Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:7:wrapped:Input_Accept
+2026-09-13T22:29:05.780Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:7:wrapped:Input_Back
+2026-09-13T22:29:05.780Z [395722906 pid=14068 tid=3432] CHANNEL GCOBS:installed:campaign_v6:1
+2026-09-13T22:29:05.780Z [395722906 pid=14068 tid=3432] REARM executed reload=2 attempt=1 stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1
+2026-09-13T22:29:05.856Z [395722984 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=2001 (worker liveness, not game simulation)
+2026-09-13T22:29:06.107Z [395723234 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=38074 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:29:07.402Z [395724531 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:29:10.325Z [395727453 pid=14068 tid=3432] CHANNEL GCOBS:5:Enter:begin:1
+2026-09-13T22:29:10.325Z [395727453 pid=14068 tid=3432] CHANNEL GCOBS:5:Enter:done:1
+2026-09-13T22:29:10.325Z [395727453 pid=14068 tid=3432] CHANNEL GCOBS:5:Exit:begin:1
+2026-09-13T22:29:10.325Z [395727453 pid=14068 tid=3432] CHANNEL GCOBS:5:Exit:done:1
+2026-09-13T22:29:10.363Z [395727484 pid=14068 tid=3432] CHANNEL GCOBS:5:Enter:begin:2
+2026-09-13T22:29:10.363Z [395727484 pid=14068 tid=3432] CHANNEL GCOBS:5:Enter:done:2
+2026-09-13T22:29:10.363Z [395727484 pid=14068 tid=3432] CHANNEL GCOBS:5:Update:begin:1
+2026-09-13T22:29:10.363Z [395727484 pid=14068 tid=3432] CHANNEL GCOBS:5:Update:done:1
+2026-09-13T22:29:10.375Z [395727500 pid=14068 tid=3432] CHANNEL GCOBS:5:Update:begin:2
+2026-09-13T22:29:10.375Z [395727500 pid=14068 tid=3432] CHANNEL GCOBS:5:Update:done:2
+2026-09-13T22:29:10.387Z [395727515 pid=14068 tid=3432] CHANNEL GCOBS:5:Update:begin:3
+2026-09-13T22:29:10.387Z [395727515 pid=14068 tid=3432] CHANNEL GCOBS:5:Update:done:3
+2026-09-13T22:29:10.399Z [395727531 pid=14068 tid=3432] CHANNEL GCOBS:5:Update:begin:4
+2026-09-13T22:29:10.400Z [395727531 pid=14068 tid=3432] CHANNEL GCOBS:5:Update:done:4
+2026-09-13T22:29:12.625Z [395729750 pid=14068 tid=3432] CHANNEL GCOBS:5:Input_Accept:begin:1
+2026-09-13T22:29:12.625Z [395729750 pid=14068 tid=3432] CHANNEL GCOBS:5:Input_Accept:done:1
+2026-09-13T22:29:12.625Z [395729750 pid=14068 tid=3432] CHANNEL GCOBS:5:Exit:begin:2
+2026-09-13T22:29:12.625Z [395729750 pid=14068 tid=3432] CHANNEL GCOBS:5:Exit:done:2
+2026-09-13T22:29:12.625Z [395729750 pid=14068 tid=3432] CHANNEL GCOBS:4:Enter:begin:1
+2026-09-13T22:29:12.625Z [395729750 pid=14068 tid=3432] CHANNEL GCOBS:4:Enter:done:1
+2026-09-13T22:29:12.637Z [395729765 pid=14068 tid=3432] CHANNEL GCOBS:4:Update:begin:1
+2026-09-13T22:29:12.637Z [395729765 pid=14068 tid=3432] CHANNEL GCOBS:4:Update:done:1
+2026-09-13T22:29:12.650Z [395729781 pid=14068 tid=3432] CHANNEL GCOBS:4:Update:begin:2
+2026-09-13T22:29:12.650Z [395729781 pid=14068 tid=3432] CHANNEL GCOBS:4:Update:done:2
+2026-09-13T22:29:12.662Z [395729781 pid=14068 tid=3432] CHANNEL GCOBS:4:Update:begin:3
+2026-09-13T22:29:12.662Z [395729781 pid=14068 tid=3432] CHANNEL GCOBS:4:Update:done:3
+2026-09-13T22:29:12.675Z [395729796 pid=14068 tid=3432] CHANNEL GCOBS:4:Update:begin:4
+2026-09-13T22:29:12.675Z [395729796 pid=14068 tid=3432] CHANNEL GCOBS:4:Update:done:4
+2026-09-13T22:29:16.216Z [395733343 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=38882 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:29:16.216Z [395733343 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=2041 (worker liveness, not game simulation)
+2026-09-13T22:29:16.375Z [395733500 pid=14068 tid=3432] CHANNEL GCOBS:4:Update:begin:300
+2026-09-13T22:29:16.375Z [395733500 pid=14068 tid=3432] CHANNEL GCOBS:4:Update:done:300
+2026-09-13T22:29:17.500Z [395734625 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:29:20.125Z [395737250 pid=14068 tid=3432] CHANNEL GCOBS:4:Update:begin:600
+2026-09-13T22:29:20.125Z [395737250 pid=14068 tid=3432] CHANNEL GCOBS:4:Update:done:600
+2026-09-13T22:29:23.875Z [395741000 pid=14068 tid=3432] CHANNEL GCOBS:4:Update:begin:900
+2026-09-13T22:29:23.875Z [395741000 pid=14068 tid=3432] CHANNEL GCOBS:4:Update:done:900
+2026-09-13T22:29:25.563Z [395742687 pid=14068 tid=3432] CHANNEL GCOBS:4:Input_Accept:begin:1
+2026-09-13T22:29:25.563Z [395742687 pid=14068 tid=3432] CHANNEL GCOBS:1:SelectPlanet:begin:1
+2026-09-13T22:29:25.563Z [395742687 pid=14068 tid=3432] CHANNEL GCOBS:1:SelectPlanet:done:1
+2026-09-13T22:29:25.563Z [395742687 pid=14068 tid=3432] CHANNEL GCOBS:4:Input_Accept:done:1
+2026-09-13T22:29:25.563Z [395742687 pid=14068 tid=3432] CHANNEL GCOBS:4:Exit:begin:1
+2026-09-13T22:29:25.563Z [395742687 pid=14068 tid=3432] CHANNEL GCOBS:4:Exit:done:1
+2026-09-13T22:29:25.563Z [395742687 pid=14068 tid=3432] CHANNEL GCOBS:1:Enter:begin:1
+2026-09-13T22:29:25.563Z [395742687 pid=14068 tid=3432] CHANNEL GCOBS:1:Enter:done:1
+2026-09-13T22:29:25.563Z [395742687 pid=14068 tid=3432] CHANNEL GCOBS:1:Exit:begin:1
+2026-09-13T22:29:25.563Z [395742687 pid=14068 tid=3432] CHANNEL GCOBS:1:Exit:done:1
+2026-09-13T22:29:25.564Z [395742687 pid=14068 tid=3432] CHANNEL GCOBS:3:Enter:begin:1
+2026-09-13T22:29:25.564Z [395742687 pid=14068 tid=3432] CHANNEL GCOBS:3:Enter:done:1
+2026-09-13T22:29:25.576Z [395742703 pid=14068 tid=3432] CHANNEL GCOBS:3:CalculatePurchaseItem:begin:1
+2026-09-13T22:29:25.576Z [395742703 pid=14068 tid=3432] CHANNEL GCOBS:3:CalculateBuildFleet:begin:1
+2026-09-13T22:29:25.576Z [395742703 pid=14068 tid=3432] CHANNEL GCOBS:3:CalculateMoveFleet:begin:1
+2026-09-13T22:29:25.576Z [395742703 pid=14068 tid=3432] CHANNEL GCOBS:1:SelectPlanet:begin:2
+2026-09-13T22:29:25.577Z [395742703 pid=14068 tid=3432] CHANNEL GCOBS:1:SelectPlanet:done:2
+2026-09-13T22:29:25.577Z [395742703 pid=14068 tid=3432] CHANNEL GCOBS:3:UpdateMoveFleet:begin:1
+2026-09-13T22:29:25.577Z [395742703 pid=14068 tid=3432] CHANNEL GCOBS:3:UpdateCommon:begin:1
+2026-09-13T22:29:25.577Z [395742703 pid=14068 tid=3432] CHANNEL GCOBS:3:UpdateCommon:done:1
+2026-09-13T22:29:25.577Z [395742703 pid=14068 tid=3432] CHANNEL GCOBS:3:UpdateMoveFleet:done:1
+2026-09-13T22:29:25.577Z [395742703 pid=14068 tid=3432] CHANNEL GCOBS:3:CalculateMoveFleet:done:1
+2026-09-13T22:29:25.577Z [395742703 pid=14068 tid=3432] CHANNEL GCOBS:3:CalculateBuildFleet:done:1
+2026-09-13T22:29:25.577Z [395742703 pid=14068 tid=3432] CHANNEL GCOBS:3:CalculatePurchaseItem:done:1
+2026-09-13T22:29:25.587Z [395742718 pid=14068 tid=3432] CHANNEL GCOBS:3:UpdateMoveFleet:begin:2
+2026-09-13T22:29:25.587Z [395742718 pid=14068 tid=3432] CHANNEL GCOBS:3:UpdateCommon:begin:2
+2026-09-13T22:29:25.587Z [395742718 pid=14068 tid=3432] CHANNEL GCOBS:3:UpdateCommon:done:2
+2026-09-13T22:29:25.587Z [395742718 pid=14068 tid=3432] CHANNEL GCOBS:3:UpdateMoveFleet:done:2
+2026-09-13T22:29:25.600Z [395742718 pid=14068 tid=3432] CHANNEL GCOBS:3:UpdateMoveFleet:begin:3
+2026-09-13T22:29:25.600Z [395742718 pid=14068 tid=3432] CHANNEL GCOBS:3:UpdateCommon:begin:3
+2026-09-13T22:29:25.600Z [395742718 pid=14068 tid=3432] CHANNEL GCOBS:3:UpdateCommon:done:3
+2026-09-13T22:29:25.600Z [395742718 pid=14068 tid=3432] CHANNEL GCOBS:3:UpdateMoveFleet:done:3
+2026-09-13T22:29:25.612Z [395742734 pid=14068 tid=3432] CHANNEL GCOBS:3:UpdateMoveFleet:begin:4
+2026-09-13T22:29:25.612Z [395742734 pid=14068 tid=3432] CHANNEL GCOBS:3:UpdateCommon:begin:4
+2026-09-13T22:29:25.612Z [395742734 pid=14068 tid=3432] CHANNEL GCOBS:3:UpdateCommon:done:4
+2026-09-13T22:29:25.612Z [395742734 pid=14068 tid=3432] CHANNEL GCOBS:3:UpdateMoveFleet:done:4
+2026-09-13T22:29:26.440Z [395743562 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=39700 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:29:26.440Z [395743562 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=2081 (worker liveness, not game simulation)
+2026-09-13T22:29:27.575Z [395744703 pid=14068 tid=3432] CHANNEL GCOBS:1:SelectPlanet:begin:3
+2026-09-13T22:29:27.575Z [395744703 pid=14068 tid=3432] CHANNEL GCOBS:1:SelectPlanet:done:3
+2026-09-13T22:29:27.751Z [395744875 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:29:28.588Z [395745718 pid=14068 tid=3432] CHANNEL GCOBS:3:Exit:begin:1
+2026-09-13T22:29:28.588Z [395745718 pid=14068 tid=3432] CHANNEL GCOBS:3:Exit:done:1
+2026-09-13T22:29:28.588Z [395745718 pid=14068 tid=3432] CHANNEL GCOBS:4:Enter:begin:2
+2026-09-13T22:29:28.588Z [395745718 pid=14068 tid=3432] CHANNEL GCOBS:1:SelectPlanet:begin:4
+2026-09-13T22:29:28.588Z [395745718 pid=14068 tid=3432] CHANNEL GCOBS:1:SelectPlanet:done:4
+2026-09-13T22:29:28.588Z [395745718 pid=14068 tid=3432] CHANNEL GCOBS:4:Enter:done:2
+2026-09-13T22:29:28.588Z [395745718 pid=14068 tid=3432] CHANNEL GCOBS:4:Exit:begin:2
+2026-09-13T22:29:28.588Z [395745718 pid=14068 tid=3432] CHANNEL GCOBS:4:Exit:done:2
+2026-09-13T22:29:28.588Z [395745718 pid=14068 tid=3432] CHANNEL GCOBS:1:Enter:begin:2
+2026-09-13T22:29:28.588Z [395745718 pid=14068 tid=3432] CHANNEL GCOBS:1:Enter:done:2
+2026-09-13T22:29:28.588Z [395745718 pid=14068 tid=3432] CHANNEL GCOBS:1:Exit:begin:2
+2026-09-13T22:29:28.588Z [395745718 pid=14068 tid=3432] CHANNEL GCOBS:1:Exit:done:2
+2026-09-13T22:29:28.588Z [395745718 pid=14068 tid=3432] CHANNEL GCOBS:2:Enter:begin:1
+2026-09-13T22:29:28.588Z [395745718 pid=14068 tid=3432] CHANNEL GCOBS:1:SelectPlanet:begin:5
+2026-09-13T22:29:28.588Z [395745718 pid=14068 tid=3432] CHANNEL GCOBS:1:SelectPlanet:done:5
+2026-09-13T22:29:28.589Z [395745718 pid=14068 tid=3432] CHANNEL GCOBS:2:Enter:done:1
+2026-09-13T22:29:28.600Z [395745718 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:1
+2026-09-13T22:29:28.600Z [395745718 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:1
+2026-09-13T22:29:28.601Z [395745734 pid=14068 tid=3432] CHANNEL GCOBS:state:begin:6:1:107:2:1:0
+2026-09-13T22:29:28.601Z [395745734 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:1:activeBonus:z:-:t:-
+2026-09-13T22:29:28.601Z [395745734 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:2:battleResources:i:1:i:50
+2026-09-13T22:29:28.601Z [395745734 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:3:battleResources:i:2:i:20
+2026-09-13T22:29:28.601Z [395745734 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:4:battleResources:z:-:t:-
+2026-09-13T22:29:28.601Z [395745734 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:5:controllerPlayer:i:0:i:0
+2026-09-13T22:29:28.601Z [395745734 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:6:controllerPlayer:z:-:t:-
+2026-09-13T22:29:28.601Z [395745734 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:7:controllerTeam:i:0:i:1
+2026-09-13T22:29:28.612Z [395745734 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:2
+2026-09-13T22:29:28.612Z [395745734 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:2
+2026-09-13T22:29:28.612Z [395745734 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:8:controllerTeam:z:-:t:-
+2026-09-13T22:29:28.612Z [395745734 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:9:curScreen:z:-:s:626174746C655F636172645F31
+2026-09-13T22:29:28.612Z [395745734 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:10:custom:z:-:z:-
+2026-09-13T22:29:28.612Z [395745734 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:11:fleet.planetNext:z:-:z:-
+2026-09-13T22:29:28.612Z [395745734 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:12:fleet.planetStart:z:-:z:-
+2026-09-13T22:29:28.612Z [395745734 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:13:fleet.turnNumber:z:-:z:-
+2026-09-13T22:29:28.612Z [395745734 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:14:fleetBattle:z:-:b:0
+2026-09-13T22:29:28.613Z [395745734 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:15:fleetPtr:i:1:c:6E3D31206B3D737472696E6720763D7573657264617461
+2026-09-13T22:29:28.625Z [395745750 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:3
+2026-09-13T22:29:28.625Z [395745750 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:3
+2026-09-13T22:29:28.625Z [395745750 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:16:fleetPtr:i:2:c:6E3D31206B3D737472696E6720763D7573657264617461
+2026-09-13T22:29:28.625Z [395745750 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:17:fleetPtr:z:-:t:-
+2026-09-13T22:29:28.625Z [395745750 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:18:global.ifs_purchase_tech_cards:i:1:t:-
+2026-09-13T22:29:28.625Z [395745750 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:19:global.ifs_purchase_tech_cards:i:2:t:-
+2026-09-13T22:29:28.625Z [395745750 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:20:global.ifs_purchase_tech_cards:p:i/1/i/10:b:1
+2026-09-13T22:29:28.625Z [395745750 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:21:global.ifs_purchase_tech_cards:p:i/1/i/1:b:1
+2026-09-13T22:29:28.625Z [395745750 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:22:global.ifs_purchase_tech_cards:p:i/1/i/2:b:1
+2026-09-13T22:29:28.625Z [395745750 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:23:global.ifs_purchase_tech_cards:p:i/1/i/3:b:1
+2026-09-13T22:29:28.637Z [395745765 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:4
+2026-09-13T22:29:28.637Z [395745765 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:4
+2026-09-13T22:29:28.637Z [395745765 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:24:global.ifs_purchase_tech_cards:p:i/1/i/4:b:1
+2026-09-13T22:29:28.637Z [395745765 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:25:global.ifs_purchase_tech_cards:p:i/1/i/5:b:1
+2026-09-13T22:29:28.637Z [395745765 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:26:global.ifs_purchase_tech_cards:p:i/1/i/6:b:1
+2026-09-13T22:29:28.637Z [395745765 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:27:global.ifs_purchase_tech_cards:p:i/1/i/7:b:1
+2026-09-13T22:29:28.637Z [395745765 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:28:global.ifs_purchase_tech_cards:p:i/1/i/8:b:1
+2026-09-13T22:29:28.637Z [395745765 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:29:global.ifs_purchase_tech_cards:p:i/1/i/9:b:1
+2026-09-13T22:29:28.637Z [395745765 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:30:global.ifs_purchase_tech_cards:p:i/2/i/10:b:1
+2026-09-13T22:29:28.637Z [395745765 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:31:global.ifs_purchase_tech_cards:p:i/2/i/1:b:1
+2026-09-13T22:29:28.649Z [395745781 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:32:global.ifs_purchase_tech_cards:p:i/2/i/2:b:1
+2026-09-13T22:29:28.650Z [395745781 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:33:global.ifs_purchase_tech_cards:p:i/2/i/3:b:1
+2026-09-13T22:29:28.650Z [395745781 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:34:global.ifs_purchase_tech_cards:p:i/2/i/4:b:1
+2026-09-13T22:29:28.650Z [395745781 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:35:global.ifs_purchase_tech_cards:p:i/2/i/5:b:1
+2026-09-13T22:29:28.650Z [395745781 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:36:global.ifs_purchase_tech_cards:p:i/2/i/6:b:1
+2026-09-13T22:29:28.650Z [395745781 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:37:global.ifs_purchase_tech_cards:p:i/2/i/7:b:1
+2026-09-13T22:29:28.650Z [395745781 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:38:global.ifs_purchase_tech_cards:p:i/2/i/8:b:1
+2026-09-13T22:29:28.650Z [395745781 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:39:global.ifs_purchase_tech_cards:p:i/2/i/9:b:1
+2026-09-13T22:29:28.662Z [395745781 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:40:global.ifs_purchase_tech_cards:z:-:t:-
+2026-09-13T22:29:28.662Z [395745781 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:41:global.ifs_purchase_tech_using:i:1:t:-
+2026-09-13T22:29:28.662Z [395745781 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:42:global.ifs_purchase_tech_using:i:2:t:-
+2026-09-13T22:29:28.662Z [395745781 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:43:global.ifs_purchase_tech_using:p:i/1/i/1:i:0
+2026-09-13T22:29:28.662Z [395745781 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:44:global.ifs_purchase_tech_using:p:i/1/i/2:i:0
+2026-09-13T22:29:28.662Z [395745781 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:45:global.ifs_purchase_tech_using:p:i/1/i/3:i:0
+2026-09-13T22:29:28.663Z [395745796 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:46:global.ifs_purchase_tech_using:p:i/2/i/1:i:1
+2026-09-13T22:29:28.663Z [395745796 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:47:global.ifs_purchase_tech_using:p:i/2/i/2:i:0
+2026-09-13T22:29:28.676Z [395745796 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:48:global.ifs_purchase_tech_using:p:i/2/i/3:i:0
+2026-09-13T22:29:28.677Z [395745796 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:49:global.ifs_purchase_tech_using:z:-:t:-
+2026-09-13T22:29:28.677Z [395745796 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:50:global.ifs_purchase_unit_owned:i:1:t:-
+2026-09-13T22:29:28.677Z [395745796 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:51:global.ifs_purchase_unit_owned:i:2:t:-
+2026-09-13T22:29:28.677Z [395745796 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:52:global.ifs_purchase_unit_owned:p:i/1/s/70696C6F74:b:1
+2026-09-13T22:29:28.677Z [395745796 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:53:global.ifs_purchase_unit_owned:p:i/1/s/736F6C64696572:b:1
+2026-09-13T22:29:28.677Z [395745796 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:54:global.ifs_purchase_unit_owned:p:i/2/s/6D6172696E65:b:1
+2026-09-13T22:29:28.677Z [395745796 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:55:global.ifs_purchase_unit_owned:p:i/2/s/70696C6F74:b:1
+2026-09-13T22:29:28.687Z [395745812 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:56:global.ifs_purchase_unit_owned:p:i/2/s/736F6C64696572:b:1
+2026-09-13T22:29:28.687Z [395745812 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:57:global.ifs_purchase_unit_owned:z:-:t:-
+2026-09-13T22:29:28.687Z [395745812 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:58:lastFleet:i:1:s:706F6C
+2026-09-13T22:29:28.687Z [395745812 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:59:lastFleet:i:2:s:636F72
+2026-09-13T22:29:28.687Z [395745812 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:60:lastFleet:z:-:t:-
+2026-09-13T22:29:28.687Z [395745812 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:61:lastSelected:i:1:s:706F6C
+2026-09-13T22:29:28.687Z [395745812 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:62:lastSelected:i:2:s:636F72
+2026-09-13T22:29:28.687Z [395745812 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:63:lastSelected:z:-:t:-
+2026-09-13T22:29:28.700Z [395745828 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:64:launchMission:z:-:z:-
+2026-09-13T22:29:28.700Z [395745828 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:65:otherSide:z:-:s:696D70
+2026-09-13T22:29:28.700Z [395745828 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:66:planetBase:i:1:s:686F74
+2026-09-13T22:29:28.700Z [395745828 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:67:planetBase:i:2:s:656E64
+2026-09-13T22:29:28.700Z [395745828 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:68:planetBase:z:-:t:-
+2026-09-13T22:29:28.700Z [395745828 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:69:planetFleet:s:636F72:i:2
+2026-09-13T22:29:28.700Z [395745828 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:70:planetFleet:s:706F6C:i:1
+2026-09-13T22:29:28.700Z [395745828 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:71:planetFleet:z:-:t:-
+2026-09-13T22:29:28.712Z [395745843 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:72:planetNext:z:-:s:737461723034
+2026-09-13T22:29:28.712Z [395745843 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:73:planetResources:i:1:i:19
+2026-09-13T22:29:28.712Z [395745843 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:74:planetResources:i:2:i:34
+2026-09-13T22:29:28.712Z [395745843 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:75:planetResources:z:-:t:-
+2026-09-13T22:29:28.712Z [395745843 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:76:planetTeam:s:636F72:i:2
+2026-09-13T22:29:28.712Z [395745843 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:77:planetTeam:s:646167:i:1
+2026-09-13T22:29:28.712Z [395745843 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:78:planetTeam:s:656E64:i:2
+2026-09-13T22:29:28.712Z [395745843 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:79:planetTeam:s:66656C:i:2
+2026-09-13T22:29:28.725Z [395745859 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:80:planetTeam:s:686F74:i:1
+2026-09-13T22:29:28.725Z [395745859 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:81:planetTeam:s:6B6173:i:2
+2026-09-13T22:29:28.725Z [395745859 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:82:planetTeam:s:6D7573:i:2
+2026-09-13T22:29:28.725Z [395745859 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:83:planetTeam:s:6D7967:i:2
+2026-09-13T22:29:28.725Z [395745859 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:84:planetTeam:s:6E6162:i:2
+2026-09-13T22:29:28.725Z [395745859 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:85:planetTeam:s:706F6C:i:1
+2026-09-13T22:29:28.725Z [395745859 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:86:planetTeam:s:746174:i:2
+2026-09-13T22:29:28.725Z [395745859 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:87:planetTeam:s:757461:i:2
+2026-09-13T22:29:28.738Z [395745859 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:88:planetTeam:s:796176:i:1
+2026-09-13T22:29:28.738Z [395745859 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:89:planetTeam:z:-:t:-
+2026-09-13T22:29:28.738Z [395745859 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:90:playerSide:z:-:s:616C6C
+2026-09-13T22:29:28.738Z [395745859 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:91:playerTeam:z:-:i:1
+2026-09-13T22:29:28.738Z [395745859 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:92:recentPlanets:i:1:s:706F6C
+2026-09-13T22:29:28.738Z [395745859 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:93:recentPlanets:z:-:t:-
+2026-09-13T22:29:28.738Z [395745859 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:94:scenario:z:-:s:616C6C
+2026-09-13T22:29:28.738Z [395745859 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:95:soakMode:z:-:z:-
+2026-09-13T22:29:28.750Z [395745875 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:96:teamCode:i:1:s:616C6C
+2026-09-13T22:29:28.750Z [395745875 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:97:teamCode:i:2:s:696D70
+2026-09-13T22:29:28.750Z [395745875 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:98:teamCode:z:-:t:-
+2026-09-13T22:29:28.750Z [395745875 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:99:teamName:i:0:s:-
+2026-09-13T22:29:28.750Z [395745875 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:100:teamName:i:1:s:636F6D6D6F6E2E73696465732E616C6C2E6E616D65
+2026-09-13T22:29:28.750Z [395745875 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:101:teamName:i:2:s:636F6D6D6F6E2E73696465732E696D702E6E616D65
+2026-09-13T22:29:28.750Z [395745875 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:102:teamName:z:-:t:-
+2026-09-13T22:29:28.750Z [395745875 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:103:teamResources:i:1:i:149
+2026-09-13T22:29:28.763Z [395745890 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:104:teamResources:i:2:i:54
+2026-09-13T22:29:28.763Z [395745890 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:105:teamResources:z:-:t:-
+2026-09-13T22:29:28.763Z [395745890 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:106:turnNumber:z:-:i:5
+2026-09-13T22:29:28.763Z [395745890 pid=14068 tid=3432] CHANNEL GCOBS:state:item:1:107:winnerTeam:z:-:i:1
+2026-09-13T22:29:28.763Z [395745890 pid=14068 tid=3432] CHANNEL GCOBS:state:end:1:107
+2026-09-13T22:29:32.338Z [395749468 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:300
+2026-09-13T22:29:32.338Z [395749468 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:300
+2026-09-13T22:29:33.388Z [395750515 pid=14068 tid=3432] CHANNEL GCOBS:2:Input_Accept:begin:1
+2026-09-13T22:29:33.388Z [395750515 pid=14068 tid=3432] CHANNEL GCOBS:2:Input_Accept:done:1
+2026-09-13T22:29:33.388Z [395750515 pid=14068 tid=3432] CHANNEL GCOBS:2:Exit:begin:1
+2026-09-13T22:29:33.388Z [395750515 pid=14068 tid=3432] CHANNEL GCOBS:2:Exit:done:1
+2026-09-13T22:29:33.388Z [395750515 pid=14068 tid=3432] CHANNEL GCOBS:7:Enter:begin:1
+2026-09-13T22:29:33.390Z [395750515 pid=14068 tid=3432] CHANNEL GCOBS:7:Enter:done:1
+2026-09-13T22:29:33.400Z [395750531 pid=14068 tid=3432] CHANNEL GCOBS:7:Update:begin:1
+2026-09-13T22:29:33.400Z [395750531 pid=14068 tid=3432] CHANNEL GCOBS:7:Update:done:1
+2026-09-13T22:29:33.412Z [395750531 pid=14068 tid=3432] CHANNEL GCOBS:7:Update:begin:2
+2026-09-13T22:29:33.412Z [395750531 pid=14068 tid=3432] CHANNEL GCOBS:7:Update:done:2
+2026-09-13T22:29:33.425Z [395750546 pid=14068 tid=3432] CHANNEL GCOBS:7:Update:begin:3
+2026-09-13T22:29:33.425Z [395750546 pid=14068 tid=3432] CHANNEL GCOBS:7:Update:done:3
+2026-09-13T22:29:33.437Z [395750562 pid=14068 tid=3432] CHANNEL GCOBS:7:Update:begin:4
+2026-09-13T22:29:33.437Z [395750562 pid=14068 tid=3432] CHANNEL GCOBS:7:Update:done:4
+2026-09-13T22:29:35.850Z [395752984 pid=14068 tid=3432] CHANNEL GCOBS:7:Input_Accept:begin:1
+2026-09-13T22:29:35.850Z [395752984 pid=14068 tid=3432] CHANNEL GCOBS:7:Input_Accept:done:1
+2026-09-13T22:29:35.850Z [395752984 pid=14068 tid=3432] CHANNEL GCOBS:7:Exit:begin:1
+2026-09-13T22:29:35.850Z [395752984 pid=14068 tid=3432] CHANNEL GCOBS:7:Exit:done:1
+2026-09-13T22:29:35.850Z [395752984 pid=14068 tid=3432] CHANNEL GCOBS:2:Enter:begin:2
+2026-09-13T22:29:35.850Z [395752984 pid=14068 tid=3432] CHANNEL GCOBS:1:SelectPlanet:begin:6
+2026-09-13T22:29:35.850Z [395752984 pid=14068 tid=3432] CHANNEL GCOBS:1:SelectPlanet:done:6
+2026-09-13T22:29:35.850Z [395752984 pid=14068 tid=3432] CHANNEL GCOBS:2:Enter:done:2
+2026-09-13T22:29:36.441Z [395753562 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=40500 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:29:36.691Z [395753812 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=2121 (worker liveness, not game simulation)
+2026-09-13T22:29:37.990Z [395755109 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:29:38.550Z [395755671 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:600
+2026-09-13T22:29:38.550Z [395755671 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:600
+2026-09-13T22:29:42.753Z [395759875 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:900
+2026-09-13T22:29:42.753Z [395759875 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:900
+2026-09-13T22:29:46.549Z [395763671 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=41214 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:29:47.076Z [395764203 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=2161 (worker liveness, not game simulation)
+2026-09-13T22:29:47.385Z [395764515 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:1200
+2026-09-13T22:29:47.385Z [395764515 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:1200
+2026-09-13T22:29:48.130Z [395765250 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432
+2026-09-13T22:29:52.028Z [395769156 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:1500
+2026-09-13T22:29:52.028Z [395769156 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:1500
+2026-09-13T22:29:56.661Z [395773781 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:begin:1800
+2026-09-13T22:29:56.661Z [395773781 pid=14068 tid=3432] CHANNEL GCOBS:2:Update:done:1800
+2026-09-13T22:29:56.786Z [395773906 pid=14068 tid=13048] FRAME_PROBE_ALIVE sampled=41877 dropped=0 caller_mismatches=0 (frame entry, not Lua screen progress)
+2026-09-13T22:29:57.571Z [395774703 pid=14068 tid=13048] CAPTURE_ALIVE worker_ticks=2201 (worker liveness, not game simulation)
+2026-09-13T22:29:58.363Z [395775484 pid=14068 tid=13048] LUA_QUERY_RESULT stage=3 called=1 load=0 call=0 before=8 after=8 restored=1 prefix_equal=1 value_ok=1 game_tid=3432

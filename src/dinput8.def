@@ -1,0 +1,4 @@
+; The proxy exports only DirectInput8Create, the one function the game imports from dinput8.dll.
+LIBRARY dinput8
+EXPORTS
+    DirectInput8Create=_DirectInput8Create@20
