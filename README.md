@@ -2,8 +2,7 @@
 
 Online co-op and versus Galactic Conquest for Star Wars Battlefront II (2005) on Steam.
 
-I always wanted to play Galactic Conquest with my friends, so I made this. One player hosts the campaign and up to
-three friends join in. Everyone sees the galaxy live, and you fight every battle together. There's also a Versus
+Up to 4 player co-op. Everyone sees the galaxy live, and you fight every battle together. There's also a Versus
 mode where two players take opposite sides.
 
 It's a single `dinput8.dll` you drop into the game folder. No game files get changed.
