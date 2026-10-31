@@ -1576,7 +1576,7 @@ static void coopjoin_friend_side(int index) {
 
 // Runs one scenario. Two-PC scenarios start the other PC as a child process (mode_guest); the co-op
 // ones start their friends from the host (mode_friend).
-int main(int argc, char** argv) {
+static int run(int argc, char** argv) {
     if (argc < 2) return 2;
     std::string mode = argv[1];
     WSADATA wsa;
@@ -1857,4 +1857,12 @@ int main(int argc, char** argv) {
     }
     std::printf("Steam invite harness passed (%s)\n", mode.c_str());
     return 0;
+}
+
+// The Steam layer's thread never stops, so main ends through ExitProcess, which stops that thread before any
+// global is destroyed.
+int main(int argc, char** argv) {
+    const int code = run(argc, argv);
+    std::fflush(stdout);
+    ExitProcess(static_cast<UINT>(code));
 }
