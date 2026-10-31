@@ -23,6 +23,12 @@ It's a single `dinput8.dll` you drop into the game folder. No game files get cha
 
 To uninstall, delete `dinput8.dll` and the `gct` folder from `GameData`.
 
+Also available on ModDB and Nexus:
+
+https://www.nexusmods.com/battlefront2/mods/1315
+
+https://www.moddb.com/mods/galactic-conquest-together
+
 ## Playing
 
 **Host:** Single Player > Galactic Conquest > Online, pick Co-op or Versus, then invite your friends through the
