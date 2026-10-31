@@ -1514,8 +1514,9 @@ static void coopjoin_host_side() {
         if (i % 100 == 0) Sleep(5);
     }
     CHECK(wait_peers("\"acked\": 7}", 1, 20000));
+    // Up to 30 s: a slow CI runner can delay the friend's report, and the game itself waits up to 60 s.
     bool released = false;
-    for (int i = 0; i < 100 && !released; ++i) {
+    for (int i = 0; i < 300 && !released; ++i) {
         released = !gc::hold_wanted();
         if (!released) Sleep(100);
     }

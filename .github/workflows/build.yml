@@ -38,3 +38,15 @@ jobs:
           path: out/package/*.zip
           archive: false
           retention-days: 30
+
+      # A failed job keeps the Steam harness's own logs, which show what each test process saw.
+      - name: Upload the Steam harness logs
+        if: failure()
+        uses: actions/upload-artifact@v7
+        with:
+          name: steam-harness-logs-${{ matrix.config }}
+          path: |
+            out/Steam/harness/logs/
+            out/Steam/harness/steam/
+          if-no-files-found: ignore
+          retention-days: 30
