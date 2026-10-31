@@ -1,0 +1,40 @@
+# Builds both configurations and runs every test on pushes to main and on pull requests.
+name: Build
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: ${{ matrix.config }}
+    runs-on: windows-latest
+    timeout-minutes: 30
+    strategy:
+      fail-fast: false
+      matrix:
+        config: [debug, release]
+    steps:
+      - uses: actions/checkout@v7
+
+      - name: Build and test
+        shell: cmd
+        run: call build.cmd ${{ matrix.config == 'release' && 'release' || '' }}
+
+      # The release job uploads the zip it packaged as is, so any run's build can be downloaded and tried.
+      - name: Upload the release zip
+        if: matrix.config == 'release'
+        uses: actions/upload-artifact@v7
+        with:
+          path: out/package/*.zip
+          archive: false
+          retention-days: 30

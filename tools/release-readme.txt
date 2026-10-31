@@ -128,6 +128,9 @@ IF SOMETHING GOES WRONG
   the meantime.
 - No enemy markers or lock-on in a battle: send both newest logs (below),
   and say which of you hosted the battle.
+- The screen goes black in a battle but you can still hear the game and
+  shoot: turn off Discord's in-game overlay (in Discord's settings, under
+  Game Overlay), then restart the game.
 - Versus, "The two galaxies no longer agree": quit to the menus; whoever
   saved last hosts Online > Versus > Load.
 To report a problem, open an issue at the Source link below and attach the

@@ -2342,6 +2342,15 @@ void remove_stale_files() {
 }
 #endif
 
+// Steam reports the overlay only once it has hooked the game's renderer, a few seconds after start-up,
+// so the flag is read again on every tick.
+void read_overlay() {
+    const bool on = api.overlay(utils_if);
+    if (on == st.overlay) return;
+    st.overlay = on;
+    gc::log("STEAM_OVERLAY enabled=%d", on);
+}
+
 // The Steam thread: binds to steam_api, hooks the game's imports, then pumps callbacks and runs the
 // session until the process exits.
 DWORD WINAPI steam_thread(void*) {
@@ -2418,6 +2427,7 @@ DWORD WINAPI steam_thread(void*) {
     // Session and tunnel every 10 ms; callbacks, files, menu and status every 100 ms.
     for (unsigned tick = 0;; ++tick) {
         if (tick % 10 == 0) {
+            read_overlay();
             for (const Event& e : pump()) handle(e);
 #if GC_TOOL_FILES
             poll_files();

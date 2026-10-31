@@ -50,6 +50,7 @@ extern "C" __declspec(dllimport) void FakeSteam_Inject(int, const void*, int);
 extern "C" __declspec(dllimport) void FakeSteam_LobbyLeft(bool);
 extern "C" __declspec(dllimport) void FakeSteam_Deaf(bool);
 extern "C" __declspec(dllimport) void FakeSteam_JoinRequest();
+extern "C" __declspec(dllimport) void FakeSteam_SetOverlay(bool);
 
 #include "check.h"
 
@@ -1575,7 +1576,7 @@ static void coopjoin_friend_side(int index) {
 
 // Runs one scenario. Two-PC scenarios start the other PC as a child process (mode_guest); the co-op
 // ones start their friends from the host (mode_friend).
-int main(int argc, char** argv) {
+static int run(int argc, char** argv) {
     if (argc < 2) return 2;
     std::string mode = argv[1];
     WSADATA wsa;
@@ -1637,6 +1638,10 @@ int main(int argc, char** argv) {
     if (!wait_for("\"ready\": true", 5000)) return 1;
 
     if (mode == "host") {
+        // The overlay comes on once it has hooked the renderer, and the menu stops saying it is off.
+        CHECK(status().find("\"overlay\": false") != std::string::npos && gc::menu_answer("no_overlay"));
+        FakeSteam_SetOverlay(true);
+        CHECK(wait_for("\"overlay\": true", 2000) && !gc::menu_answer("no_overlay"));
         // While the game's own call result is outstanding, the layer must not pump callbacks.
         GameTicket ticket;
         SteamAPI_RegisterCallResult(&ticket, 0x9001);  // through the hooked IAT slot
@@ -1852,4 +1857,12 @@ int main(int argc, char** argv) {
     }
     std::printf("Steam invite harness passed (%s)\n", mode.c_str());
     return 0;
+}
+
+// The Steam layer's thread never stops, so main ends through ExitProcess, which stops that thread before any
+// global is destroyed.
+int main(int argc, char** argv) {
+    const int code = run(argc, argv);
+    std::fflush(stdout);
+    ExitProcess(static_cast<UINT>(code));
 }
